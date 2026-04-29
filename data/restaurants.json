@@ -33,7 +33,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/60%EB%85%84%EC%A0%84%ED%86%B5%ED%95%A0%EB%A7%A4%EA%B5%AD%EB%B0%A5,35.141018,129.05618",
         "naverMap": "https://map.naver.com/p/search/60%EB%85%84%EC%A0%84%ED%86%B5%ED%95%A0%EB%A7%A4%EA%B5%AD%EB%B0%A5%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EA%B5%AC%20%EC%A4%91%EC%95%99%EB%8C%80%EB%A1%9C533%EB%B2%88%EA%B8%B8%204%20%28%EB%B2%94%EC%9D%BC%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.141018&dlng=129.056180&dname=60%EB%85%84%EC%A0%84%ED%86%B5%ED%95%A0%EB%A7%A4%EA%B5%AD%EB%B0%A5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "60nyeonjeontonghalmaegukbap",
+      "category_en": "Dwaejigukbap",
+      "district_en": "Donggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Dwaejigukbap, Naejanggukbap, Guksu, Ttarogukbap, Suyuk"
     },
     {
       "id": "1602",
@@ -62,7 +67,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B0%9C%EA%B8%88%EB%B0%80%EB%A9%B4,35.152542,129.02509",
         "naverMap": "https://map.naver.com/p/search/%EA%B0%9C%EA%B8%88%EB%B0%80%EB%A9%B4%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EA%B0%80%EC%95%BC%EB%8C%80%EB%A1%9C482%EB%B2%88%EA%B8%B8%209-4%20%28%EA%B0%9C%EA%B8%88%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.152542&dlng=129.025090&dname=%EA%B0%9C%EA%B8%88%EB%B0%80%EB%A9%B4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Gaegeummilmyeon",
+      "category_en": "Milmyeon",
+      "district_en": "Busanjingu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Mulmilmyeon, Bibimmilmyeon, Gaegeummandu, Gogigomyeong, Hoegomyeongchuga"
     },
     {
       "id": "1549",
@@ -91,7 +101,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B1%B0%EB%8C%80%EC%88%AF%EB%B6%88%EA%B5%AC%EC%9D%B4,35.161602,129.16695",
         "naverMap": "https://map.naver.com/p/search/%EA%B1%B0%EB%8C%80%EC%88%AF%EB%B6%88%EA%B5%AC%EC%9D%B4%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B8%2022%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.161602&dlng=129.166950&dname=%EA%B1%B0%EB%8C%80%EC%88%AF%EB%B6%88%EA%B5%AC%EC%9D%B4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Geodaesutbulgui",
+      "category_en": "巨大 Pyeongyangnaengmyeon",
+      "district_en": "Haeundaegu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Hanuyangnyeomgalbi, Ansim, Galbissal, Deungsim, Anchangsal, Pyeongyangnaengmyeon(mul/binaeng), Geodaegomtang, Jeomsimteukseon"
     },
     {
       "id": "1576",
@@ -120,7 +135,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B1%B0%EB%B6%81%EC%84%A0%ED%9A%9F%EC%A7%91,35.156822,129.17397",
         "naverMap": "https://map.naver.com/p/search/%EA%B1%B0%EB%B6%81%EC%84%A0%ED%9A%9F%EC%A7%91%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B862%EB%B2%88%EA%B8%B8%2069%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.156822&dlng=129.173970&dname=%EA%B1%B0%EB%B6%81%EC%84%A0%ED%9A%9F%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Geobukseonhoetjip",
+      "category_en": "Saengseonhoe",
+      "district_en": "Haeundaegu",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Jayeonsanmodumhoe"
     },
     {
       "id": "1577",
@@ -149,7 +169,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B3%A0%EC%8A%A4%EB%9D%BD,35.322273,129.26978",
         "naverMap": "https://map.naver.com/p/search/%EA%B3%A0%EC%8A%A4%EB%9D%BD%20%EB%B6%80%EC%82%B0%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EC%9E%A5%EC%95%88%EC%9D%8D%20%ED%95%B4%EB%A7%9E%EC%9D%B4%EB%A1%9C%20286",
         "naverDirections": "nmap://navigation?dlat=35.322273&dlng=129.269780&dname=%EA%B3%A0%EC%8A%A4%EB%9D%BD&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Goseurak",
+      "category_en": "Sogogigui",
+      "district_en": "Gijanggun",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Hanudeungsimgui, Hanuansim, Hanutteokkalbisotbapjeongsik"
     },
     {
       "id": "1603",
@@ -178,7 +203,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B5%AC%ED%8F%AC%EC%B4%8C%EA%B5%AD%EC%88%98,35.26658,129.08473",
         "naverMap": "https://map.naver.com/p/search/%EA%B5%AC%ED%8F%AC%EC%B4%8C%EA%B5%AD%EC%88%98%20%EB%B6%80%EC%82%B0%20%EA%B8%88%EC%A0%95%EA%B5%AC%20%EA%B8%88%EC%83%98%EB%A1%9C%20490%20%28%EB%82%A8%EC%82%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.266580&dlng=129.084730&dname=%EA%B5%AC%ED%8F%AC%EC%B4%8C%EA%B5%AD%EC%88%98&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Gupochonguksu",
+      "category_en": "Guksu",
+      "district_en": "Geumjeonggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Guksu"
     },
     {
       "id": "1578",
@@ -207,7 +237,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B7%9C%EC%9A%B0%EC%A0%95,35.15723,129.17676",
         "naverMap": "https://map.naver.com/p/search/%EA%B7%9C%EC%9A%B0%EC%A0%95%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B8%20129%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.157230&dlng=129.176760&dname=%EA%B7%9C%EC%9A%B0%EC%A0%95&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Gyuujeong",
+      "category_en": "Sogogigui",
+      "district_en": "Haeundaegu",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Chaekkeut, Ansim, Deungsim, Kkotdeungsim, Teugansim, Hansanggadeungmodum, Omeuraiseu"
     },
     {
       "id": "1579",
@@ -236,7 +271,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B8%88%EB%9E%91%ED%9A%9F%EC%A7%91,35.15518,129.13103",
         "naverMap": "https://map.naver.com/p/search/%EA%B8%88%EB%9E%91%ED%9A%9F%EC%A7%91%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EA%B4%91%EC%95%88%ED%95%B4%EB%B3%80%EB%A1%9C344%EB%B2%88%EA%B8%B8%2017-5%20%28%EB%AF%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.155180&dlng=129.131030&dname=%EA%B8%88%EB%9E%91%ED%9A%9F%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Geumnanghoetjip",
+      "category_en": "Saengseonhoe",
+      "district_en": "Suyeonggu",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Geumnanghansang, Subyeonhansang, Gwanganhansang, Badahansang, Teungmodumhoe, Modumhoe"
     },
     {
       "id": "1604",
@@ -265,7 +305,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B8%88%EC%88%98%EB%B3%B5%EA%B5%AD,35.16242,129.16449",
         "naverMap": "https://map.naver.com/p/search/%EA%B8%88%EC%88%98%EB%B3%B5%EA%B5%AD%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%A4%91%EB%8F%991%EB%A1%9C43%EB%B2%88%EA%B8%B8%2023%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.162420&dlng=129.164490&dname=%EA%B8%88%EC%88%98%EB%B3%B5%EA%B5%AD&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Geumsubokkuk",
+      "category_en": "Bok",
+      "district_en": "",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Bokkuk, Boktwigim, Bokgeopjiltwigim, Bokgeopjilmuchim, Bokjjim, Boksuyuk, Boksasimi"
     },
     {
       "id": "1605",
@@ -294,7 +339,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B8%88%EC%9A%A9,35.205463,128.99666",
         "naverMap": "https://map.naver.com/p/search/%EA%B8%88%EC%9A%A9%20%EB%B6%80%EC%82%B0%20%EB%B6%81%EA%B5%AC%20%EA%B5%AC%ED%8F%AC%EB%A7%8C%EC%84%B8%EA%B8%B8%2075%20%28%EA%B5%AC%ED%8F%AC%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.205463&dlng=128.996660&dname=%EA%B8%88%EC%9A%A9&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Geumyong",
+      "category_en": "Junggungmandu",
+      "district_en": "Bukku",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Mulmandu, Jjinmandu, Gunmandu, Mandugukbap"
     },
     {
       "id": "1606",
@@ -323,7 +373,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B8%B0%EC%9E%A5%EA%B3%B0%EC%9E%A5%EC%96%B4,35.1853,129.2114",
         "naverMap": "https://map.naver.com/p/search/%EA%B8%B0%EC%9E%A5%EA%B3%B0%EC%9E%A5%EC%96%B4%20%EB%B6%80%EC%82%B0%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EA%B8%B0%EC%9E%A5%EC%9D%8D%20%EA%B8%B0%EC%9E%A5%ED%95%B4%EC%95%88%EB%A1%9C%2070",
         "naverDirections": "nmap://navigation?dlat=35.185300&dlng=129.211400&dname=%EA%B8%B0%EC%9E%A5%EA%B3%B0%EC%9E%A5%EC%96%B4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Gijanggomjangeo",
+      "category_en": "Gomjangeo",
+      "district_en": "Gijanggun",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Jipbulgui, Tonggui, Yangnyeomgui, Sogeumgui, Gomjangeomaeuntang, Gomjangeodoenjangguk"
     },
     {
       "id": "1541",
@@ -352,7 +407,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EA%B8%B0%EC%9E%A5%EC%86%90%EC%B9%BC%EA%B5%AD%EC%88%98,35.15551,129.0583",
         "naverMap": "https://map.naver.com/p/search/%EA%B8%B0%EC%9E%A5%EC%86%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%84%9C%EB%A9%B4%EB%A1%9C%2056%20%28%EB%B6%80%EC%A0%84%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.155510&dlng=129.058300&dname=%EA%B8%B0%EC%9E%A5%EC%86%90%EC%B9%BC%EA%B5%AD%EC%88%98&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Gijangsonkalguksu",
+      "category_en": "Kalguksu",
+      "district_en": "Busanjingu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Sonkalguksu, Bibimsonkalguksu, Naengkalguksu, Gimbap"
     },
     {
       "id": "1586",
@@ -381,7 +441,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%82%A8%ED%92%8D,35.16022,129.16527",
         "naverMap": "https://map.naver.com/p/search/%EB%82%A8%ED%92%8D%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EB%B3%80%EB%A1%9C%20296%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.160220&dlng=129.165270&dname=%EB%82%A8%ED%92%8D&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Nampung",
+      "category_en": "Ilbanjungsik",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Jeomsimkoseu, Syepeusigeunicheokoseu, Seupesyeolkoseu, Buldojang, Eojahaesamsongi"
     },
     {
       "id": "1580",
@@ -410,7 +475,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%89%BC%EB%A6%AC,35.155136,129.12401",
         "naverMap": "https://map.naver.com/p/search/%EB%89%BC%EB%A6%AC%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EB%AF%BC%EB%9D%BD%EC%88%98%EB%B3%80%EB%A1%9C%207%20%28%EB%AF%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.155136&dlng=129.124010&dname=%EB%89%BC%EB%A6%AC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Nyulli",
+      "category_en": "Seuteikeu",
+      "district_en": "Suyeonggu",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Bonggollepaseuta, Poreumajipaseuta, Chaekkeutseuteikeu, Ansimseuteikeu, Gamjatwigim, Reonchiseteu, Dineoseteu"
     },
     {
       "id": "1573",
@@ -439,7 +509,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%8B%AC%ED%83%80%EC%9D%B4,35.158127,129.18245",
         "naverMap": "https://map.naver.com/p/search/%EB%8B%AC%ED%83%80%EC%9D%B4%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B8%20193%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.158127&dlng=129.182450&dname=%EB%8B%AC%ED%83%80%EC%9D%B4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Daltai",
+      "category_en": "Taeguksik",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Ppupatpongkeori, Ttomyangkkung, Pattai, Geurin/redeukeori, Ssomttam, Ssaikeureok Issan, Yamunsen, Namttongmu"
     },
     {
       "id": "1558",
@@ -468,7 +543,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%8F%99%EA%B2%BD%EB%B0%A5%EC%83%81,35.148396,129.11385",
         "naverMap": "https://map.naver.com/p/search/%EB%8F%99%EA%B2%BD%EB%B0%A5%EC%83%81%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EB%82%A8%EC%B2%9C%EB%B0%94%EB%8B%A4%EB%A1%9C%2034-6%20%28%EB%82%A8%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.148396&dlng=129.113850&dname=%EB%8F%99%EA%B2%BD%EB%B0%A5%EC%83%81&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Donggyeongbapsang",
+      "category_en": "Ilsikjangeo",
+      "district_en": "Suyeonggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Donggyeongsingminmuljangeodeopbap, Nagoyasingminmuljangeodeopbap, Minmuljangeodeopbap"
     },
     {
       "id": "1607",
@@ -497,7 +577,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%8F%99%EB%9E%98%ED%95%A0%EB%A7%A4%ED%8C%8C%EC%A0%84,35.204605,129.08386",
         "naverMap": "https://map.naver.com/p/search/%EB%8F%99%EB%9E%98%ED%95%A0%EB%A7%A4%ED%8C%8C%EC%A0%84%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EB%AA%85%EB%A5%9C%EB%A1%9C94%EB%B2%88%EA%B8%B8%2043-10%20%28%EB%B3%B5%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.204605&dlng=129.083860&dname=%EB%8F%99%EB%9E%98%ED%95%A0%EB%A7%A4%ED%8C%8C%EC%A0%84&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Dongnaehalmaepajeon",
+      "category_en": "Pajeon",
+      "district_en": "Dongnaegu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Dongnaepajeon, Dongnaegodongjjim, Yakchojeonbyeongmuchim, Samsaekdeodeokkui, Golbaengimuchim, Ttugisang, Ttumisang"
     },
     {
       "id": "1546",
@@ -526,7 +611,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%8F%99%EB%B0%B1%EC%84%AC%ED%9A%9F%EC%A7%91,35.160408,129.15466",
         "naverMap": "https://map.naver.com/p/search/%EB%8F%99%EB%B0%B1%EC%84%AC%ED%9A%9F%EC%A7%91%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EB%B3%80%EB%A1%9C209%EB%B2%88%EB%82%98%EA%B8%B8%2017%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.160408&dlng=129.154660&dname=%EB%8F%99%EB%B0%B1%EC%84%AC%ED%9A%9F%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Dongbaekseomhoetjip",
+      "category_en": "Saengseonhoe",
+      "district_en": "Haeundaegu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Jeomsimteukseonhoejeongsik, Hoekoseu, Sekkosi"
     },
     {
       "id": "1565",
@@ -555,7 +645,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%96%BC%EB%96%BC%EC%98%A4%EB%84%A4,35.152622,129.06642",
         "naverMap": "https://map.naver.com/p/search/%EB%96%BC%EB%96%BC%EC%98%A4%EB%84%A4%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EB%8F%99%EC%84%B1%EB%A1%9C25%EB%B2%88%EA%B8%B8%2035%20%28%EC%A0%84%ED%8F%AC%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.152622&dlng=129.066420&dname=%EB%96%BC%EB%96%BC%EC%98%A4%EB%84%A4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Ttetteone",
+      "category_en": "Wainba",
+      "district_en": "Busanjingu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Reonchipaseuta, Songeogeurabeurakseu&chajikisoseu, Hanubipeutareutareu, Maneulhyanguiollibeujeorim, Nakjijeotgalkeurimchijeuaenkeuraekeo"
     },
     {
       "id": "1566",
@@ -584,7 +679,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%9D%BC%EA%BD%81%EB%9D%A0,35.162567,129.18898",
         "naverMap": "https://map.naver.com/p/search/%EB%9D%BC%EA%BD%81%EB%9D%A0%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%B2%AD%EC%82%AC%ED%8F%AC%EB%A1%9C%2085%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.162567&dlng=129.188980&dname=%EB%9D%BC%EA%BD%81%EB%9D%A0&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Rakkongtti",
+      "category_en": "Italliasik",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Dineokoseu, Saengmyeonpaseuta, Chaekkeutdeungsimseuteikeu"
     },
     {
       "id": "1572",
@@ -613,7 +713,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%9D%BC%EC%9D%B4%EC%98%A5,35.138275,129.10408",
         "naverMap": "https://map.naver.com/p/search/%EB%9D%BC%EC%9D%B4%EC%98%A5%20%EB%B6%80%EC%82%B0%20%EB%82%A8%EA%B5%AC%20%EC%9A%A9%EC%86%8C%EB%A1%9C7%EB%B2%88%EA%B8%B8%2076%20%28%EB%8C%80%EC%97%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.138275&dlng=129.104080&dname=%EB%9D%BC%EC%9D%B4%EC%98%A5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Raiok",
+      "category_en": "Beteunamsik",
+      "district_en": "Namgu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Sogogissalguksu, Raiokpeoga, Haemulbokkeumbap, Goikkuon, Bansseo, Bankkwoi, Bunmangbit, Bunbohue"
     },
     {
       "id": "1587",
@@ -642,7 +747,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%9E%A924%EB%B0%94%EC%9D%B4%EC%BF%A0%EB%AC%B4%EB%8B%A4,35.177433,129.19717",
         "naverMap": "https://map.naver.com/p/search/%EB%9E%A924%EB%B0%94%EC%9D%B4%EC%BF%A0%EB%AC%B4%EB%8B%A4%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%86%A1%EC%A0%95%EA%B4%91%EC%96%B4%EA%B3%A8%EB%A1%9C%2041%20%28%EC%86%A1%EC%A0%95%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.177433&dlng=129.197170&dname=%EB%9E%A924%EB%B0%94%EC%9D%B4%EC%BF%A0%EB%AC%B4%EB%8B%A4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Raep24baikumuda",
+      "category_en": "Peurangseusik",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Reonchikoseu, Dineokoseu"
     },
     {
       "id": "1571",
@@ -671,7 +781,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%A0%88%EB%95%85,35.172516,129.05516",
         "naverMap": "https://map.naver.com/p/search/%EB%A0%88%EB%95%85%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%84%B1%EC%A7%80%EB%A1%9C%2022%20%28%EC%97%B0%EC%A7%80%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.172516&dlng=129.055160&dname=%EB%A0%88%EB%95%85&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Rettang",
+      "category_en": "Peurangseusik",
+      "district_en": "Busanjingu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Sijeunkoseu"
     },
     {
       "id": "1627",
@@ -700,7 +815,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%A0%88%EB%A7%9D%ED%8C%8C%ED%8B%B0%EC%93%B0%EB%A6%AC,35.192314,129.10294",
         "naverMap": "https://map.naver.com/p/search/%EB%A0%88%EB%A7%9D%ED%8C%8C%ED%8B%B0%EC%93%B0%EB%A6%AC%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%98%A8%EC%B2%9C%EC%B2%9C%EB%A1%9C471%EB%B2%88%EA%B0%80%EA%B8%B8%2038%20%28%EC%95%88%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.192314&dlng=129.102940&dname=%EB%A0%88%EB%A7%9D%ED%8C%8C%ED%8B%B0%EC%93%B0%EB%A6%AC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Remangpatisseuri",
+      "category_en": "Beikeori",
+      "district_en": "Dongnaegu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Ttalgimilpoeyu, Syokollatareuteu, Orenjikokoamadeullen, Muhwagwakeurimchijeupinangsie, Haenambamgogumakeurembeurwille, Amerikano, Kaperate"
     },
     {
       "id": "1588",
@@ -729,7 +849,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%A5%B4%EB%8F%84%ED%97%A4,35.15545,129.1466",
         "naverMap": "https://map.naver.com/p/search/%EB%A5%B4%EB%8F%84%ED%97%A4%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%A7%88%EB%A6%B0%EC%8B%9C%ED%8B%B03%EB%A1%9C%2037%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.155450&dlng=129.146600&dname=%EB%A5%B4%EB%8F%84%ED%97%A4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Reudohe",
+      "category_en": "Modeonhansik",
+      "district_en": "",
+      "theme_en": "Fine Dining",
+      "menu_en": "Dineokoseu"
     },
     {
       "id": "1567",
@@ -758,7 +883,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%A6%AC%EC%98%A4%EB%84%A4,35.171597,129.12004",
         "naverMap": "https://map.naver.com/p/search/%EB%A6%AC%EC%98%A4%EB%84%A4%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EA%B5%AC%EB%9D%BD%EB%A1%9C%2036%20%28%EC%88%98%EC%98%81%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.171597&dlng=129.120040&dname=%EB%A6%AC%EC%98%A4%EB%84%A4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Rione",
+      "category_en": "Paseuta",
+      "district_en": "Suyeonggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Saelleodeu, Seonggeareoranpaseuta, Chorijoallioollido, Tomatoraguobeunpennepaseuta, Algamjanyoki"
     },
     {
       "id": "1589",
@@ -787,7 +917,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%A7%88%EC%9D%B4%ED%81%B4%EC%96%B4%EB%B0%98%ED%8C%9C%ED%85%8C%EC%9D%B4%EB%B8%94,35.176235,129.11557",
         "naverMap": "https://map.naver.com/p/search/%EB%A7%88%EC%9D%B4%ED%81%B4%EC%96%B4%EB%B0%98%ED%8C%9C%ED%85%8C%EC%9D%B4%EB%B8%94%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EA%B5%AC%EB%9D%BD%EB%A1%9C123%EB%B2%88%EA%B8%B8%2020%20%28%EB%A7%9D%EB%AF%B8%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.176235&dlng=129.115570&dname=%EB%A7%88%EC%9D%B4%ED%81%B4%EC%96%B4%EB%B0%98%ED%8C%9C%ED%85%8C%EC%9D%B4%EB%B8%94&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Maikeureobanpamteibeul",
+      "category_en": "Nyuamerikan",
+      "district_en": "Suyeonggu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Bijeuniseukoseu, Maikeulseukoseu, Saelleodeu, Paseuta, Saendeuwichi&beogeo, Kokoneossyurimpeu, Geurildeukallamari"
     },
     {
       "id": "1581",
@@ -816,7 +951,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%A7%A5%ED%80%B8%EC%A6%88%EB%9D%BC%EC%9A%B4%EC%A7%80,35.198193,129.22858",
         "naverMap": "https://map.naver.com/p/search/%EB%A7%A5%ED%80%B8%EC%A6%88%EB%9D%BC%EC%9A%B4%EC%A7%80%20%EB%B6%80%EC%82%B0%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EA%B8%B0%EC%9E%A5%EC%9D%8D%20%EA%B8%B0%EC%9E%A5%ED%95%B4%EC%95%88%EB%A1%9C%20268-32",
         "naverDirections": "nmap://navigation?dlat=35.198193&dlng=129.228580&dname=%EB%A7%A5%ED%80%B8%EC%A6%88%EB%9D%BC%EC%9A%B4%EC%A7%80&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Maekkwinjeuraunji",
+      "category_en": "Kape",
+      "district_en": "Gijanggun",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Aepeuteonuntiseteu, Hongcha, Heobeucha, Gwasilcha, Nokcha, Jeontongcha, Eseupeureso, Amerikano, Kapuchino, Kaperate, Kapemoka, Banillarate"
     },
     {
       "id": "1628",
@@ -845,7 +985,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%A8%B8%EA%B7%B8%EB%94%94%EC%A0%80%ED%8A%B8%EB%9E%A9,35.15704,129.14333",
         "naverMap": "https://map.naver.com/p/search/%EB%A8%B8%EA%B7%B8%EB%94%94%EC%A0%80%ED%8A%B8%EB%9E%A9%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%A7%88%EB%A6%B0%EC%8B%9C%ED%8B%B02%EB%A1%9C%2038%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.157040&dlng=129.143330&dname=%EB%A8%B8%EA%B7%B8%EB%94%94%EC%A0%80%ED%8A%B8%EB%9E%A9&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Meogeudijeoteuraep",
+      "category_en": "Dijeoteukape",
+      "district_en": "Haeundaegu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Amerikano, Kaperate, Saengtonore, Piseutachioparibeureseuteu, Biollet, Rajeuberisaengtonore, Mejongsyokollaekeullereu"
     },
     {
       "id": "1590",
@@ -874,7 +1019,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AA%A8%EB%A6%AC,35.160202,129.16658",
         "naverMap": "https://map.naver.com/p/search/%EB%AA%A8%EB%A6%AC%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EB%B3%80%EB%A1%9C298%EB%B2%88%EA%B8%B8%2024%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.160202&dlng=129.166580&dname=%EB%AA%A8%EB%A6%AC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Mori",
+      "category_en": "Gaiseki",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Koseu"
     },
     {
       "id": "1634",
@@ -903,7 +1053,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AA%A8%EB%AA%A8%EC%8A%A4%EC%BB%A4%ED%94%BC,35.219234,129.08647",
         "naverMap": "https://map.naver.com/p/search/%EB%AA%A8%EB%AA%A8%EC%8A%A4%EC%BB%A4%ED%94%BC%20%EB%B6%80%EC%82%B0%20%EA%B8%88%EC%A0%95%EA%B5%AC%20%EC%98%A4%EC%8B%9C%EA%B2%8C%EB%A1%9C%2020%20%28%EB%B6%80%EA%B3%A1%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.219234&dlng=129.086470&dname=%EB%AA%A8%EB%AA%A8%EC%8A%A4%EC%BB%A4%ED%94%BC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Momoseukeopi",
+      "category_en": "Keopijeonmunjeom",
+      "district_en": "Geumjeonggu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Oneuruihaendeudeurip, Amerikano, Eseupeureso, Kangkang, Koldeubeuru, Kaperate, Sijeuneolti, Remonpaundeu, Keuruasang, Keurimbeurauni, Chijeukeikeu"
     },
     {
       "id": "1559",
@@ -932,7 +1087,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AA%A8%EC%A6%88,35.15704,129.14333",
         "naverMap": "https://map.naver.com/p/search/%EB%AA%A8%EC%A6%88%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%A7%88%EB%A6%B0%EC%8B%9C%ED%8B%B02%EB%A1%9C%2038%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.157040&dlng=129.143330&dname=%EB%AA%A8%EC%A6%88&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Mojeu",
+      "category_en": "Ijakaya",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Ocheumamikoseu, Dasimakitamago, Osingkomoriawase, Daikonsarada, Negitoromaki, Seunagimo, Nankocheu, Seseri, Tebasaki, Momo, Udong, Soba"
     },
     {
       "id": "1582",
@@ -961,7 +1121,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AA%A9%EC%9E%A5%EC%9B%90,35.07164,129.05736",
         "naverMap": "https://map.naver.com/p/search/%EB%AA%A9%EC%9E%A5%EC%9B%90%20%EB%B6%80%EC%82%B0%20%EC%98%81%EB%8F%84%EA%B5%AC%20%EC%A0%88%EC%98%81%EB%A1%9C%20355%20%28%EB%8F%99%EC%82%BC%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.071640&dlng=129.057360&dname=%EB%AA%A9%EC%9E%A5%EC%9B%90&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Mokjangwon",
+      "category_en": "Sogalbi",
+      "district_en": "Yeongdogu",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Hanudeungsim, Hanuyangnyeomgui, Hanukkotdeungsim, Yangnyeomgalbissal, Kkotgalbissalsogeumgui, Hanuteuksubuwimodum, Hanukkotgalbisal, Hanugomtang, Galbitang"
     },
     {
       "id": "1591",
@@ -990,7 +1155,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AC%B4%EA%B6%81%ED%99%94,35.15679,129.05641",
         "naverMap": "https://map.naver.com/p/search/%EB%AC%B4%EA%B6%81%ED%99%94%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EA%B0%80%EC%95%BC%EB%8C%80%EB%A1%9C%20772%20%28%EB%B6%80%EC%A0%84%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.156790&dlng=129.056410&dname=%EB%AC%B4%EA%B6%81%ED%99%94&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Mugunghwa",
+      "category_en": "Ilbanhansik",
+      "district_en": "Busanjingu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Suryeon, Dongbaek, Mugunghwa, Moran, Hanubulgogibansang"
     },
     {
       "id": "1629",
@@ -1019,7 +1189,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AC%B4%EC%8A%88%EB%B1%85%EC%83%81,35.146374,129.11293",
         "naverMap": "https://map.naver.com/p/search/%EB%AC%B4%EC%8A%88%EB%B1%85%EC%83%81%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EA%B4%91%EB%82%A8%EB%A1%9C48%EB%B2%88%EA%B8%B8%2019%20%28%EB%82%A8%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.146374&dlng=129.112930&dname=%EB%AC%B4%EC%8A%88%EB%B1%85%EC%83%81&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Musyubaengsang",
+      "category_en": "Beikeori",
+      "district_en": "Suyeonggu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Batong, Bageteu, Oteuamondeu, Paengosyokolla, Keuruasang, Sinamollol, Ollibeu"
     },
     {
       "id": "1553",
@@ -1048,7 +1223,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AC%B4%EC%A7%84%EC%9E%A5%ED%9A%9F%EC%A7%91,35.216946,129.22612",
         "naverMap": "https://map.naver.com/p/search/%EB%AC%B4%EC%A7%84%EC%9E%A5%ED%9A%9F%EC%A7%91%20%EB%B6%80%EC%82%B0%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EA%B8%B0%EC%9E%A5%EC%9D%8D%20%EC%97%B0%ED%99%941%EA%B8%B8%20137",
         "naverDirections": "nmap://navigation?dlat=35.216946&dlng=129.226120&dname=%EB%AC%B4%EC%A7%84%EC%9E%A5%ED%9A%9F%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Mujinjanghoetjip",
+      "category_en": "Bungjangeo",
+      "district_en": "Gijanggun",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Bungjangeohoe, Modumhoe, Dodari, Chamgajami, Dom, Maeuntang"
     },
     {
       "id": "1608",
@@ -1077,7 +1257,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AC%BC%EA%BD%81%EC%8B%9D%EB%8B%B9,35.104496,129.02438",
         "naverMap": "https://map.naver.com/p/search/%EB%AC%BC%EA%BD%81%EC%8B%9D%EB%8B%B9%20%EB%B6%80%EC%82%B0%20%EC%A4%91%EA%B5%AC%20%ED%9D%91%EA%B5%90%EB%A1%9C59%EB%B2%88%EA%B8%B8%203%20%28%EB%B3%B4%EC%88%98%EB%8F%992%EA%B0%80%29",
         "naverDirections": "nmap://navigation?dlat=35.104496&dlng=129.024380&dname=%EB%AC%BC%EA%BD%81%EC%8B%9D%EB%8B%B9&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Mulkkongsikdang",
+      "category_en": "Agwi",
+      "district_en": "Junggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Agwijjim, Agwisuyuk, Agwitang"
     },
     {
       "id": "1555",
@@ -1106,7 +1291,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%AF%B8%EB%AF%B8%EB%A3%A8,35.219494,129.08295",
         "naverMap": "https://map.naver.com/p/search/%EB%AF%B8%EB%AF%B8%EB%A3%A8%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%98%A8%EC%B2%9C%EC%9E%A5%EB%A1%9C%2091-1%20%28%EC%98%A8%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.219494&dlng=129.082950&dname=%EB%AF%B8%EB%AF%B8%EB%A3%A8&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Mimiru",
+      "category_en": "Ilbanjungsik",
+      "district_en": "Dongnaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Jjajangmyeon, Jjamppong, Sacheonjjajangmyeon, Junghwadeopbap, Sacheollajeuji, Yuringi, Gungbogijeong, Menbosya, Tangsuyuk"
     },
     {
       "id": "1609",
@@ -1135,7 +1325,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B0%95%EC%98%A5%ED%9D%AC%ED%95%A0%EB%A7%A4%EC%A7%91%EC%9B%90%EC%A1%B0%EB%B3%B5%EA%B5%AD,35.158867,129.1706",
         "naverMap": "https://map.naver.com/p/search/%EB%B0%95%EC%98%A5%ED%9D%AC%ED%95%A0%EB%A7%A4%EC%A7%91%EC%9B%90%EC%A1%B0%EB%B3%B5%EA%B5%AD%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B862%EB%B2%88%EA%B8%B8%2028%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.158867&dlng=129.170600&dname=%EB%B0%95%EC%98%A5%ED%9D%AC%ED%95%A0%EB%A7%A4%EC%A7%91%EC%9B%90%EC%A1%B0%EB%B3%B5%EA%B5%AD&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Bagokhuihalmaejibwonjobokkuk",
+      "category_en": "Bok",
+      "district_en": "Haeundaegu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Bokkuk, Bongmaeuntang, Eunboksuyuk, Daegutang"
     },
     {
       "id": "1610",
@@ -1164,7 +1359,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B0%B0%EC%A2%85%EA%B4%80%EB%8F%99%EB%9E%98%EC%82%BC%EA%B3%84%ED%83%95,35.20526,129.08475",
         "naverMap": "https://map.naver.com/p/search/%EB%B0%B0%EC%A2%85%EA%B4%80%EB%8F%99%EB%9E%98%EC%82%BC%EA%B3%84%ED%83%95%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EB%8F%99%EB%9E%98%EB%A1%9C116%EB%B2%88%EA%B8%B8%2039%20%28%EB%B3%B5%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.205260&dlng=129.084750&dname=%EB%B0%B0%EC%A2%85%EA%B4%80%EB%8F%99%EB%9E%98%EC%82%BC%EA%B3%84%ED%83%95&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Baejonggwandongnaesamgyetang",
+      "category_en": "Samgyetang",
+      "district_en": "Dongnaegu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Dongnaesamgyetang, Gungjungyakkyetang"
     },
     {
       "id": "1611",
@@ -1193,7 +1393,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B0%B1%EA%B5%AC%EB%8B%B9,35.10482,129.03575",
         "naverMap": "https://map.naver.com/p/search/%EB%B0%B1%EA%B5%AC%EB%8B%B9%20%EB%B6%80%EC%82%B0%20%EC%A4%91%EA%B5%AC%20%EC%A4%91%EC%95%99%EB%8C%80%EB%A1%9C81%EB%B2%88%EA%B8%B8%203%20%28%EC%A4%91%EC%95%99%EB%8F%994%EA%B0%80%29",
         "naverDirections": "nmap://navigation?dlat=35.104820&dlng=129.035750&dname=%EB%B0%B1%EA%B5%AC%EB%8B%B9&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Baekkudang",
+      "category_en": "Beikeori",
+      "district_en": "Junggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Baekkupai, Keuroijeun, Ssukssalsikppang, Beulluberisikppang, Patdoneot, Italliankeuroket, Chapssalpatdoneot, Bageteupija, Yachaeppang, Duyuterapi, Sosijipeiseuteuri"
     },
     {
       "id": "1635",
@@ -1222,7 +1427,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B2%A0%EB%A5%B4%ED%81%AC%EB%A1%9C%EC%8A%A4%ED%84%B0%EC%8A%A4,35.152615,129.06628",
         "naverMap": "https://map.naver.com/p/search/%EB%B2%A0%EB%A5%B4%ED%81%AC%EB%A1%9C%EC%8A%A4%ED%84%B0%EC%8A%A4%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%84%9C%EC%A0%84%EB%A1%9C58%EB%B2%88%EA%B8%B8%20115%20%28%EC%A0%84%ED%8F%AC%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.152615&dlng=129.066280&dname=%EB%B2%A0%EB%A5%B4%ED%81%AC%EB%A1%9C%EC%8A%A4%ED%84%B0%EC%8A%A4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Bereukeuroseuteoseu",
+      "category_en": "Keopijeonmunjeom",
+      "district_en": "Busanjingu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Eseupeureso, Amerikano, Pilteokeopi, Kaperate, Koldeubeuru, Eolgeurei, Beigeul"
     },
     {
       "id": "1630",
@@ -1251,7 +1461,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B3%B4%EB%8A%90%ED%8C%8C%ED%8B%B0%EC%93%B0%20%EB%A6%AC,35.195267,35.195267",
         "naverMap": "https://map.naver.com/p/search/%EB%B3%B4%EB%8A%90%ED%8C%8C%ED%8B%B0%EC%93%B0%20%EB%A6%AC%20%EB%B6%80%EC%82%B0%20%EC%97%B0%EC%A0%9C%EA%B5%AC%20%EA%B5%90%EB%8C%80%EB%A1%9C%207%20%28%EA%B1%B0%EC%A0%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.195267&dlng=35.195267&dname=%EB%B3%B4%EB%8A%90%ED%8C%8C%ED%8B%B0%EC%93%B0+%EB%A6%AC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Boneupatisseu Ri",
+      "category_en": "Keikeu",
+      "district_en": "Yeonjegu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Mongbeullang, Bwisyeteu, Porebeullangswi, Peurejie, Poakaramel, Seukon&jaem, Keurim, Kaneulle, Jeorinbaekeullaputi, Kapeallongje, Kaperate, Banillarate, Ti"
     },
     {
       "id": "1550",
@@ -1280,7 +1495,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B6%80%EB%8B%A4%EB%A9%B4%EC%98%A5,35.162384,129.16298",
         "naverMap": "https://map.naver.com/p/search/%EB%B6%80%EB%8B%A4%EB%A9%B4%EC%98%A5%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%A4%91%EB%8F%991%EB%A1%9C%2036%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.162384&dlng=129.162980&dname=%EB%B6%80%EB%8B%A4%EB%A9%B4%EC%98%A5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Budamyeonok",
+      "category_en": "Pyeongyangnaengmyeon",
+      "district_en": "Haeundaegu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Sunmemillaengmyeon, Sari, Matbogihanusuyuk, Hanuhanmarikkorisuyuk, Gyeoul - Kkorigomtang, Yukkaejang"
     },
     {
       "id": "1612",
@@ -1309,7 +1529,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B6%80%EC%82%B0%EB%AA%85%EB%AC%BC%ED%9A%9F%EC%A7%91,35.097115,129.03111",
         "naverMap": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%AA%85%EB%AC%BC%ED%9A%9F%EC%A7%91%20%EB%B6%80%EC%82%B0%20%EC%A4%91%EA%B5%AC%20%EC%9E%90%EA%B0%88%EC%B9%98%ED%95%B4%EC%95%88%EB%A1%9C%2055%20%28%EB%82%A8%ED%8F%AC%EB%8F%994%EA%B0%80%29",
         "naverDirections": "nmap://navigation?dlat=35.097115&dlng=129.031110&dname=%EB%B6%80%EC%82%B0%EB%AA%85%EB%AC%BC%ED%9A%9F%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Busanmyeongmulhoetjip",
+      "category_en": "Hoebaekban",
+      "district_en": "Junggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Hoebaekban, Hoebibimbap, Mulhoe, Jeonbokjuk, Dommeoritang, Yangnyeomgui"
     },
     {
       "id": "1556",
@@ -1338,7 +1563,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B6%80%EC%9A%B0%EC%82%AC%EC%95%88,35.160133,129.1545",
         "naverMap": "https://map.naver.com/p/search/%EB%B6%80%EC%9A%B0%EC%82%AC%EC%95%88%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EB%B3%80%EB%A1%9C209%EB%B2%88%EB%82%98%EA%B8%B8%2016%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.160133&dlng=129.154500&dname=%EB%B6%80%EC%9A%B0%EC%82%AC%EC%95%88&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Buusaan",
+      "category_en": "Bukkyeongori",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Sacheonsikbaechujjim, Chasyu, Mauisangsu, Sannibaegyuk, Dimseom, Beijingdeok, Reonchiseteu, Dineoseteu"
     },
     {
       "id": "1631",
@@ -1367,7 +1597,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B8%8C%EB%A0%88%EB%93%9C365,35.135815,129.08633",
         "naverMap": "https://map.naver.com/p/search/%EB%B8%8C%EB%A0%88%EB%93%9C365%20%EB%B6%80%EC%82%B0%20%EB%82%A8%EA%B5%AC%20%EB%AA%BB%EA%B3%A8%EB%A1%9C41%EB%B2%88%EA%B8%B8%2013%20%28%EB%8C%80%EC%97%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.135815&dlng=129.086330&dname=%EB%B8%8C%EB%A0%88%EB%93%9C365&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Beuredeu365",
+      "category_en": "Beikeori",
+      "district_en": "Namgu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Keuruasang, Chiabata, Bajilmeongmulbageteu, Gongjubamsikppang, Tongmilsikppang, Ttalgipeiseuteuri, Jambongsaendeuwichi"
     },
     {
       "id": "1632",
@@ -1396,7 +1631,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B8%8C%EB%A6%AC%EC%95%99,35.221756,129.08356",
         "naverMap": "https://map.naver.com/p/search/%EB%B8%8C%EB%A6%AC%EC%95%99%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%98%A8%EC%B2%9C%EC%9E%A5%EB%A1%9C119%EB%B2%88%EA%B8%B8%2026%20%28%EC%98%A8%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.221756&dlng=129.083560&dname=%EB%B8%8C%EB%A6%AC%EC%95%99&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Beuriang",
+      "category_en": "Guumgwaja",
+      "district_en": "Dongnaegu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Beuriangkeolleksyeon, Beurianggeurangbuateu, Madeullen, Pinangsie, Kaneulle, Gatoositeurong, Gallaeteubeureutong"
     },
     {
       "id": "1636",
@@ -1425,7 +1665,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B8%94%EB%9E%99%EC%97%85%EC%BB%A4%ED%94%BC,35.156055,129.05998",
         "naverMap": "https://map.naver.com/p/search/%EB%B8%94%EB%9E%99%EC%97%85%EC%BB%A4%ED%94%BC%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%84%9C%EC%A0%84%EB%A1%9C10%EB%B2%88%EA%B8%B8%2041%20%28%EB%B6%80%EC%A0%84%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.156055&dlng=129.059980&dname=%EB%B8%94%EB%9E%99%EC%97%85%EC%BB%A4%ED%94%BC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Beullaegeopkeopi",
+      "category_en": "Keopijeonmunjeom",
+      "district_en": "Busanjingu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Haendeudeuripkeopi, Eseupeureso, Amerikano, Yuginongmilkeuti, Biktoriattalgikeikeu, Malchasyokollakeikeu, Bajilchijeuseukon, Banillamadeullen, Cheripinangsie"
     },
     {
       "id": "1613",
@@ -1454,7 +1699,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EB%B9%84%EC%97%94%EC%94%A8,35.09972,129.02959",
         "naverMap": "https://map.naver.com/p/search/%EB%B9%84%EC%97%94%EC%94%A8%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A4%91%EA%B5%AC%20%EA%B4%91%EB%B3%B5%EB%A1%9C39%EB%B2%88%EA%B8%B8%206%20%28%EC%B0%BD%EC%84%A0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.099720&dlng=129.029590&dname=%EB%B9%84%EC%97%94%EC%94%A8&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Bienssi",
+      "category_en": "Beikeori",
+      "district_en": "",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Busanaeppang, Keuruasang, Peurenchipai, Kaseuteramini, Sangtugwaja, Chokomeopin, Chijeumeopin, Pangneujenneu, Mongbeullang, Soboruppang, Ttalgisaengkeurimminikeikeu"
     },
     {
       "id": "1592",
@@ -1483,7 +1733,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%82%AC%EA%B9%8C%EC%97%90,35.16022,129.16527",
         "naverMap": "https://map.naver.com/p/search/%EC%82%AC%EA%B9%8C%EC%97%90%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EB%B3%80%EB%A1%9C%20296%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.160220&dlng=129.165270&dname=%EC%82%AC%EA%B9%8C%EC%97%90&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Sakkae",
+      "category_en": "Depanyaki",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Koseu, Seteu, Cheolpankoseu"
     },
     {
       "id": "1557",
@@ -1512,7 +1767,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%82%B0%EB%8F%99%EC%99%84%ED%83%95%EA%B5%90%EC%9E%90%EA%B4%80,35.119602,129.04268",
         "naverMap": "https://map.naver.com/p/search/%EC%82%B0%EB%8F%99%EC%99%84%ED%83%95%EA%B5%90%EC%9E%90%EA%B4%80%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EA%B5%AC%20%EC%A4%91%EC%95%99%EB%8C%80%EB%A1%9C248%EB%B2%88%EA%B8%B8%203-11%20%28%EC%B4%88%EB%9F%89%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.119602&dlng=129.042680&dname=%EC%82%B0%EB%8F%99%EC%99%84%ED%83%95%EA%B5%90%EC%9E%90%EA%B4%80&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Sandongwantanggyojagwan",
+      "category_en": "Wantang",
+      "district_en": "Donggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Wantang, Gogimandu, Gimchimandu, Mulmandu, Samsaengmodummandu, Gajiyori, Tomatogyeranbokkeum, Kkanpungsaeu, Ohyangjangyuk, Mapadubu"
     },
     {
       "id": "1543",
@@ -1541,7 +1801,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%82%BC%EC%98%A4%EB%B6%88%EA%B3%A0%EA%B8%B0,35.160027,129.1149",
         "naverMap": "https://map.naver.com/p/search/%EC%82%BC%EC%98%A4%EB%B6%88%EA%B3%A0%EA%B8%B0%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EC%88%98%EC%98%81%EB%A1%9C610%EB%B2%88%EA%B8%B8%2024-2%20%28%EA%B4%91%EC%95%88%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.160027&dlng=129.114900&dname=%EC%82%BC%EC%98%A4%EB%B6%88%EA%B3%A0%EA%B8%B0&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Samobulgogi",
+      "category_en": "Dwaejigogigui",
+      "district_en": "Suyeonggu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Samgyeopsal"
     },
     {
       "id": "1614",
@@ -1570,7 +1835,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%83%88%EC%A7%84%EC%A3%BC%EC%8B%9D%EB%8B%B9,35.104774,129.0249",
         "naverMap": "https://map.naver.com/p/search/%EC%83%88%EC%A7%84%EC%A3%BC%EC%8B%9D%EB%8B%B9%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A4%91%EA%B5%AC%20%ED%9D%91%EA%B5%90%EB%A1%9C%2060%20%28%EB%B3%B4%EC%88%98%EB%8F%991%EA%B0%80%29",
         "naverDirections": "nmap://navigation?dlat=35.104774&dlng=129.024900&dname=%EC%83%88%EC%A7%84%EC%A3%BC%EC%8B%9D%EB%8B%B9&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Saejinjusikdang",
+      "category_en": "Bibimbap",
+      "district_en": "",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Yukhoebibimbap, Dolsotbibimbap, Hoebibimbap, Seoksoebulgogi, Yukhoe, Gaorimuchim, Pajeon"
     },
     {
       "id": "1547",
@@ -1599,7 +1869,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%83%88%EC%B4%9D%ED%9A%9F%EC%A7%91,35.205696,129.12448",
         "naverMap": "https://map.naver.com/p/search/%EC%83%88%EC%B4%9D%ED%9A%9F%EC%A7%91%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%B0%98%EC%97%AC%EB%A1%9C155%EB%B2%88%EA%B8%B8%2025%20%28%EB%B0%98%EC%97%AC%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.205696&dlng=129.124480&dname=%EC%83%88%EC%B4%9D%ED%9A%9F%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Saechonghoetjip",
+      "category_en": "Saengseonhoe",
+      "district_en": "Haeundaegu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Jayeonsanhoe, Isigari"
     },
     {
       "id": "1615",
@@ -1628,7 +1903,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%84%9C%EC%9A%B8%EA%B9%8D%EB%91%90%EA%B8%B0,35.104774,129.0249",
         "naverMap": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%EA%B9%8D%EB%91%90%EA%B8%B0%20%EB%B6%80%EC%82%B0%20%EC%A4%91%EA%B5%AC%20%EB%82%A8%ED%8F%AC%EA%B8%B8%2033%20%28%EB%82%A8%ED%8F%AC%EB%8F%992%EA%B0%80%29",
         "naverDirections": "nmap://navigation?dlat=35.104774&dlng=129.024900&dname=%EC%84%9C%EC%9A%B8%EA%B9%8D%EB%91%90%EA%B8%B0&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Seoulkkakdugi",
+      "category_en": "Seolleongtang",
+      "district_en": "Junggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Seolleongtang, Gomtang, Yangjitang, Suyuk"
     },
     {
       "id": "1593",
@@ -1657,7 +1937,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%85%94%EB%B8%94,35.155994,129.15404",
         "naverMap": "https://map.naver.com/p/search/%EC%85%94%EB%B8%94%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8F%99%EB%B0%B1%EB%A1%9C%2067%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.155994&dlng=129.154040&dname=%EC%85%94%EB%B8%94&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Syeobeul",
+      "category_en": "Ilbanhansik",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Koseuyori, Hanubulgalbi, Hanuyukhoebibimbap, Hanutteokkalbibansangcharim"
     },
     {
       "id": "1616",
@@ -1686,7 +1971,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%86%A1%EC%A0%953%EB%8C%80%EA%B5%AD%EB%B0%A5,35.155567,129.05853",
         "naverMap": "https://map.naver.com/p/search/%EC%86%A1%EC%A0%953%EB%8C%80%EA%B5%AD%EB%B0%A5%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%84%9C%EB%A9%B4%EB%A1%9C68%EB%B2%88%EA%B8%B8%2033%20%28%EB%B6%80%EC%A0%84%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.155567&dlng=129.058530&dname=%EC%86%A1%EC%A0%953%EB%8C%80%EA%B5%AD%EB%B0%A5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Songjeong3daegukbap",
+      "category_en": "Dwaejigukbap",
+      "district_en": "Busanjingu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Dwaejigukbap, Sundaegukbap, Naejanggukbap, Ttarogukbap, Suyukbaekban, Chapssalsundae, Suyuk"
     },
     {
       "id": "1560",
@@ -1715,7 +2005,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%87%BC%EC%A7%84,35.163307,129.1596",
         "naverMap": "https://map.naver.com/p/search/%EC%87%BC%EC%A7%84%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EA%B5%AC%EB%82%A8%EB%A1%9C%209%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.163307&dlng=129.159600&dname=%EC%87%BC%EC%A7%84&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Syojin",
+      "category_en": "Gaiseki",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Omakase"
     },
     {
       "id": "1568",
@@ -1744,7 +2039,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%89%90%ED%94%84%EB%A6%AC,35.159615,129.15382",
         "naverMap": "https://map.naver.com/p/search/%EC%89%90%ED%94%84%EB%A6%AC%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EB%B3%80%EB%A1%9C209%EB%B2%88%EA%B8%B8%2013%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.159615&dlng=129.153820&dname=%EC%89%90%ED%94%84%EB%A6%AC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Swepeuri",
+      "category_en": "Italliasik",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Allioollio, Kachiopepe, Anchobipaseuta, Goreugonjollapija, Peurosyutopija, Rukollapija, Gambaseu, Maeunhonghapjjim, Hanuchaekkeut"
     },
     {
       "id": "1561",
@@ -1773,7 +2073,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%8A%A4%EC%8B%9C%EC%8B%9C%EC%95%88,35.167847,129.13097",
         "naverMap": "https://map.naver.com/p/search/%EC%8A%A4%EC%8B%9C%EC%8B%9C%EC%95%88%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%84%BC%ED%85%801%EB%A1%9C%209%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.167847&dlng=129.130970&dname=%EC%8A%A4%EC%8B%9C%EC%8B%9C%EC%95%88&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Seusisian",
+      "category_en": "Seusi",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Seusiomakase"
     },
     {
       "id": "1562",
@@ -1802,7 +2107,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%8A%A4%EC%8B%9C%EC%9D%B4%EB%A3%A8%EC%B9%B4,35.15704,129.14333",
         "naverMap": "https://map.naver.com/p/search/%EC%8A%A4%EC%8B%9C%EC%9D%B4%EB%A3%A8%EC%B9%B4%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%A7%88%EB%A6%B0%EC%8B%9C%ED%8B%B02%EB%A1%9C%2038%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.157040&dlng=129.143330&dname=%EC%8A%A4%EC%8B%9C%EC%9D%B4%EB%A3%A8%EC%B9%B4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Seusiiruka",
+      "category_en": "Seusi",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Reonchi, Dineo"
     },
     {
       "id": "1617",
@@ -1831,7 +2141,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%8B%A0%EB%B0%9C%EC%9B%90,35.11481,129.03871",
         "naverMap": "https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EA%B5%AC%20%EB%8C%80%EC%98%81%EB%A1%9C243%EB%B2%88%EA%B8%B8%2062%20%28%EC%B4%88%EB%9F%89%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.114810&dlng=129.038710&dname=%EC%8B%A0%EB%B0%9C%EC%9B%90&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Sinbarwon",
+      "category_en": "Junggungmandu",
+      "district_en": "Donggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Gogimandu, Jjingyoja, Gunmandu, Maepgun, Saeugyoja, Maramandu"
     },
     {
       "id": "1618",
@@ -1860,7 +2175,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%8B%A0%EC%B0%BD%EA%B5%AD%EB%B0%A5,35.101936,129.02934",
         "naverMap": "https://map.naver.com/p/search/%EC%8B%A0%EC%B0%BD%EA%B5%AD%EB%B0%A5%20%EB%B6%80%EC%82%B0%20%EC%A4%91%EA%B5%AC%20%EA%B4%91%EB%B3%B5%EB%A1%9C39%EB%B2%88%EA%B8%B8%2030-1%20%28%EC%8B%A0%EC%B0%BD%EB%8F%992%EA%B0%80%29",
         "naverDirections": "nmap://navigation?dlat=35.101936&dlng=129.029340&dname=%EC%8B%A0%EC%B0%BD%EA%B5%AD%EB%B0%A5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Sinchanggukbap",
+      "category_en": "Dwaejigukbap",
+      "district_en": "Junggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Ttarogukbap, Suyukbaekban"
     },
     {
       "id": "1619",
@@ -1889,7 +2209,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%8B%A0%ED%9D%A5%EA%B4%80,35.16279,129.16302",
         "naverMap": "https://map.naver.com/p/search/%EC%8B%A0%ED%9D%A5%EA%B4%80%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%A4%91%EB%8F%991%EB%A1%9C%2031-1%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.162790&dlng=129.163020&dname=%EC%8B%A0%ED%9D%A5%EA%B4%80&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Sinheunggwan",
+      "category_en": "Ilbanjungsik",
+      "district_en": "Haeundaegu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Jjajangmyeon, Udong, Jjamppong, Tangsuyuk, Kkanpunggi"
     },
     {
       "id": "1542",
@@ -1918,7 +2243,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%8C%8D%EB%91%A5%EC%9D%B4%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5,35.13177,129.0923",
         "naverMap": "https://map.naver.com/p/search/%EC%8C%8D%EB%91%A5%EC%9D%B4%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%B6%80%EC%82%B0%20%EB%82%A8%EA%B5%AC%20%EC%9C%A0%EC%97%94%ED%8F%89%ED%99%94%EB%A1%9C%2035-1%20%28%EB%8C%80%EC%97%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.131770&dlng=129.092300&dname=%EC%8C%8D%EB%91%A5%EC%9D%B4%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Ssangdungidwaejigukbap",
+      "category_en": "Dwaejigukbap",
+      "district_en": "Namgu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Dwaejigukbap, Naejanggukbap, Suyukbaekban, Dwaejisuyuk, Naejangsuyuk"
     },
     {
       "id": "1594",
@@ -1947,7 +2277,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%95%84%EC%81%98%EC%95%99,35.200165,129.2289",
         "naverMap": "https://map.naver.com/p/search/%EC%95%84%EC%81%98%EC%95%99%20%EB%B6%80%EC%82%B0%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EA%B8%B0%EC%9E%A5%EC%9D%8D%20%EA%B8%B0%EC%9E%A5%ED%95%B4%EC%95%88%EB%A1%9C%20268-31",
         "naverDirections": "nmap://navigation?dlat=35.200165&dlng=129.228900&dname=%EC%95%84%EC%81%98%EC%95%99&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Appeuang",
+      "category_en": "Peurangseusik",
+      "district_en": "Gijanggun",
+      "theme_en": "Fine Dining",
+      "menu_en": "Reonchikoseu, Dineokoseu"
     },
     {
       "id": "1595",
@@ -1976,7 +2311,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%95%84%EC%98%A4%EB%AA%A8%EB%A6%AC,35.167812,129.13281",
         "naverMap": "https://map.naver.com/p/search/%EC%95%84%EC%98%A4%EB%AA%A8%EB%A6%AC%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%84%BC%ED%85%803%EB%A1%9C%2020%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.167812&dlng=129.132810&dname=%EC%95%84%EC%98%A4%EB%AA%A8%EB%A6%AC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Aomori",
+      "category_en": "Ilsik",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Reonchiomakase, Dineoseusiomakase"
     },
     {
       "id": "1551",
@@ -2005,7 +2345,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%95%84%EC%A0%80%EC%94%A8%EB%8C%80%EA%B5%AC%ED%83%95,35.158676,129.17163",
         "naverMap": "https://map.naver.com/p/search/%EC%95%84%EC%A0%80%EC%94%A8%EB%8C%80%EA%B5%AC%ED%83%95%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B862%EB%B2%88%EA%B0%80%EA%B8%B8%2031%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.158676&dlng=129.171630&dname=%EC%95%84%EC%A0%80%EC%94%A8%EB%8C%80%EA%B5%AC%ED%83%95&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Ajeossidaegutang",
+      "category_en": "Daegutang",
+      "district_en": "Haeundaegu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Daegutang, Daeguppoljjim"
     },
     {
       "id": "1574",
@@ -2034,7 +2379,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%95%8C%EB%A1%9C%EC%9D%B4%ED%83%80%EC%9D%B4%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91,35.16252,129.12901",
         "naverMap": "https://map.naver.com/p/search/%EC%95%8C%EB%A1%9C%EC%9D%B4%ED%83%80%EC%9D%B4%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EB%AF%BC%EB%9D%BD%EC%88%98%EB%B3%80%EB%A1%9C239%EB%B2%88%EA%B8%B8%2026%20%28%EB%AF%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.162520&dlng=129.129010&dname=%EC%95%8C%EB%A1%9C%EC%9D%B4%ED%83%80%EC%9D%B4%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Alloitaireseutorang",
+      "category_en": "Taeguksik",
+      "district_en": "Suyeonggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Ppupatpongkeori, Ppunimpatpongkeori, Taisikhaemulssalguksu, Painaepeulbokkeumbap, Yamunsen, Alloiseteu"
     },
     {
       "id": "1563",
@@ -2063,7 +2413,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%95%BC%ED%82%A4%ED%86%A0%EB%A6%AC%ED%95%B4%EA%B3%B5,35.158237,129.12712",
         "naverMap": "https://map.naver.com/p/search/%EC%95%BC%ED%82%A4%ED%86%A0%EB%A6%AC%ED%95%B4%EA%B3%B5%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EB%AF%BC%EB%9D%BD%EB%B3%B8%EB%8F%99%EB%A1%9C19%EB%B2%88%EA%B8%B8%2030-5%20%28%EB%AF%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.158237&dlng=129.127120&dname=%EC%95%BC%ED%82%A4%ED%86%A0%EB%A6%AC%ED%95%B4%EA%B3%B5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Yakitorihaegong",
+      "category_en": "Ilsikgochi",
+      "district_en": "Suyeonggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Yakitoriomakase, Yakitori, Cheukune, Saengyachaeboridoenjang, Chaesogui, Dalkbongkeuroket, Saeusisomarichungwontwigim, Chijeugui"
     },
     {
       "id": "1544",
@@ -2092,7 +2447,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%96%B8%EC%96%91%EB%B6%88%EA%B3%A0%EA%B8%B0%EB%B6%80%EC%82%B0%EC%A7%91,35.14793,129.11354",
         "naverMap": "https://map.naver.com/p/search/%EC%96%B8%EC%96%91%EB%B6%88%EA%B3%A0%EA%B8%B0%EB%B6%80%EC%82%B0%EC%A7%91%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EB%82%A8%EC%B2%9C%EB%B0%94%EB%8B%A4%EB%A1%9C%2032%20%28%EB%82%A8%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.147930&dlng=129.113540&dname=%EC%96%B8%EC%96%91%EB%B6%88%EA%B3%A0%EA%B8%B0%EB%B6%80%EC%82%B0%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Eonyangbulgogibusanjip",
+      "category_en": "Sobulgogi",
+      "district_en": "Suyeonggu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Eonyangbulgogi, Deungsim, Saenggalbissal, Yuksasimi"
     },
     {
       "id": "1552",
@@ -2121,7 +2481,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%98%81%EB%82%A8%EB%8F%BC%EC%A7%80,35.160004,129.15541",
         "naverMap": "https://map.naver.com/p/search/%EC%98%81%EB%82%A8%EB%8F%BC%EC%A7%80%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EB%B3%80%EB%A1%9C209%EB%B2%88%EA%B0%80%EA%B8%B8%2013%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.160004&dlng=129.155410&dname=%EC%98%81%EB%82%A8%EB%8F%BC%EC%A7%80&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Yeongnamdwaeji",
+      "category_en": "Sogogigui",
+      "district_en": "Haeundaegu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Sogogideungsim, Galbissal, Chadolbagi, Yangnyeomchadolbagi, Anchangsal, Angeomi, Samgyeomnoseu, Samgyeopsal, Moksal, Mul/bibimnaengmyeon, Chadoldoenjang"
     },
     {
       "id": "1620",
@@ -2150,7 +2515,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%98%9B%EB%82%A0%EC%98%A4%EB%A7%89%EC%A7%91,35.10883,129.0197",
         "naverMap": "https://map.naver.com/p/search/%EC%98%9B%EB%82%A0%EC%98%A4%EB%A7%89%EC%A7%91%20%EB%B6%80%EC%82%B0%20%EC%84%9C%EA%B5%AC%20%EA%B5%AC%EB%8D%95%EB%A1%9C274%EB%B2%88%EA%B8%B8%2014%20%28%EB%8F%99%EB%8C%80%EC%8B%A0%EB%8F%991%EA%B0%80%29",
         "naverDirections": "nmap://navigation?dlat=35.108830&dlng=129.019700&dname=%EC%98%9B%EB%82%A0%EC%98%A4%EB%A7%89%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Yennaromakjip",
+      "category_en": "Yanggopchang",
+      "district_en": "Seogu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Teugyang, Daechang, Gopchang, Baekteugyang, Yangnyeomgalbi, Saenggalbi, Yeomtong, Kongpat"
     },
     {
       "id": "1583",
@@ -2179,7 +2549,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%98%A4%EB%A5%99%EB%8F%84%EA%B0%80%EC%9B%90,35.106842,129.11136",
         "naverMap": "https://map.naver.com/p/search/%EC%98%A4%EB%A5%99%EB%8F%84%EA%B0%80%EC%9B%90%20%EB%B6%80%EC%82%B0%20%EB%82%A8%EA%B5%AC%20%EB%B0%B1%EC%9A%B4%ED%8F%AC%EB%A1%9C%2014%20%28%EC%9A%A9%ED%98%B8%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.106842&dlng=129.111360&dname=%EC%98%A4%EB%A5%99%EB%8F%84%EA%B0%80%EC%9B%90&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Oryukdogawon",
+      "category_en": "Sogogigui",
+      "district_en": "Namgu",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Galbissal, Deungsim, Jebichuri, Kkotsal"
     },
     {
       "id": "1633",
@@ -2208,7 +2583,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%98%B5%EC%8A%A4,35.139668,129.10875",
         "naverMap": "https://map.naver.com/p/search/%EC%98%B5%EC%8A%A4%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%ED%99%A9%EB%A0%B9%EB%8C%80%EB%A1%9C489%EB%B2%88%EA%B8%B8%2037%20%28%EB%82%A8%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.139668&dlng=129.108750&dname=%EC%98%B5%EC%8A%A4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Opseu",
+      "category_en": "Beikeori",
+      "district_en": "Suyeonggu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Hagwonjeon, Chamchippang, Jayeonhyomoppang, Myeongnanbageteu, Keurimchijeuheoni, Danggeunkeikeu, Beuriosyurol, Sogeumppang, Maseukaponepuding"
     },
     {
       "id": "1621",
@@ -2237,7 +2617,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%9B%90%EC%A1%B0%ED%95%A0%EB%A7%A4%EB%82%99%EC%A7%80,35.14214,129.06015",
         "naverMap": "https://map.naver.com/p/search/%EC%9B%90%EC%A1%B0%ED%95%A0%EB%A7%A4%EB%82%99%EC%A7%80%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EA%B3%A8%EB%93%9C%ED%85%8C%EB%A7%88%EA%B8%B8%2010%20%28%EB%B2%94%EC%B2%9C%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.142140&dlng=129.060150&dname=%EC%9B%90%EC%A1%B0%ED%95%A0%EB%A7%A4%EB%82%99%EC%A7%80&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Wonjohalmaenakji",
+      "category_en": "Nakji",
+      "district_en": "Busanjingu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Nakjibokkeum, Nakjisaeubokkeum, Nakjisogopchangbokkeum, Nakjisaeusogopchangbokkeum, Sari"
     },
     {
       "id": "1596",
@@ -2266,7 +2651,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%9C%A8%EB%A7%81,35.158867,129.1706",
         "naverMap": "https://map.naver.com/p/search/%EC%9C%A8%EB%A7%81%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B862%EB%B2%88%EA%B8%B8%2028%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.158867&dlng=129.170600&dname=%EC%9C%A8%EB%A7%81&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Yulling",
+      "category_en": "Sogogigui",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Koseu, Seupesyeolkoseu, Hanugui, Waingeullaseupeeoring"
     },
     {
       "id": "1539",
@@ -2295,7 +2685,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%9D%80%ED%95%98%EA%B0%88%EB%B9%84,35.119347,129.03961",
         "naverMap": "https://map.naver.com/p/search/%EC%9D%80%ED%95%98%EA%B0%88%EB%B9%84%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%20%EC%B4%88%EB%9F%89%EC%A4%91%EB%A1%9C%2086",
         "naverDirections": "nmap://navigation?dlat=35.119347&dlng=129.039610&dname=%EC%9D%80%ED%95%98%EA%B0%88%EB%B9%84&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Eunhagalbi",
+      "category_en": "Dwaejigalbi",
+      "district_en": "",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Yangnyeomgalbi, Dwaejimoksal, Saenggalbi, Samgyeopsal, Doenjangjjigae"
     },
     {
       "id": "1545",
@@ -2324,7 +2719,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%9D%80%ED%95%B4%EA%B0%88%EC%B9%98,35.157005,129.12592",
         "naverMap": "https://map.naver.com/p/search/%EC%9D%80%ED%95%B4%EA%B0%88%EC%B9%98%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EA%B4%91%EC%95%88%ED%95%B4%EB%B3%80%EB%A1%9C295%EB%B2%88%EA%B8%B8%204-7%20%28%EB%AF%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.157005&dlng=129.125920&dname=%EC%9D%80%ED%95%B4%EA%B0%88%EC%B9%98&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Eunhaegalchi",
+      "category_en": "Galchi",
+      "district_en": "Suyeonggu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Galchigui, Galchijjigae, Galchijorim, Wangteukdaegui, Wangteukdaejjigae, Wangteukdaejorim"
     },
     {
       "id": "1569",
@@ -2353,7 +2753,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%9D%8C%EC%A3%BC%EC%96%91%EC%8B%9D%EB%8B%B9%EC%98%A4%EC%8A%A4%ED%85%8C%EB%A6%AC%EC%95%84%EC%96%B4%EB%B6%80,35.160618,129.1566",
         "naverMap": "https://map.naver.com/p/search/%EC%9D%8C%EC%A3%BC%EC%96%91%EC%8B%9D%EB%8B%B9%EC%98%A4%EC%8A%A4%ED%85%8C%EB%A6%AC%EC%95%84%EC%96%B4%EB%B6%80%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%EB%A1%9C570%EB%B2%88%EA%B8%B8%2023%20%EB%8D%94%EC%84%B8%EC%9D%BC%EB%A7%81%ED%83%80%EC%9B%8C%203%EC%B8%B5",
         "naverDirections": "nmap://navigation?dlat=35.160618&dlng=129.156600&dname=%EC%9D%8C%EC%A3%BC%EC%96%91%EC%8B%9D%EB%8B%B9%EC%98%A4%EC%8A%A4%ED%85%8C%EB%A6%AC%EC%95%84%EC%96%B4%EB%B6%80&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Eumjuyangsikdangoseuteriaeobu",
+      "category_en": "Italliasik",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Oiseuteo, Tongbaldansaeu, Jejusanchamokdom, Muneorijoto, Osobokorijoto, Kareubonara, Italliagajaepaseuta, Bollonyasiksogogipaseuta, Hanu1++chaekkeutseuteikeu"
     },
     {
       "id": "1584",
@@ -2382,7 +2787,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%9D%B4%EB%A0%88%EC%98%A5,35.154057,129.14583",
         "naverMap": "https://map.naver.com/p/search/%EC%9D%B4%EB%A0%88%EC%98%A5%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%A7%88%EB%A6%B0%EC%8B%9C%ED%8B%B03%EB%A1%9C%2051%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.154057&dlng=129.145830&dname=%EC%9D%B4%EB%A0%88%EC%98%A5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Ireok",
+      "category_en": "Suyuk",
+      "district_en": "Haeundaegu",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Gomtang, Yanggomtang, Teukseokkeogomtang, Suyuk"
     },
     {
       "id": "1570",
@@ -2411,7 +2821,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%9D%B4%EC%9E%AC%EB%AA%A8%ED%94%BC%EC%9E%90,35.1021,129.03058",
         "naverMap": "https://map.naver.com/p/search/%EC%9D%B4%EC%9E%AC%EB%AA%A8%ED%94%BC%EC%9E%90%20%EB%B6%80%EC%82%B0%20%EC%A4%91%EA%B5%AC%20%EA%B4%91%EB%B3%B5%EC%A4%91%EC%95%99%EB%A1%9C%2031%20%28%EC%8B%A0%EC%B0%BD%EB%8F%991%EA%B0%80%29",
         "naverDirections": "nmap://navigation?dlat=35.102100&dlng=129.030580&dname=%EC%9D%B4%EC%9E%AC%EB%AA%A8%ED%94%BC%EC%9E%90&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Ijaemopija",
+      "category_en": "Pija",
+      "district_en": "Junggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Keureoseuteupija, Haemchijeukeureoseuteupija, Keureoseuteusaeupija, Pepeoronipija, Seupageti"
     },
     {
       "id": "1564",
@@ -2440,7 +2855,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%A0%9C%EB%A1%9C%EB%B2%A0%EC%9D%B4%EC%8A%A4,35.15741,129.12096",
         "naverMap": "https://map.naver.com/p/search/%EC%A0%9C%EB%A1%9C%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EB%AF%BC%EB%9D%BD%EB%A1%9C33%EB%B2%88%EA%B8%B8%2017%20%28%EB%AF%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.157410&dlng=129.120960&dname=%EC%A0%9C%EB%A1%9C%EB%B2%A0%EC%9D%B4%EC%8A%A4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Jerobeiseu",
+      "category_en": "Ilsigomakase",
+      "district_en": "Suyeonggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Koseuyori"
     },
     {
       "id": "1638",
@@ -2469,7 +2889,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%A5%AC%EA%B0%80%EC%A0%95%ED%9A%A8,35.165035,129.15915",
         "naverMap": "https://map.naver.com/p/search/%EC%A5%AC%EA%B0%80%EC%A0%95%ED%9A%A8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%EB%A1%9C%20620%20%28%EC%9A%B0%EB%8F%99%29%20%ED%95%B4%EC%9A%B4%EB%8C%80%20%EB%9D%BC%EB%AE%A4%EC%97%90%EB%9C%A8%203%EC%B8%B5",
         "naverDirections": "nmap://navigation?dlat=35.165035&dlng=129.159150&dname=%EC%A5%AC%EA%B0%80%EC%A0%95%ED%9A%A8&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Jyugajeonghyo",
+      "category_en": "Ijakaya",
+      "district_en": "Haeundaegu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Kani, Beomgodongsaenggangjorim, Sasimi, Burisiodataki, Hanukusiage, Dureuptenpura, Kamocheukesomyeon, Chamdomochajeuke, Hugujyoseui"
     },
     {
       "id": "1597",
@@ -2498,7 +2923,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%B0%A8%EC%98%A4%EB%9E%80,35.16133,129.16801",
         "naverMap": "https://map.naver.com/p/search/%EC%B0%A8%EC%98%A4%EB%9E%80%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B8%2030%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.161330&dlng=129.168010&dname=%EC%B0%A8%EC%98%A4%EB%9E%80&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Chaoran",
+      "category_en": "Gwangdongsikjungsik",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Reonchiseteu, Dineoseteu, Chaorandeok, Dimseomselleksyeon, Pekingdeok"
     },
     {
       "id": "1622",
@@ -2527,7 +2957,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%B4%88%EC%9B%90%EB%B3%B5%EA%B5%AD,35.13777,129.1059",
         "naverMap": "https://map.naver.com/p/search/%EC%B4%88%EC%9B%90%EB%B3%B5%EA%B5%AD%20%EB%B6%80%EC%82%B0%20%EB%82%A8%EA%B5%AC%20%ED%99%A9%EB%A0%B9%EB%8C%80%EB%A1%9C492%EB%B2%88%EA%B8%B8%2030%20%28%EB%8C%80%EC%97%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.137770&dlng=129.105900&dname=%EC%B4%88%EC%9B%90%EB%B3%B5%EA%B5%AD&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Chowonbokkuk",
+      "category_en": "Bok",
+      "district_en": "Namgu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Bokkuk, Bokbulgogi, Bokkoseuyori"
     },
     {
       "id": "1548",
@@ -2556,7 +2991,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%B4%88%ED%95%84%EC%82%B4%EB%8F%BC%EC%A7%80%EA%B5%AC%EC%9D%B4,35.156647,129.14693",
         "naverMap": "https://map.naver.com/p/search/%EC%B4%88%ED%95%84%EC%82%B4%EB%8F%BC%EC%A7%80%EA%B5%AC%EC%9D%B4%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%A7%88%EB%A6%B0%EC%8B%9C%ED%8B%B03%EB%A1%9C%2023%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.156647&dlng=129.146930&dname=%EC%B4%88%ED%95%84%EC%82%B4%EB%8F%BC%EC%A7%80%EA%B5%AC%EC%9D%B4&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Chopilsaldwaejigui",
+      "category_en": "Dwaejigogigui",
+      "district_en": "Haeundaegu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Kkeopdegi, Sogeumgui, Dwaejigalbi, Dwitgogi, Daepaesamgyeopsal, Tongsamgyeopgimchijjigae"
     },
     {
       "id": "1585",
@@ -2585,7 +3025,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%B9%A0%EC%84%B1%ED%9A%9F%EC%A7%91,35.155697,129.12259",
         "naverMap": "https://map.naver.com/p/search/%EC%B9%A0%EC%84%B1%ED%9A%9F%EC%A7%91%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EA%B4%91%EC%95%88%ED%95%B4%EB%B3%80%EB%A1%9C%20263%20%28%EB%AF%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.155697&dlng=129.122590&dname=%EC%B9%A0%EC%84%B1%ED%9A%9F%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Chilseonghoetjip",
+      "category_en": "Saengseonhoe",
+      "district_en": "Suyeonggu",
+      "theme_en": "Ocean View Dining",
+      "menu_en": "Dodarisekkosi, Ureok, Gwangeo, Jabeo, Chamdom, Gwangeotongmari"
     },
     {
       "id": "1575",
@@ -2614,7 +3059,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%EC%B9%B4%ED%8C%8C%EB%8F%84%ED%82%A4%EC%95%84,35.260086,129.0922",
         "naverMap": "https://map.naver.com/p/search/%EC%B9%B4%ED%8C%8C%EB%8F%84%ED%82%A4%EC%95%84%20%EB%B6%80%EC%82%B0%20%EA%B8%88%EC%A0%95%EA%B5%AC%20%EA%B8%88%EB%8B%A8%EB%A1%9C%20123-9%20%28%EB%82%A8%EC%82%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.260086&dlng=129.092200&dname=%EC%B9%B4%ED%8C%8C%EB%8F%84%ED%82%A4%EC%95%84&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Kapadokia",
+      "category_en": "Twireukiesik",
+      "district_en": "Geumjeonggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Kebap, Pireujolla, Pita, Reonchiseteu, Kapadokiaseupesyeol"
     },
     {
       "id": "1554",
@@ -2643,7 +3093,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%83%90%EB%B3%B5,35.28275,129.25766",
         "naverMap": "https://map.naver.com/p/search/%ED%83%90%EB%B3%B5%20%EB%B6%80%EC%82%B0%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EC%9D%BC%EA%B4%91%EC%9D%8D%20%EB%AC%B8%EC%98%A4%EC%84%B1%EA%B8%B8%2031",
         "naverDirections": "nmap://navigation?dlat=35.282750&dlng=129.257660&dname=%ED%83%90%EB%B3%B5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Tambok",
+      "category_en": "Jeonbok",
+      "district_en": "Gijanggun",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Tambokjuk, Tambokbap, Tambokkui, Tambokcheongjussam"
     },
     {
       "id": "1639",
@@ -2672,7 +3127,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%86%A4%EC%87%BC%EC%9A%B0,35.15644,129.12479",
         "naverMap": "https://map.naver.com/p/search/%ED%86%A4%EC%87%BC%EC%9A%B0%20%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EA%B4%91%EC%95%88%ED%95%B4%EB%B3%80%EB%A1%9C279%EB%B2%88%EA%B8%B8%2013%20%28%EB%AF%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.156440&dlng=129.124790&dname=%ED%86%A4%EC%87%BC%EC%9A%B0&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Tonsyou",
+      "category_en": "Ilsikdonkaseu",
+      "district_en": "Suyeonggu",
+      "theme_en": "International Cuisine",
+      "menu_en": "Beokeusyeokroseugaseu, Roseugaseu, Gacheusando, Modumgaseu, Ebigaseu"
     },
     {
       "id": "1598",
@@ -2701,7 +3161,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%8C%94%EB%A0%88%EB%93%9C%EC%8B%A0,35.160065,129.16313",
         "naverMap": "https://map.naver.com/p/search/%ED%8C%94%EB%A0%88%EB%93%9C%EC%8B%A0%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EB%B3%80%EB%A1%9C%20292%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.160065&dlng=129.163130&dname=%ED%8C%94%EB%A0%88%EB%93%9C%EC%8B%A0&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Palledeusin",
+      "category_en": "Modeonchainijeu",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Reonchikoseu, Dineokoseu, Bukkyeongori, Iberikochasyu, Basakhansamgyeopsalbabikyu, Jeonbogyangjangpi, Buldojang, Sacheonsingnajeugaji, Hunyeonhyangmero"
     },
     {
       "id": "1599",
@@ -2730,7 +3195,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%8C%94%EB%A0%88%ED%8A%B8,35.131638,129.11977",
         "naverMap": "https://map.naver.com/p/search/%ED%8C%94%EB%A0%88%ED%8A%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%B8%B865%EB%B2%88%EA%B8%B8%20154%203%EC%B8%B5",
         "naverDirections": "nmap://navigation?dlat=35.131638&dlng=129.119770&dname=%ED%8C%94%EB%A0%88%ED%8A%B8&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Palleteu",
+      "category_en": "Peurangseusik",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Dineo7koseu, Reonchi5koseu"
     },
     {
       "id": "1623",
@@ -2759,7 +3229,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%8F%89%EC%82%B0%EC%98%A5,35.11429,129.0371",
         "naverMap": "https://map.naver.com/p/search/%ED%8F%89%EC%82%B0%EC%98%A5%20%EB%B6%80%EC%82%B0%20%EB%8F%99%EA%B5%AC%20%EC%B4%88%EB%9F%89%EC%A4%91%EB%A1%9C%2026%20%28%EC%B4%88%EB%9F%89%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.114290&dlng=129.037100&dname=%ED%8F%89%EC%82%B0%EC%98%A5&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Pyeongsanok",
+      "category_en": "Suyuk",
+      "district_en": "Donggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Suyuk, Guksu, Yeolmuguksu"
     },
     {
       "id": "1600",
@@ -2788,7 +3263,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%95%98%EB%A0%88%EB%A7%88,35.157204,129.14482",
         "naverMap": "https://map.naver.com/p/search/%ED%95%98%EB%A0%88%EB%A7%88%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%A7%88%EB%A6%B0%EC%8B%9C%ED%8B%B02%EB%A1%9C%2033%20%28%EC%9A%B0%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.157204&dlng=129.144820&dname=%ED%95%98%EB%A0%88%EB%A7%88&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Harema",
+      "category_en": "Seusi",
+      "district_en": "Haeundaegu",
+      "theme_en": "Fine Dining",
+      "menu_en": "Reonchiseteu, Dineo1bu, Dineo2bu"
     },
     {
       "id": "1625",
@@ -2817,7 +3297,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%95%A0%EB%A7%A4%EC%9E%AC%EC%B2%A9%EA%B5%AD,35.193363,128.98607",
         "naverMap": "https://map.naver.com/p/search/%ED%95%A0%EB%A7%A4%EC%9E%AC%EC%B2%A9%EA%B5%AD%20%EB%B6%80%EC%82%B0%20%EC%82%AC%EC%83%81%EA%B5%AC%20%EB%82%99%EB%8F%99%EB%8C%80%EB%A1%9C1530%EB%B2%88%EA%B8%B8%2020-15%20%28%EC%82%BC%EB%9D%BD%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.193363&dlng=128.986070&dname=%ED%95%A0%EB%A7%A4%EC%9E%AC%EC%B2%A9%EA%B5%AD&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Halmaejaecheopguk",
+      "category_en": "Jaecheop",
+      "district_en": "Sasanggu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Jaecheopguk, Jaecheophoe"
     },
     {
       "id": "1540",
@@ -2846,7 +3331,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%95%A9%EC%B2%9C%EA%B5%AD%EB%B0%A5%EC%A7%91,35.111244,129.11125",
         "naverMap": "https://map.naver.com/p/search/%ED%95%A9%EC%B2%9C%EA%B5%AD%EB%B0%A5%EC%A7%91%20%EB%B6%80%EC%82%B0%20%EB%82%A8%EA%B5%AC%20%EC%9A%A9%ED%98%B8%EB%A1%9C%20235%20%28%EC%9A%A9%ED%98%B8%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.111244&dlng=129.111250&dname=%ED%95%A9%EC%B2%9C%EA%B5%AD%EB%B0%A5%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Hapcheongukbapjip",
+      "category_en": "Dwaejigukbap",
+      "district_en": "Namgu",
+      "theme_en": "City Tour Bus Favorites",
+      "menu_en": "Ttarogukbap, Suyukbaekban, Suyuk, Modumsuyuk, Sundae"
     },
     {
       "id": "1626",
@@ -2875,7 +3365,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%86%8C%EB%AC%B8%EB%82%9C%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91,35.163235,129.16628",
         "naverMap": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%86%8C%EB%AC%B8%EB%82%9C%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%A4%91%EB%8F%992%EB%A1%9C10%EB%B2%88%EA%B8%B8%2032-10%20%28%EC%A4%91%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.163235&dlng=129.166280&dname=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%86%8C%EB%AC%B8%EB%82%9C%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Haeundaesomunnanamsogalbijip",
+      "category_en": "Sogalbi",
+      "district_en": "Haeundaegu",
+      "theme_en": "Old Shops of Busan",
+      "menu_en": "Hanusaenggalbi, Hanuyangnyeomgalbi, Bulgogi, Ttukbaegidoenjang"
     },
     {
       "id": "1637",
@@ -2904,7 +3399,12 @@
         "kakaoDirections": "https://map.kakao.com/link/to/%ED%9E%88%EB%96%BC%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC,35.155754,129.0682",
         "naverMap": "https://map.naver.com/p/search/%ED%9E%88%EB%96%BC%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC%20%EB%B6%80%EC%82%B0%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EB%8F%99%EC%84%B1%EB%A1%9C%2059%20%28%EC%A0%84%ED%8F%AC%EB%8F%99%29",
         "naverDirections": "nmap://navigation?dlat=35.155754&dlng=129.068200&dname=%ED%9E%88%EB%96%BC%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC&appname=https%3A%2F%2Fkr-food.brian-law.dev%2F"
-      }
+      },
+      "name_en": "Hitteroseuteori",
+      "category_en": "Keopijeonmunjeom",
+      "district_en": "Busanjingu",
+      "theme_en": "Dessert & Coffee",
+      "menu_en": "Eseupeureso, Amerikano, Kaperate, Peullaethwaiteu, Banillarate, Ainsyupeneo, Pilteokeopi, Aepeulsinamoneideu, Aepeulsinamonbeullaekti, Danggeun/remon/beulluberi/hongchakeopkeikeu"
     }
   ]
 }

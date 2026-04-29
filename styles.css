@@ -308,6 +308,7 @@ input {
 }
 
 .restaurant-card__subtitle,
+.restaurant-card__subtitle-kr,
 .restaurant-card__meta,
 .restaurant-card__address,
 .restaurant-card__desc,
@@ -321,6 +322,13 @@ input {
 .restaurant-card__subtitle {
   margin-top: 4px;
   font-size: 0.93rem;
+}
+
+.restaurant-card__subtitle-kr {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: -0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .restaurant-card__meta {
@@ -436,6 +444,13 @@ input {
   margin: 6px 0 0;
   color: var(--muted);
   line-height: 1.45;
+}
+
+.popup-subtitle-kr {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .popup-actions {

@@ -79,22 +79,31 @@ async function init() {
   elements.datasetCount.textContent = `${payload.count} places`;
   elements.sourceStamp.textContent = `Source updated ${formatFetchTime(payload.source?.fetchedAt)}`;
 
-  buildChipRow(
-    elements.districtFilters,
-    [
-      "All",
-      ...new Set(state.restaurants.map((item) => item.district).filter(Boolean)),
-    ].sort((a, b) => (a === "All" ? -1 : b === "All" ? 1 : a.localeCompare(b, "ko"))),
-    "district"
-  );
-  buildChipRow(
-    elements.themeFilters,
-    [
-      "All",
-      ...themeOrder.filter((theme) => state.restaurants.some((item) => item.theme === theme)),
-    ],
-    "theme"
-  );
+  const districts = [
+    { value: "All", label: "All" },
+    ...Array.from(
+      new Map(
+        state.restaurants
+          .filter((r) => r.district)
+          .map((r) => [r.district, r.district_en || r.district])
+      )
+    )
+      .map(([value, label]) => ({ value, label }))
+      .sort((a, b) => a.label.localeCompare(b.label)),
+  ];
+
+  const themes = [
+    { value: "All", label: "All" },
+    ...themeOrder
+      .filter((theme) => state.restaurants.some((r) => r.theme === theme))
+      .map((theme) => {
+        const r = state.restaurants.find((r) => r.theme === theme);
+        return { value: theme, label: r.theme_en || theme };
+      }),
+  ];
+
+  buildChipRow(elements.districtFilters, districts, "district");
+  buildChipRow(elements.themeFilters, themes, "theme");
 
   elements.searchInput.addEventListener("input", (event) => {
     state.search = event.target.value.trim().toLowerCase();
@@ -109,13 +118,16 @@ async function init() {
   fitVisibleMarkers();
 }
 
-function buildChipRow(container, values, key) {
+function buildChipRow(container, items, key) {
   container.innerHTML = "";
-  values.forEach((value) => {
+  items.forEach((item) => {
+    const value = typeof item === "string" ? item : item.value;
+    const label = typeof item === "string" ? item : item.label;
+
     const button = document.createElement("button");
     button.type = "button";
     button.className = `chip${value === "All" ? " is-active" : ""}`;
-    button.textContent = value;
+    button.textContent = label;
     button.dataset.value = value;
     button.addEventListener("click", () => {
       state[key] = value;
@@ -134,11 +146,16 @@ function applyFilters() {
   state.visibleRestaurants = state.restaurants.filter((restaurant) => {
     const searchable = [
       restaurant.name,
+      restaurant.name_en,
       restaurant.district,
+      restaurant.district_en,
       restaurant.address,
       restaurant.category,
+      restaurant.category_en,
       restaurant.theme,
+      restaurant.theme_en,
       restaurant.menu,
+      restaurant.menu_en,
     ]
       .filter(Boolean)
       .join(" ")
@@ -224,16 +241,17 @@ function renderList() {
       }
     });
 
-    const description = restaurant.description || restaurant.menu || "";
+    const description = restaurant.description || restaurant.menu_en || restaurant.menu || "";
     const shortDescription =
       description.length > 120 ? `${description.slice(0, 120)}…` : description;
 
     card.innerHTML = `
       <div class="restaurant-card__top">
         <div>
-          <h3>${escapeHtml(restaurant.name)}</h3>
+          <h3>${escapeHtml(restaurant.name_en || restaurant.name)}</h3>
+          <p class="restaurant-card__subtitle-kr">${escapeHtml(restaurant.name)}</p>
           <p class="restaurant-card__subtitle">${escapeHtml(
-            [restaurant.category, restaurant.district].filter(Boolean).join(" · ")
+            [restaurant.category_en || restaurant.category, restaurant.district_en || restaurant.district].filter(Boolean).join(" · ")
           )}</p>
         </div>
         ${renderRibbonBadge(restaurant)}
@@ -334,8 +352,9 @@ function renderPopup(restaurant) {
   const wrapper = document.createElement("div");
   wrapper.className = "popup-content";
   wrapper.innerHTML = `
-    <h3>${escapeHtml(restaurant.name)}</h3>
-    <p>${escapeHtml([restaurant.category, restaurant.theme].filter(Boolean).join(" · "))}</p>
+    <h3>${escapeHtml(restaurant.name_en || restaurant.name)}</h3>
+    <p class="popup-subtitle-kr">${escapeHtml(restaurant.name)}</p>
+    <p>${escapeHtml([restaurant.category_en || restaurant.category, restaurant.theme_en || restaurant.theme].filter(Boolean).join(" · "))}</p>
     <p>${escapeHtml(restaurant.address)}</p>
     <div class="popup-actions">
       <a href="${restaurant.links.googleDirections}" target="_blank" rel="noreferrer" data-kind="primary">Google</a>

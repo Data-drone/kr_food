@@ -7,6 +7,7 @@ from html import unescape
 from pathlib import Path
 from urllib.parse import parse_qs, quote, urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
+from romaja import romaja
 
 
 BASE_URL = "https://www.visitbusan.net"
@@ -157,6 +158,24 @@ def parse_detail_page(html: str, item: dict) -> dict:
     return item
 
 
+def title_case(text: str) -> str:
+    if not text:
+        return ""
+    return " ".join(word.capitalize() for word in text.split())
+
+
+def get_official_theme_en(theme_ko: str) -> str:
+    mapping = {
+        "부산의 노포": "Old Shops of Busan",
+        "세계음식": "International Cuisine",
+        "시티투어버스 맛집": "City Tour Bus Favorites",
+        "파인다이닝": "Fine Dining",
+        "디저트 & 커피": "Dessert & Coffee",
+        "오션뷰 맛집": "Ocean View Dining",
+    }
+    return mapping.get(theme_ko, title_case(romaja(theme_ko)))
+
+
 def page_urls() -> list[str]:
     return [LIST_URL] + [f"{LIST_URL}&page_no={page}" for page in range(2, 10)]
 
@@ -179,7 +198,18 @@ def main() -> int:
     for item in all_items:
         detail_url = urljoin(BASE_URL, item["detailPath"])
         html = fetch_text(detail_url)
-        detailed_items.append(parse_detail_page(html, item))
+        restaurant = parse_detail_page(html, item)
+        
+        # Add romanized fields
+        restaurant["name_en"] = title_case(romaja(restaurant["name"]))
+        restaurant["category_en"] = title_case(romaja(restaurant["category"]))
+        restaurant["district_en"] = title_case(romaja(restaurant["district"]))
+        restaurant["theme_en"] = get_official_theme_en(restaurant["theme"])
+        if restaurant.get("menu"):
+            menu_items = [m.strip() for m in restaurant["menu"].split(",")]
+            restaurant["menu_en"] = ", ".join(title_case(romaja(m)) for m in menu_items)
+            
+        detailed_items.append(restaurant)
 
     detailed_items.sort(key=lambda restaurant: restaurant["name"])
 
