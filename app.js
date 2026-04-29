@@ -231,7 +231,10 @@ function renderList() {
           <h3>${r.name_en || r.name}</h3>
           <p class="restaurant-card__subtitle-kr">${r.name}</p>
         </div>
-        ${r.ribbons ? `<div class="ribbon-badge"><span class="ribbon-dots">${'•'.repeat(r.ribbons)}</span></div>` : ''}
+        <div class="badges">
+          ${r.michelin ? `<span class="badge badge--michelin" title="${r.michelin}">${r.michelin.includes('Star') ? '★'.repeat(parseInt(r.michelin)) : 'Bib'}</span>` : ''}
+          ${r.ribbons ? `<span class="badge badge--ribbon" title="${r.ribbons} Blue Ribbons">${'💙'.repeat(r.ribbons)}</span>` : ''}
+        </div>
       </div>
       <p class="restaurant-card__meta">${r.category_en || r.category} • ${r.district_en || r.district}</p>
       <p class="restaurant-card__address">${r.address}</p>

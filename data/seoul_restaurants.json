@@ -1,32 +1,498 @@
 [
-  {"id": "1", "name_en": "Mingles", "name": "밍글스", "category_en": "Korean Contemporary", "address": "2F, 19 Dosan-daero 67-gil, Gangnam-gu", "district_en": "Gangnam", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Contemporary Korean cuisine harmonizing traditional flavors with modern techniques.", "lat": 37.5248, "lng": 127.0421},
-  {"id": "2", "name_en": "Kwon Sook Soo", "name": "권숙수", "category_en": "Korean Fine Dining", "address": "4F, 27 Dosan-daero 81-gil, Gangnam-gu", "district_en": "Gangnam", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Fine dining reinterpreting traditional Korean food with seasonal ingredients.", "lat": 37.5268, "lng": 127.0441},
-  {"id": "3", "name_en": "Jungsik", "name": "정식당", "category_en": "New Korean", "address": "11 Seolleung-ro 158-gil, Gangnam-gu", "district_en": "Gangnam", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Pioneer of modern Korean fine dining, blending Korean ingredients with Western techniques.", "lat": 37.5255, "lng": 127.0405},
-  {"id": "4", "name_en": "La Yeon", "name": "라연", "category_en": "Korean Traditional", "address": "23F, The Shilla Seoul, 249 Dongho-ro, Jung-gu", "district_en": "Jung-gu", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Elegant Korean fine dining located in The Shilla Seoul, focusing on classic royal cuisine.", "lat": 37.5558, "lng": 127.0051},
-  {"id": "5", "name_en": "Soigne", "name": "스와니예", "category_en": "Contemporary", "address": "B1, 39 Banpo-daero 39-gil, Seocho-gu", "district_en": "Seocho", "cuisine": "Contemporary", "meal_times": ["Lunch", "Dinner"], "description_en": "Features an 'episodic' menu that changes themes regularly, offering a unique culinary journey.", "lat": 37.4942, "lng": 127.0065},
-  {"id": "6", "name_en": "Gaon", "name": "가온", "category_en": "Korean Traditional", "address": "M Floor, 317 Dosan-daero, Gangnam-gu", "district_en": "Gangnam", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Focuses on the essence of Korean flavor through traditional recipes and premium ingredients.", "lat": 37.5225, "lng": 127.0375},
-  {"id": "7", "name_en": "Bicena", "name": "비채나", "category_en": "Korean Fine Dining", "address": "81F, Lotte World Tower, 300 Olympic-ro, Songpa-gu", "district_en": "Songpa", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Located high in the Lotte World Tower, offering refined Korean dishes with a stunning view.", "lat": 37.5126, "lng": 127.1025},
-  {"id": "8", "name_en": "Mosu", "name": "모수", "category_en": "Innovative", "address": "45 Itaewon-ro 55-gil, Yongsan-gu", "district_en": "Yongsan", "cuisine": "Contemporary", "meal_times": ["Lunch", "Dinner"], "description_en": "Led by Chef Sung Anh, offers a highly innovative and technical dining experience.", "lat": 37.5385, "lng": 126.9995},
-  {"id": "9", "name_en": "Onjium", "name": "온지음", "category_en": "Korean Heritage", "address": "4F, 33 Hyoja-ro, Jongno-gu", "district_en": "Jongno", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Culinary research institute and restaurant dedicated to preserving and evolving Korean food heritage.", "lat": 37.5805, "lng": 126.9725},
-  {"id": "10", "name_en": "Toc Toc", "name": "톡톡", "category_en": "French Contemporary", "address": "3F, 33 Dosan-daero 81-gil, Gangnam-gu", "district_en": "Gangnam", "cuisine": "French", "meal_times": ["Lunch", "Dinner"], "description_en": "Modern French-influenced cuisine with a focus on high-quality seasonal ingredients.", "lat": 37.5265, "lng": 127.0435},
-  {"id": "11", "name_en": "Zero Complex", "name": "제로 컴플렉스", "category_en": "French Contemporary", "address": "4F, 19-7 Toegye-ro 2-ga, Jung-gu", "district_en": "Jung-gu", "cuisine": "French", "meal_times": ["Lunch", "Dinner"], "description_en": "Innovative French cuisine with a focus on natural wines and creative pairings.", "lat": 37.5585, "lng": 126.9855},
-  {"id": "12", "name_en": "Pierre Gagnaire", "name": "피에르 가니에르", "category_en": "French Fine Dining", "address": "35F, Lotte Hotel Seoul, 30 Eulji-ro, Jung-gu", "district_en": "Jung-gu", "cuisine": "French", "meal_times": ["Lunch", "Dinner"], "description_en": "The Seoul outpost of the legendary French chef, offering artistic and complex dishes.", "lat": 37.5652, "lng": 126.9812},
-  {"id": "13", "name_en": "Ryunique", "name": "류니끄", "category_en": "Innovative", "address": "40 Gangnam-daero 162-gil, Gangnam-gu", "district_en": "Gangnam", "cuisine": "Innovative", "meal_times": ["Lunch", "Dinner"], "description_en": "Chef Tae-hwan Ryu's signature 'Hybrid Cuisine' blending Japanese and French techniques.", "lat": 37.5212, "lng": 127.0225},
-  {"id": "14", "name_en": "L'Amitié", "name": "라미띠에", "category_en": "French Traditional", "address": "2F, 7 Eonju-ro 153-gil, Gangnam-gu", "district_en": "Gangnam", "cuisine": "French", "meal_times": ["Lunch", "Dinner"], "description_en": "One of the oldest French restaurants in Seoul, serving classic and refined French fare.", "lat": 37.5235, "lng": 127.0355},
-  {"id": "15", "name_en": "Dining in Space", "name": "다이닝 인 스페이스", "category_en": "French Contemporary", "address": "5F, 83 Yulgok-ro, Jongno-gu", "district_en": "Jongno", "cuisine": "French", "meal_times": ["Lunch", "Dinner"], "description_en": "Modern French dining with a spectacular view of the Arario Museum and Changdeokgung Palace.", "lat": 37.5762, "lng": 126.9905},
-  {"id": "16", "name_en": "Kojima", "name": "코지마", "category_en": "Sushi", "address": "6F, 442 Dosan-daero, Gangnam-gu", "district_en": "Gangnam", "cuisine": "Japanese", "meal_times": ["Lunch", "Dinner"], "description_en": "Top-tier sushi omakase experience focusing on the purest flavors of the sea.", "lat": 37.5238, "lng": 127.0415},
-  {"id": "17", "name_en": "Sushi Hyo", "name": "스시효", "category_en": "Sushi", "address": "21 Seolleung-ro 146-gil, Gangnam-gu", "district_en": "Gangnam", "cuisine": "Japanese", "meal_times": ["Lunch", "Dinner"], "description_en": "Classic sushi omakase by Chef Hyo-ki Ahn, a pioneer of the high-end sushi scene in Seoul.", "lat": 37.5228, "lng": 127.0402},
-  {"id": "18", "name_en": "Mokmyeok Sanbang", "name": "목멱산방", "category_en": "Bibimbap", "address": "71 Toegye-ro 20-gil, Jung-gu", "district_en": "Jung-gu", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Famous for its authentic and healthy bibimbap served on the slopes of Namsan Mountain.", "lat": 37.5562, "lng": 126.9845},
-  {"id": "19", "name_en": "Woo Lae Oak", "name": "우래옥", "category_en": "Pyongyang Naengmyeon", "address": "62-11 Changgyeonggung-ro, Jung-gu", "district_en": "Jung-gu", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "A legendary institution serving some of the best Pyongyang-style cold buckwheat noodles in Seoul.", "lat": 37.5682, "lng": 126.9992},
-  {"id": "20", "name_en": "Jin Jin", "name": "진진", "category_en": "Chinese", "address": "60 World Cup-buk-ro 1-gil, Mapo-gu", "district_en": "Mapo", "cuisine": "Chinese", "meal_times": ["Dinner"], "description_en": "Celebrated for its authentic Chinese cuisine and signature dishes like Menbosha.", "lat": 37.5542, "lng": 126.9125},
-  {"id": "21", "name_en": "Pildong Myeonok", "name": "필동면옥", "category_en": "Pyongyang Naengmyeon", "address": "26 Seoae-ro, Jung-gu", "district_en": "Jung-gu", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Known for its delicate and clean-tasting Pyongyang naengmyeon broth.", "lat": 37.5605, "lng": 126.9962},
-  {"id": "22", "name_en": "Eulji Myeonok", "name": "을지면옥", "category_en": "Pyongyang Naengmyeon", "address": "2-1 Eulji-ro 3-ga, Jung-gu", "district_en": "Jung-gu", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Another staple of the Seoul naengmyeon scene, beloved for its thin noodles and savory broth.", "lat": 37.5668, "lng": 126.9925},
-  {"id": "23", "name_en": "Myeongdong Kyoja", "name": "명동교자", "category_en": "Kalguksu", "address": "29 Myeongdong 10-gil, Jung-gu", "district_en": "Jung-gu", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Famous for its handmade kalguksu (knife-cut noodles) and intensely garlic-heavy kimchi.", "lat": 37.5625, "lng": 126.9855},
-  {"id": "24", "name_en": "Tosokchon Samgyetang", "name": "토속촌 삼계탕", "category_en": "Samgyetang", "address": "5 Jahamun-ro 5-gil, Jongno-gu", "district_en": "Jongno", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "The most famous spot for samgyetang (ginseng chicken soup), once a favorite of former presidents.", "lat": 37.5775, "lng": 126.9725},
-  {"id": "25", "name_en": "Goryeo Samgyetang", "name": "고려삼계탕", "category_en": "Samgyetang", "address": "55-3 Seosomun-ro, Jung-gu", "district_en": "Jung-gu", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "The first samgyetang restaurant in Seoul, serving healthy and hearty chicken soup since 1960.", "lat": 37.5635, "lng": 126.9745},
-  {"id": "26", "name_en": "Imun Seolnongtang", "name": "이문 설농탕", "category_en": "Seolleongtang", "address": "38-13 Ujeongguk-ro, Jongno-gu", "district_en": "Jongno", "cuisine": "Korean", "meal_times": ["Breakfast", "Lunch", "Dinner"], "description_en": "The oldest restaurant in Korea, serving rich and milky ox bone soup for over a century.", "lat": 37.5735, "lng": 126.9835},
-  {"id": "27", "name_en": "Hadongkwan", "name": "하동관", "category_en": "Gomtang", "address": "12 Myeongdong 9-gil, Jung-gu", "district_en": "Jung-gu", "cuisine": "Korean", "meal_times": ["Breakfast", "Lunch"], "description_en": "A legendary gomtang (beef bone soup) house that has been a favorite for generations.", "lat": 37.5645, "lng": 126.9848},
-  {"id": "28", "name_en": "Okdongshik", "name": "옥동식", "category_en": "Dwaeji-gomtang", "address": "44-10 Yanghwa-ro 7-gil, Mapo-gu", "district_en": "Mapo", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "Renowned for its clear and refined pork bone soup, a modern take on a classic comfort food.", "lat": 37.5515, "lng": 126.9155},
-  {"id": "29", "name_en": "Hanchu", "name": "한추", "category_en": "Korean Fried Chicken", "address": "68 Nonhyeon-ro 175-gil, Gangnam-gu", "district_en": "Gangnam", "cuisine": "Korean", "meal_times": ["Dinner"], "description_en": "Famous for its spicy fried chicken and fried green peppers, a staple of the Garosu-gil scene.", "lat": 37.5245, "lng": 127.0245},
-  {"id": "30", "name_en": "Kyochon Chicken", "name": "교촌치킨", "category_en": "Korean Fried Chicken", "address": "372 Jong-ro, Jongno-gu", "district_en": "Jongno", "cuisine": "Korean", "meal_times": ["Lunch", "Dinner"], "description_en": "One of Korea's most famous chicken chains, known for its honey and soy garlic sauces.", "lat": 37.5705, "lng": 127.0085}
+  {
+    "id": "1",
+    "name_en": "Mingles",
+    "name": "밍글스",
+    "category_en": "Korean Contemporary",
+    "address": "2F, 19 Dosan-daero 67-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Contemporary Korean cuisine harmonizing traditional flavors with modern techniques.",
+    "lat": 37.5248,
+    "lng": 127.0421,
+    "ribbons": 3,
+    "michelin": "3 Stars"
+  },
+  {
+    "id": "2",
+    "name_en": "Kwon Sook Soo",
+    "name": "권숙수",
+    "category_en": "Korean Fine Dining",
+    "address": "4F, 27 Dosan-daero 81-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Fine dining reinterpreting traditional Korean food with seasonal ingredients.",
+    "lat": 37.5268,
+    "lng": 127.0441,
+    "ribbons": 3,
+    "michelin": "2 Stars"
+  },
+  {
+    "id": "3",
+    "name_en": "Jungsik",
+    "name": "정식당",
+    "category_en": "New Korean",
+    "address": "11 Seolleung-ro 158-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Pioneer of modern Korean fine dining, blending Korean ingredients with Western techniques.",
+    "lat": 37.5255,
+    "lng": 127.0405,
+    "ribbons": 3,
+    "michelin": "2 Stars"
+  },
+  {
+    "id": "4",
+    "name_en": "La Yeon",
+    "name": "라연",
+    "category_en": "Korean Traditional",
+    "address": "23F, The Shilla Seoul, 249 Dongho-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Elegant Korean fine dining located in The Shilla Seoul, focusing on classic royal cuisine.",
+    "lat": 37.5558,
+    "lng": 127.0051,
+    "michelin": "2 Stars"
+  },
+  {
+    "id": "5",
+    "name_en": "Soigne",
+    "name": "스와니예",
+    "category_en": "Contemporary",
+    "address": "B1, 39 Banpo-daero 39-gil, Seocho-gu",
+    "district_en": "Seocho",
+    "cuisine": "Contemporary",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Features an 'episodic' menu that changes themes regularly, offering a unique culinary journey.",
+    "lat": 37.4942,
+    "lng": 127.0065,
+    "ribbons": 3,
+    "michelin": "2 Stars"
+  },
+  {
+    "id": "6",
+    "name_en": "Gaon",
+    "name": "가온",
+    "category_en": "Korean Traditional",
+    "address": "M Floor, 317 Dosan-daero, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Focuses on the essence of Korean flavor through traditional recipes and premium ingredients.",
+    "lat": 37.5225,
+    "lng": 127.0375
+  },
+  {
+    "id": "7",
+    "name_en": "Bicena",
+    "name": "비채나",
+    "category_en": "Korean Fine Dining",
+    "address": "81F, Lotte World Tower, 300 Olympic-ro, Songpa-gu",
+    "district_en": "Songpa",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Located high in the Lotte World Tower, offering refined Korean dishes with a stunning view.",
+    "lat": 37.5126,
+    "lng": 127.1025,
+    "michelin": "1 Star"
+  },
+  {
+    "id": "8",
+    "name_en": "Mosu",
+    "name": "모수",
+    "category_en": "Innovative",
+    "address": "45 Itaewon-ro 55-gil, Yongsan-gu",
+    "district_en": "Yongsan",
+    "cuisine": "Contemporary",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Led by Chef Sung Anh, offers a highly innovative and technical dining experience.",
+    "lat": 37.5385,
+    "lng": 126.9995,
+    "ribbons": 3,
+    "michelin": "3 Stars"
+  },
+  {
+    "id": "9",
+    "name_en": "Onjium",
+    "name": "온지음",
+    "category_en": "Korean Heritage",
+    "address": "4F, 33 Hyoja-ro, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Culinary research institute and restaurant dedicated to preserving and evolving Korean food heritage.",
+    "lat": 37.5805,
+    "lng": 126.9725,
+    "ribbons": 3,
+    "michelin": "2 Stars"
+  },
+  {
+    "id": "10",
+    "name_en": "Toc Toc",
+    "name": "톡톡",
+    "category_en": "French Contemporary",
+    "address": "3F, 33 Dosan-daero 81-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "French",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Modern French-influenced cuisine with a focus on high-quality seasonal ingredients.",
+    "lat": 37.5265,
+    "lng": 127.0435
+  },
+  {
+    "id": "11",
+    "name_en": "Zero Complex",
+    "name": "제로 컴플렉스",
+    "category_en": "French Contemporary",
+    "address": "4F, 19-7 Toegye-ro 2-ga, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "French",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Innovative French cuisine with a focus on natural wines and creative pairings.",
+    "lat": 37.5585,
+    "lng": 126.9855,
+    "ribbons": 3,
+    "michelin": "1 Star"
+  },
+  {
+    "id": "12",
+    "name_en": "Pierre Gagnaire",
+    "name": "피에르 가니에르",
+    "category_en": "French Fine Dining",
+    "address": "35F, Lotte Hotel Seoul, 30 Eulji-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "French",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "The Seoul outpost of the legendary French chef, offering artistic and complex dishes.",
+    "lat": 37.5652,
+    "lng": 126.9812
+  },
+  {
+    "id": "13",
+    "name_en": "Ryunique",
+    "name": "류니끄",
+    "category_en": "Innovative",
+    "address": "40 Gangnam-daero 162-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Innovative",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Chef Tae-hwan Ryu's signature 'Hybrid Cuisine' blending Japanese and French techniques.",
+    "lat": 37.5212,
+    "lng": 127.0225
+  },
+  {
+    "id": "14",
+    "name_en": "L'Amitié",
+    "name": "라미띠에",
+    "category_en": "French Traditional",
+    "address": "2F, 7 Eonju-ro 153-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "French",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "One of the oldest French restaurants in Seoul, serving classic and refined French fare.",
+    "lat": 37.5235,
+    "lng": 127.0355
+  },
+  {
+    "id": "15",
+    "name_en": "Dining in Space",
+    "name": "다이닝 인 스페이스",
+    "category_en": "French Contemporary",
+    "address": "5F, 83 Yulgok-ro, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "French",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Modern French dining with a spectacular view of the Arario Museum and Changdeokgung Palace.",
+    "lat": 37.5762,
+    "lng": 126.9905
+  },
+  {
+    "id": "16",
+    "name_en": "Kojima",
+    "name": "코지마",
+    "category_en": "Sushi",
+    "address": "6F, 442 Dosan-daero, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Top-tier sushi omakase experience focusing on the purest flavors of the sea.",
+    "lat": 37.5238,
+    "lng": 127.0415,
+    "michelin": "2 Stars"
+  },
+  {
+    "id": "17",
+    "name_en": "Sushi Hyo",
+    "name": "스시효",
+    "category_en": "Sushi",
+    "address": "21 Seolleung-ro 146-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Classic sushi omakase by Chef Hyo-ki Ahn, a pioneer of the high-end sushi scene in Seoul.",
+    "lat": 37.5228,
+    "lng": 127.0402
+  },
+  {
+    "id": "18",
+    "name_en": "Mokmyeok Sanbang",
+    "name": "목멱산방",
+    "category_en": "Bibimbap",
+    "address": "71 Toegye-ro 20-gil, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Famous for its authentic and healthy bibimbap served on the slopes of Namsan Mountain.",
+    "lat": 37.5562,
+    "lng": 126.9845
+  },
+  {
+    "id": "19",
+    "name_en": "Woo Lae Oak",
+    "name": "우래옥",
+    "category_en": "Pyongyang Naengmyeon",
+    "address": "62-11 Changgyeonggung-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "A legendary institution serving some of the best Pyongyang-style cold buckwheat noodles in Seoul.",
+    "lat": 37.5682,
+    "lng": 126.9992
+  },
+  {
+    "id": "20",
+    "name_en": "Jin Jin",
+    "name": "진진",
+    "category_en": "Chinese",
+    "address": "60 World Cup-buk-ro 1-gil, Mapo-gu",
+    "district_en": "Mapo",
+    "cuisine": "Chinese",
+    "meal_times": [
+      "Dinner"
+    ],
+    "description_en": "Celebrated for its authentic Chinese cuisine and signature dishes like Menbosha.",
+    "lat": 37.5542,
+    "lng": 126.9125
+  },
+  {
+    "id": "21",
+    "name_en": "Pildong Myeonok",
+    "name": "필동면옥",
+    "category_en": "Pyongyang Naengmyeon",
+    "address": "26 Seoae-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Known for its delicate and clean-tasting Pyongyang naengmyeon broth.",
+    "lat": 37.5605,
+    "lng": 126.9962
+  },
+  {
+    "id": "22",
+    "name_en": "Eulji Myeonok",
+    "name": "을지면옥",
+    "category_en": "Pyongyang Naengmyeon",
+    "address": "2-1 Eulji-ro 3-ga, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Another staple of the Seoul naengmyeon scene, beloved for its thin noodles and savory broth.",
+    "lat": 37.5668,
+    "lng": 126.9925
+  },
+  {
+    "id": "23",
+    "name_en": "Myeongdong Kyoja",
+    "name": "명동교자",
+    "category_en": "Kalguksu",
+    "address": "29 Myeongdong 10-gil, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Famous for its handmade kalguksu (knife-cut noodles) and intensely garlic-heavy kimchi.",
+    "lat": 37.5625,
+    "lng": 126.9855
+  },
+  {
+    "id": "24",
+    "name_en": "Tosokchon Samgyetang",
+    "name": "토속촌 삼계탕",
+    "category_en": "Samgyetang",
+    "address": "5 Jahamun-ro 5-gil, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "The most famous spot for samgyetang (ginseng chicken soup), once a favorite of former presidents.",
+    "lat": 37.5775,
+    "lng": 126.9725
+  },
+  {
+    "id": "25",
+    "name_en": "Goryeo Samgyetang",
+    "name": "고려삼계탕",
+    "category_en": "Samgyetang",
+    "address": "55-3 Seosomun-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "The first samgyetang restaurant in Seoul, serving healthy and hearty chicken soup since 1960.",
+    "lat": 37.5635,
+    "lng": 126.9745
+  },
+  {
+    "id": "26",
+    "name_en": "Imun Seolnongtang",
+    "name": "이문 설농탕",
+    "category_en": "Seolleongtang",
+    "address": "38-13 Ujeongguk-ro, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "The oldest restaurant in Korea, serving rich and milky ox bone soup for over a century.",
+    "lat": 37.5735,
+    "lng": 126.9835
+  },
+  {
+    "id": "27",
+    "name_en": "Hadongkwan",
+    "name": "하동관",
+    "category_en": "Gomtang",
+    "address": "12 Myeongdong 9-gil, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "description_en": "A legendary gomtang (beef bone soup) house that has been a favorite for generations.",
+    "lat": 37.5645,
+    "lng": 126.9848
+  },
+  {
+    "id": "28",
+    "name_en": "Okdongshik",
+    "name": "옥동식",
+    "category_en": "Dwaeji-gomtang",
+    "address": "44-10 Yanghwa-ro 7-gil, Mapo-gu",
+    "district_en": "Mapo",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Renowned for its clear and refined pork bone soup, a modern take on a classic comfort food.",
+    "lat": 37.5515,
+    "lng": 126.9155
+  },
+  {
+    "id": "29",
+    "name_en": "Hanchu",
+    "name": "한추",
+    "category_en": "Korean Fried Chicken",
+    "address": "68 Nonhyeon-ro 175-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Dinner"
+    ],
+    "description_en": "Famous for its spicy fried chicken and fried green peppers, a staple of the Garosu-gil scene.",
+    "lat": 37.5245,
+    "lng": 127.0245
+  },
+  {
+    "id": "30",
+    "name_en": "Kyochon Chicken",
+    "name": "교촌치킨",
+    "category_en": "Korean Fried Chicken",
+    "address": "372 Jong-ro, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "One of Korea's most famous chicken chains, known for its honey and soy garlic sauces.",
+    "lat": 37.5705,
+    "lng": 127.0085
+  }
 ]

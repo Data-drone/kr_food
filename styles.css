@@ -661,3 +661,31 @@ input {
     font-size: 0.9rem;
   }
 }
+
+/* Badges */
+.badges {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge--michelin {
+  background: #e62117;
+  color: white;
+}
+
+.badge--ribbon {
+  background: #eef6ff;
+  color: #0066ff;
+  border: 1px solid #cce4ff;
+}
