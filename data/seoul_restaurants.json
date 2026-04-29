@@ -494,5 +494,299 @@
     "description_en": "One of Korea's most famous chicken chains, known for its honey and soy garlic sauces.",
     "lat": 37.5705,
     "lng": 127.0085
+  },
+  {
+    "id": "31",
+    "name_en": "Jinmi Pyeongyang Naengmyeon",
+    "name": "진미평양냉면",
+    "category_en": "Pyongyang Naengmyeon",
+    "address": "115-10 Hakdong-ro, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Renowned for its clean and savory cold buckwheat noodles, a local favorite in Gangnam.",
+    "lat": 37.5132,
+    "lng": 127.0345,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "32",
+    "name_en": "Woo Rae Oak",
+    "name": "우래옥",
+    "category_en": "Pyongyang Naengmyeon",
+    "address": "62-11 Changgyeonggung-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "One of Seoul's most historic restaurants, famous for its deep-flavored beef broth naengmyeon.",
+    "lat": 37.5682,
+    "lng": 126.9992,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "34",
+    "name_en": "Ojang-dong Heungnam-jip",
+    "name": "오장동흥남집",
+    "category_en": "Hamhung Naengmyeon",
+    "address": "114 Mareunnae-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Famous for its spicy Hamhung-style cold noodles since 1953.",
+    "lat": 37.5638,
+    "lng": 127.0025,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "35",
+    "name_en": "Tuk Tuk Isan",
+    "name": "툭툭누들타이",
+    "category_en": "Thai",
+    "address": "161-8 Seongmisan-ro, Mapo-gu",
+    "district_en": "Mapo",
+    "cuisine": "Thai",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Vibrant and authentic Thai flavors in the heart of Yeonnam-dong.",
+    "lat": 37.5615,
+    "lng": 126.9245,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "36",
+    "name_en": "Soseoul Hannam",
+    "name": "소서울 한남",
+    "category_en": "Korean Contemporary",
+    "address": "31-18 Hannam-daero 20-gil, Yongsan-gu",
+    "district_en": "Yongsan",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Refined Korean contemporary cuisine with a focus on seasonal storytelling.",
+    "lat": 37.5355,
+    "lng": 127.0085,
+    "michelin": "1 Star"
+  },
+  {
+    "id": "37",
+    "name_en": "Giga",
+    "name": "기가스",
+    "category_en": "Mediterranean",
+    "address": "2F, 48 Dosan-daero 45-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Mediterranean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Farm-to-table Mediterranean cuisine focusing on the essence of ingredients.",
+    "lat": 37.5235,
+    "lng": 127.0385,
+    "michelin": "1 Star"
+  },
+  {
+    "id": "38",
+    "name_en": "Escondido",
+    "name": "에스콘디도",
+    "category_en": "Mexican",
+    "address": "B1, 10-11 Hannam-daero 20-gil, Yongsan-gu",
+    "district_en": "Yongsan",
+    "cuisine": "Mexican",
+    "meal_times": [
+      "Dinner"
+    ],
+    "description_en": "Sophisticated Mexican dining that reinterprets traditional flavors with modern techniques.",
+    "lat": 37.5345,
+    "lng": 127.0095,
+    "michelin": "1 Star"
+  },
+  {
+    "id": "39",
+    "name_en": "Soul",
+    "name": "소울",
+    "category_en": "Korean Contemporary",
+    "address": "B1, 26 Sinheung-ro 26-gil, Yongsan-gu",
+    "district_en": "Yongsan",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "A creative dining space where Korean flavors meet modern culinary art.",
+    "lat": 37.5425,
+    "lng": 126.9865,
+    "michelin": "1 Star"
+  },
+  {
+    "id": "40",
+    "name_en": "Hane",
+    "name": "하네",
+    "category_en": "Sushi",
+    "address": "2F, 26 Eonju-ro 172-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Exceptional sushi omakase focusing on the purity and seasonal quality of fish.",
+    "lat": 37.5265,
+    "lng": 127.0375,
+    "michelin": "1 Star",
+    "ribbons": 3
+  },
+  {
+    "id": "41",
+    "name_en": "Eatanic Garden",
+    "name": "이타닉 가든",
+    "category_en": "Korean Contemporary",
+    "address": "36F, Josun Palace, 231 Teheran-ro, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Luxurious dining experience with a panoramic view and artistic Korean dishes.",
+    "lat": 37.5025,
+    "lng": 127.0415,
+    "michelin": "1 Star",
+    "ribbons": 3
+  },
+  {
+    "id": "42",
+    "name_en": "Solbam",
+    "name": "솔밤",
+    "category_en": "Korean Contemporary",
+    "address": "2F, 6 Dosan-daero 37-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Dinner"
+    ],
+    "description_en": "Contemporary Korean cuisine that tells a story of nature and tradition.",
+    "lat": 37.5215,
+    "lng": 127.0365,
+    "michelin": "1 Star",
+    "ribbons": 3
+  },
+  {
+    "id": "43",
+    "name_en": "7th Door",
+    "name": "세븐스도어",
+    "category_en": "Korean Contemporary",
+    "address": "4F, 41 Hakdong-ro 97-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Chef Kim Dae-chun's exploration of the seven tastes of Korean cuisine.",
+    "lat": 37.5245,
+    "lng": 127.0495,
+    "michelin": "1 Star",
+    "ribbons": 3
+  },
+  {
+    "id": "44",
+    "name_en": "Muoki",
+    "name": "무오키",
+    "category_en": "Contemporary",
+    "address": "2F, 12-12 Hakdong-ro 55-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Contemporary",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Innovative cuisine focusing on diverse textures and cooking methods.",
+    "lat": 37.5195,
+    "lng": 127.0435,
+    "michelin": "1 Star",
+    "ribbons": 3
+  },
+  {
+    "id": "45",
+    "name_en": "L'Amant Secret",
+    "name": "라망 시크레",
+    "category_en": "Contemporary",
+    "address": "26F, L'Escape Hotel, 67 Toegye-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Contemporary",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Whimsical and sophisticated dining with a focus on local ingredients and storytelling.",
+    "lat": 37.5595,
+    "lng": 126.9795,
+    "michelin": "1 Star",
+    "ribbons": 3
+  },
+  {
+    "id": "46",
+    "name_en": "Mitou",
+    "name": "미토우",
+    "category_en": "Japanese",
+    "address": "2F, 11-5 Eonju-ro 150-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Dinner"
+    ],
+    "description_en": "Authentic Japanese kaiseki that emphasizes the natural flavors of seasonal ingredients.",
+    "lat": 37.5225,
+    "lng": 127.0345,
+    "michelin": "2 Stars",
+    "ribbons": 3
+  },
+  {
+    "id": "48",
+    "name_en": "Alla Prima",
+    "name": "알라프리마",
+    "category_en": "Innovative",
+    "address": "2F, 17 Hakdong-ro 17-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Innovative",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Chef Kim Jin-hyuk's creative and technical approach to global ingredients.",
+    "lat": 37.5125,
+    "lng": 127.0245,
+    "michelin": "2 Stars",
+    "ribbons": 3
+  },
+  {
+    "id": "49",
+    "name_en": "Joo Ok",
+    "name": "주옥",
+    "category_en": "Korean Contemporary",
+    "address": "2F, The Plaza Seoul, 119 Taepyung-ro 2-ga, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Celebrates the beauty of Korean ingredients and traditional fermentation.",
+    "lat": 37.5645,
+    "lng": 126.9785,
+    "michelin": "2 Stars"
   }
 ]
