@@ -137,7 +137,8 @@
     "lat": 37.5385,
     "lng": 126.9995,
     "ribbons": 3,
-    "michelin": "3 Stars"
+    "michelin": "3 Stars",
+    "ccw_chef": "Ahn Sung-jae"
   },
   {
     "id": "9",
@@ -333,7 +334,8 @@
     ],
     "description_en": "Celebrated for its authentic Chinese cuisine and signature dishes like Menbosha.",
     "lat": 37.5542,
-    "lng": 126.9125
+    "lng": 126.9125,
+    "ccw_chef": "Hwang Jin-seon"
   },
   {
     "id": "21",
@@ -628,7 +630,8 @@
     "description_en": "A creative dining space where Korean flavors meet modern culinary art.",
     "lat": 37.5425,
     "lng": 126.9865,
-    "michelin": "1 Star"
+    "michelin": "1 Star",
+    "ccw_chef": "Kim Hee-eun"
   },
   {
     "id": "40",
@@ -664,7 +667,8 @@
     "lat": 37.5025,
     "lng": 127.0415,
     "michelin": "1 Star",
-    "ribbons": 3
+    "ribbons": 3,
+    "ccw_chef": "Son Jong-won"
   },
   {
     "id": "42",
@@ -788,5 +792,447 @@
     "lat": 37.5645,
     "lng": 126.9785,
     "michelin": "2 Stars"
+  },
+  {
+    "id": "ccw_s1_w_0",
+    "name_en": "Choi Dot",
+    "name": "Choi Dot",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Choi Hyun-seok from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Choi Hyun-seok"
+  },
+  {
+    "id": "ccw_s1_w_1",
+    "name_en": "Hong Bo Gak",
+    "name": "Hong Bo Gak",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Lu Chinglai from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Lu Chinglai"
+  },
+  {
+    "id": "ccw_s1_w_2",
+    "name_en": "Tian Mi Mi",
+    "name": "Tian Mi Mi",
+    "category_en": "Culinary Class Wars",
+    "address": "Seochon/Gangnam, Seoul",
+    "district_en": "Seochon/Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Jung Ji-sun from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Jung Ji-sun"
+  },
+  {
+    "id": "ccw_s1_w_3",
+    "name_en": "Yun Seoul",
+    "name": "Yun Seoul",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Kim Do-yun from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Kim Do-yun"
+  },
+  {
+    "id": "ccw_s1_w_4",
+    "name_en": "Evett",
+    "name": "Evett",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Joseph Lidgerwood from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Joseph Lidgerwood"
+  },
+  {
+    "id": "ccw_s1_w_5",
+    "name_en": "Fabri Kitchen",
+    "name": "Fabri Kitchen",
+    "category_en": "Culinary Class Wars",
+    "address": "Yongsan, Seoul",
+    "district_en": "Yongsan",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Fabrizio Ferrari from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Fabrizio Ferrari"
+  },
+  {
+    "id": "ccw_s1_w_6",
+    "name_en": "Gisdeun",
+    "name": "Gisdeun",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Bang Ki-su from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Bang Ki-su"
+  },
+  {
+    "id": "ccw_s1_w_7",
+    "name_en": "Sikdang Neo",
+    "name": "Sikdang Neo",
+    "category_en": "Culinary Class Wars",
+    "address": "Songpa, Seoul",
+    "district_en": "Songpa",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Choi Kang-rok from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Choi Kang-rok"
+  },
+  {
+    "id": "ccw_s1_w_8",
+    "name_en": "Na Gyeong Mushroom Farm",
+    "name": "Na Gyeong Mushroom Farm",
+    "category_en": "Culinary Class Wars",
+    "address": "Buyeo, Seoul",
+    "district_en": "Buyeo",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Lee Young-suk from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Lee Young-suk"
+  },
+  {
+    "id": "ccw_s1_w_9",
+    "name_en": "Local EAT",
+    "name": "Local EAT",
+    "category_en": "Culinary Class Wars",
+    "address": "Seongdong, Seoul",
+    "district_en": "Seongdong",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Nam Jeong-seok from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Nam Jeong-seok"
+  },
+  {
+    "id": "ccw_s1_w_10",
+    "name_en": "610 Magnolia",
+    "name": "610 Magnolia",
+    "category_en": "Culinary Class Wars",
+    "address": "USA, Seoul",
+    "district_en": "USA",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Edward Lee from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Edward Lee"
+  },
+  {
+    "id": "ccw_s1_b_11",
+    "name_en": "Via Toledo Pasta Bar",
+    "name": "Via Toledo Pasta Bar",
+    "category_en": "Culinary Class Wars",
+    "address": "Yongsan, Seoul",
+    "district_en": "Yongsan",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Napoli Mafia (Kwon Seong-jun) from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Napoli Mafia (Kwon Seong-jun)"
+  },
+  {
+    "id": "ccw_s1_b_12",
+    "name_en": "Deepin",
+    "name": "Deepin",
+    "category_en": "Culinary Class Wars",
+    "address": "Jung-gu/Seongdong, Seoul",
+    "district_en": "Jung-gu/Seongdong",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Cooking Maniac (Yoon Nam-no) from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Cooking Maniac (Yoon Nam-no)"
+  },
+  {
+    "id": "ccw_s1_b_13",
+    "name_en": "Andongjip Son Kalguksi",
+    "name": "Andongjip Son Kalguksi",
+    "category_en": "Culinary Class Wars",
+    "address": "Dongdaemun, Seoul",
+    "district_en": "Dongdaemun",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Auntie Omakase #1 (Kim Mi-ryung) from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Auntie Omakase #1 (Kim Mi-ryung)"
+  },
+  {
+    "id": "ccw_s1_b_14",
+    "name_en": "Trid",
+    "name": "Trid",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Triple Star (Kang Seung-won) from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Triple Star (Kang Seung-won)"
+  },
+  {
+    "id": "ccw_s1_b_15",
+    "name_en": "Doryang",
+    "name": "Doryang",
+    "category_en": "Culinary Class Wars",
+    "address": "Jongno, Seoul",
+    "district_en": "Jongno",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Self-Made Chef (Lim Tae-hoon) from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Self-Made Chef (Lim Tae-hoon)"
+  },
+  {
+    "id": "ccw_s1_b_16",
+    "name_en": "Cho Kwang 201",
+    "name": "Cho Kwang 201",
+    "category_en": "Culinary Class Wars",
+    "address": "Songpa, Seoul",
+    "district_en": "Songpa",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Comic Book Chef (Cho Kwang-hyo) from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Comic Book Chef (Cho Kwang-hyo)"
+  },
+  {
+    "id": "ccw_s1_b_17",
+    "name_en": "Bornyon",
+    "name": "Bornyon",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef One-Two-Three (Bae Kyung-jun) from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "One-Two-Three (Bae Kyung-jun)"
+  },
+  {
+    "id": "ccw_s1_b_18",
+    "name_en": "Namyeong-tak",
+    "name": "Namyeong-tak",
+    "category_en": "Culinary Class Wars",
+    "address": "Yongsan, Seoul",
+    "district_en": "Yongsan",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Meat Master from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Meat Master"
+  },
+  {
+    "id": "ccw_s1_b_19",
+    "name_en": "Pono Buono",
+    "name": "Pono Buono",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Hidden Genius from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Hidden Genius"
+  },
+  {
+    "id": "ccw_s1_b_20",
+    "name_en": "Yakitori Muk",
+    "name": "Yakitori Muk",
+    "category_en": "Culinary Class Wars",
+    "address": "Mapo, Seoul",
+    "district_en": "Mapo",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Yakitori King from Culinary Class Wars Season 1.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Yakitori King"
+  },
+  {
+    "id": "ccw_s2_w_21",
+    "name_en": "Hobin",
+    "name": "Hobin",
+    "category_en": "Culinary Class Wars",
+    "address": "Jung-gu, Seoul",
+    "district_en": "Jung-gu",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Hu Deok-juk from Culinary Class Wars Season 2.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Hu Deok-juk"
+  },
+  {
+    "id": "ccw_s2_w_22",
+    "name_en": "Kojacha",
+    "name": "Kojacha",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Choi Yu-gang from Culinary Class Wars Season 2.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Choi Yu-gang"
+  },
+  {
+    "id": "ccw_s2_w_23",
+    "name_en": "Soigné",
+    "name": "Soigné",
+    "category_en": "Culinary Class Wars",
+    "address": "Gangnam, Seoul",
+    "district_en": "Gangnam",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Jun Lee from Culinary Class Wars Season 2.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Jun Lee"
+  },
+  {
+    "id": "ccw_s2_w_24",
+    "name_en": "Caden",
+    "name": "Caden",
+    "category_en": "Culinary Class Wars",
+    "address": "Mapo, Seoul",
+    "district_en": "Mapo",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Jung Ho-young from Culinary Class Wars Season 2.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Jung Ho-young"
+  },
+  {
+    "id": "ccw_s2_w_25",
+    "name_en": "Suwon Galbi",
+    "name": "Suwon Galbi",
+    "category_en": "Culinary Class Wars",
+    "address": "Suwon, Seoul",
+    "district_en": "Suwon",
+    "cuisine": "Various",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Restaurant of Chef Park Hyo-nam from Culinary Class Wars Season 2.",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "ccw_chef": "Park Hyo-nam"
   }
 ]

@@ -689,3 +689,9 @@ input {
   color: #0066ff;
   border: 1px solid #cce4ff;
 }
+
+.badge--ccw {
+  background: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #333333;
+}

@@ -234,6 +234,7 @@ function renderList() {
         <div class="badges">
           ${r.michelin ? `<span class="badge badge--michelin" title="${r.michelin}">${r.michelin.includes('Star') ? '★'.repeat(parseInt(r.michelin)) : 'Bib'}</span>` : ''}
           ${r.ribbons ? `<span class="badge badge--ribbon" title="${r.ribbons} Blue Ribbons">${'💙'.repeat(r.ribbons)}</span>` : ''}
+          ${r.ccw_chef ? `<span class="badge badge--ccw" title="Chef ${r.ccw_chef} from Culinary Class Wars">CCW</span>` : ''}
         </div>
       </div>
       <p class="restaurant-card__meta">${r.category_en || r.category} • ${r.district_en || r.district}</p>
