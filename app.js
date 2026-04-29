@@ -92,11 +92,24 @@ async function init() {
 
   // Individual Filter Group Toggles
   document.querySelectorAll(".toolbar__toggle").forEach(toggle => {
+    // Initialize state
+    const targetId = toggle.getAttribute("aria-controls");
+    const target = document.getElementById(targetId);
+    
+    // Default to expanded on desktop, collapsed on mobile
+    const shouldCollapse = window.innerWidth < 768;
+    
+    if (shouldCollapse) {
+      toggle.setAttribute("aria-expanded", "false");
+      if (target) target.classList.add("is-collapsed");
+    } else {
+      toggle.setAttribute("aria-expanded", "true");
+      if (target) target.classList.remove("is-collapsed");
+    }
+
     toggle.addEventListener("click", () => {
       const isExpanded = toggle.getAttribute("aria-expanded") === "true";
       const newExpanded = !isExpanded;
-      const targetId = toggle.getAttribute("aria-controls");
-      const target = document.getElementById(targetId);
       
       toggle.setAttribute("aria-expanded", newExpanded);
       if (target) {
