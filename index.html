@@ -47,17 +47,23 @@
 
       <main class="app-shell">
         <section class="controls" aria-label="Filters">
-          <label class="search-field">
-            <span>Search</span>
-            <input
-              id="search-input"
-              type="search"
-              placeholder="Search by name, district, address, or category"
-              autocomplete="off"
-            />
-          </label>
+          <div class="controls__header">
+            <label class="search-field">
+              <span>Search</span>
+              <input
+                id="search-input"
+                type="search"
+                placeholder="Search by name, district, address, or category"
+                autocomplete="off"
+              />
+            </label>
+            <button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="true" aria-controls="filter-content">
+              <span class="filter-toggle__text">Hide Filters</span>
+              <svg class="filter-toggle__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+            </button>
+          </div>
 
-          <div class="toolbar">
+          <div id="filter-content" class="toolbar">
             <div class="toolbar__group">
               <span class="toolbar__label">District</span>
               <div id="district-filters" class="chip-row"></div>

@@ -41,6 +41,8 @@ const elements = {
   resetBtn: document.querySelector("#reset-btn"),
   statusBanner: document.querySelector("#status-banner"),
   fitBtn: document.querySelector("#fit-btn"),
+  filterToggle: document.querySelector("#filter-toggle"),
+  filterContent: document.querySelector("#filter-content"),
 };
 
 const map = L.map("map", {
@@ -67,6 +69,23 @@ init().catch((error) => {
 });
 
 async function init() {
+  // Filter toggle logic
+  if (elements.filterToggle && elements.filterContent) {
+    elements.filterToggle.addEventListener("click", () => {
+      const isExpanded = elements.filterToggle.getAttribute("aria-expanded") === "true";
+      const newExpanded = !isExpanded;
+      
+      elements.filterToggle.setAttribute("aria-expanded", newExpanded);
+      elements.filterToggle.querySelector(".filter-toggle__text").textContent = newExpanded ? "Hide Filters" : "Show Filters";
+      elements.filterContent.classList.toggle("is-collapsed", !newExpanded);
+    });
+    
+    // Auto-collapse on small screens by default
+    if (window.innerWidth < 768) {
+      elements.filterToggle.click();
+    }
+  }
+
   const response = await fetch(DATA_URL);
   if (!response.ok) {
     throw new Error(`Dataset request failed: ${response.status}`);
