@@ -1,0 +1,36 @@
+[
+  {
+    "id": "503",
+    "name_en": "Kang Min Chul Restaurant",
+    "name": "강민철 레스토랑",
+    "category_en": "Western",
+    "address": "5F, 18 Dosan-daero 63-gil, Gangnam District, Seoul",
+    "district_en": "Gangnam",
+    "theme_en": "Western",
+    "cuisine": "Western",
+    "meal_times": ["Lunch", "Dinner"],
+    "phone": "0507-1387-2511",
+    "hours": "12:00-14:30, 18:00-22:00",
+    "closed": "Closed on Sundays and Mondays",
+    "description_en": "Chef Kang Minchul’s keyword is creativity. He combines elaborate sauces and delicate senses of Korean ingredients based on his philosophy that the sauce is a language that designs the complex flavor.",
+    "lat": 37.5255,
+    "lng": 127.0425
+  },
+  {
+    "id": "504",
+    "name_en": "Mingles",
+    "name": "밍글스",
+    "category_en": "Korean Contemporary",
+    "address": "2F, 19 Dosan-daero 67-gil, Gangnam District, Seoul",
+    "district_en": "Gangnam",
+    "theme_en": "Korean Contemporary",
+    "cuisine": "Korean",
+    "meal_times": ["Lunch", "Dinner"],
+    "phone": "02-515-7306",
+    "hours": "12:00-15:00, 18:00-22:00",
+    "closed": "Open Daily",
+    "description_en": "Mingles offers contemporary Korean cuisine that harmonizes traditional flavors with modern techniques.",
+    "lat": 37.5248,
+    "lng": 127.0421
+  }
+]

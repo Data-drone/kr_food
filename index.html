@@ -6,10 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>Busan Blue Ribbon 100</title>
+    <title>Korea Food Guide | Busan & Seoul</title>
     <meta
       name="description"
-      content="Mobile-friendly Busan Blue Ribbon 100 map with quick handoff to Naver Map, KakaoMap, and Google Maps."
+      content="Mobile-friendly guide to top restaurants in Busan and Seoul with quick handoff to Naver Map, KakaoMap, and Google Maps."
     />
     <meta name="theme-color" content="#0f5b91" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,20 +30,23 @@
     <div class="page-shell">
       <header class="hero">
         <div class="hero__content">
-          <p class="eyebrow">Busan Food Guide</p>
-          <h1>Busan Blue Ribbon 100</h1>
-          <p class="hero__lede">
-            A static GitHub Pages map for the 100 Busan restaurants selected on
-            Visit Busan’s Blue Ribbon page, with one-tap handoff to Naver Map,
-            KakaoMap, and Google Maps.
+          <p class="eyebrow" id="city-eyebrow">Korea Food Guide</p>
+          <h1 id="city-title">Busan Blue Ribbon 100</h1>
+          <p class="hero__lede" id="city-description">
+            A curated guide to the best restaurants in Korea, with one-tap handoff to Naver Map, KakaoMap, and Google Maps.
           </p>
           <div class="hero__meta">
-            <span id="dataset-count">100 places</span>
+            <span id="dataset-count">Loading…</span>
             <span id="visible-count">Loading…</span>
-            <span id="source-stamp">Source: Visit Busan</span>
+            <span id="source-stamp">Source: Official Tourism Guides</span>
           </div>
         </div>
       </header>
+
+      <nav class="city-selector">
+        <button class="city-btn active" data-city="busan">Busan</button>
+        <button class="city-btn" data-city="seoul">Seoul</button>
+      </nav>
 
       <main class="app-shell">
         <section class="controls" aria-label="Filters">

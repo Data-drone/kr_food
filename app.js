@@ -1,40 +1,52 @@
-const DATA_URL = "./data/restaurants.json";
-const BUSAN_CENTER = [35.1796, 129.0756];
+/**
+ * Korea Food Guide: Busan & Seoul
+ * Unified app.js with city switching and multi-category filtering
+ */
 
-const themeColors = {
-  "부산의 노포": "#8c5a2c",
-  "세계음식": "#0f5b91",
-  "시티투어버스 맛집": "#0a7f6f",
-  "파인다이닝": "#8c2855",
-  "디저트 & 커피": "#cb7b2d",
-  "오션뷰 맛집": "#2f7fd8",
+// --- Constants & State ---
+const CONFIG = {
+  busan: {
+    dataUrl: './data/restaurants.json',
+    title: 'Busan Blue Ribbon 100',
+    eyebrow: 'Busan Food Guide',
+    description: 'A curated guide to the 100 Busan restaurants selected on Visit Busan’s Blue Ribbon page.',
+    source: 'Source: Visit Busan',
+    center: [35.1796, 129.0756],
+    zoom: 11
+  },
+  seoul: {
+    dataUrl: './data/seoul_restaurants.json',
+    title: '100 Taste of Seoul 2025',
+    eyebrow: 'Seoul Food Guide',
+    description: 'The official curation of Seoul’s top 100 restaurants and bars by the Seoul Metropolitan Government.',
+    source: 'Source: Visit Seoul',
+    center: [37.5665, 126.9780],
+    zoom: 12
+  }
 };
 
-const themeOrder = [
-  "부산의 노포",
-  "세계음식",
-  "시티투어버스 맛집",
-  "파인다이닝",
-  "디저트 & 커피",
-  "오션뷰 맛집",
-];
-
-const state = {
-  restaurants: [],
+let state = {
+  currentCity: 'busan',
+  allRestaurants: [],
   visibleRestaurants: [],
-  selectedId: null,
-  search: "",
-  district: "All",
-  cuisine: "All",
-  mealTime: "All",
-  theme: "All",
-  userLocation: null,
+  map: null,
+  markers: [],
+  filters: {
+    search: '',
+    district: 'All',
+    cuisine: 'All',
+    meal: 'All',
+    theme: 'All'
+  }
 };
 
 const elements = {
   datasetCount: document.querySelector("#dataset-count"),
   visibleCount: document.querySelector("#visible-count"),
   sourceStamp: document.querySelector("#source-stamp"),
+  cityTitle: document.querySelector("#city-title"),
+  cityEyebrow: document.querySelector("#city-eyebrow"),
+  cityDescription: document.querySelector("#city-description"),
   searchInput: document.querySelector("#search-input"),
   districtFilters: document.querySelector("#district-filters"),
   cuisineFilters: document.querySelector("#cuisine-filters"),
@@ -43,511 +55,260 @@ const elements = {
   list: document.querySelector("#restaurant-list"),
   locateBtn: document.querySelector("#locate-btn"),
   resetBtn: document.querySelector("#reset-btn"),
-  statusBanner: document.querySelector("#status-banner"),
   fitBtn: document.querySelector("#fit-btn"),
   filterToggle: document.querySelector("#filter-toggle"),
   filterContent: document.querySelector("#filter-content"),
 };
 
-const map = L.map("map", {
-  zoomControl: false,
-});
-L.control
-  .zoom({
-    position: "bottomright",
-  })
-  .addTo(map);
-map.setView(BUSAN_CENTER, 11);
-
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  maxZoom: 19,
-}).addTo(map);
-
-const markerLayer = L.layerGroup().addTo(map);
-let userMarker = null;
-
-init().catch((error) => {
-  console.error(error);
-  showStatus("Could not load the restaurant dataset.");
-});
-
+// --- Initialization ---
 async function init() {
-  // Main Filter Toggle
-  if (elements.filterToggle && elements.filterContent) {
-    elements.filterToggle.addEventListener("click", () => {
-      const isExpanded = elements.filterToggle.getAttribute("aria-expanded") === "true";
-      const newExpanded = !isExpanded;
-      
-      elements.filterToggle.setAttribute("aria-expanded", newExpanded);
-      elements.filterToggle.querySelector(".filter-toggle__text").textContent = newExpanded ? "Hide Filters" : "Show Filters";
-      elements.filterContent.classList.toggle("is-collapsed", !newExpanded);
-    });
-    
-    // Auto-collapse on small screens by default
-    if (window.innerWidth < 768) {
-      elements.filterToggle.click();
-    }
-  }
+  initMap();
+  setupEventListeners();
+  await loadCityData('busan');
+}
 
-  // Individual Filter Group Toggles
-  document.querySelectorAll(".toolbar__toggle").forEach(toggle => {
-    // Initialize state
-    const targetId = toggle.getAttribute("aria-controls");
-    const target = document.getElementById(targetId);
-    
-    // Default to expanded on desktop, collapsed on mobile
-    const shouldCollapse = window.innerWidth < 768;
-    
-    if (shouldCollapse) {
-      toggle.setAttribute("aria-expanded", "false");
-      if (target) target.classList.add("is-collapsed");
-    } else {
-      toggle.setAttribute("aria-expanded", "true");
-      if (target) target.classList.remove("is-collapsed");
-    }
+function initMap() {
+  state.map = L.map('map', {
+    scrollWheelZoom: false,
+    zoomControl: false
+  }).setView(CONFIG.busan.center, CONFIG.busan.zoom);
 
-    toggle.addEventListener("click", () => {
-      const isExpanded = toggle.getAttribute("aria-expanded") === "true";
-      const newExpanded = !isExpanded;
+  L.control.zoom({ position: 'bottomright' }).addTo(state.map);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+  }).addTo(state.map);
+}
+
+function setupEventListeners() {
+  // City Tabs
+  document.querySelectorAll('.city-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const city = btn.dataset.city;
+      if (city === state.currentCity) return;
       
-      toggle.setAttribute("aria-expanded", newExpanded);
-      if (target) {
-        target.classList.toggle("is-collapsed", !newExpanded);
-      }
+      document.querySelectorAll('.city-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      loadCityData(city);
     });
   });
 
-  const response = await fetch(DATA_URL);
-  if (!response.ok) {
-    throw new Error(`Dataset request failed: ${response.status}`);
-  }
-
-  const payload = await response.json();
-  state.restaurants = payload.restaurants;
-  state.visibleRestaurants = [...state.restaurants];
-
-  elements.datasetCount.textContent = `${payload.count} places`;
-  elements.sourceStamp.textContent = `Source updated ${formatFetchTime(payload.source?.fetchedAt)}`;
-
-  // Prepare Districts
-  const districts = [
-    { value: "All", label: "All" },
-    ...Array.from(
-      new Map(
-        state.restaurants
-          .filter((r) => r.district)
-          .map((r) => [r.district, r.district_en || r.district])
-      )
-    )
-      .map(([value, label]) => ({ value, label }))
-      .sort((a, b) => a.label.localeCompare(b.label)),
-  ];
-
-  // Prepare Cuisines
-  const cuisines = [
-    { value: "All", label: "All" },
-    ...Array.from(new Set(state.restaurants.map(r => r.cuisine).filter(Boolean)))
-      .sort()
-      .map(c => ({ value: c, label: c }))
-  ];
-
-  // Prepare Meal Times
-  const mealTimes = [
-    { value: "All", label: "All" },
-    { value: "Breakfast", label: "Breakfast" },
-    { value: "Lunch", label: "Lunch" },
-    { value: "Dinner", label: "Dinner" }
-  ];
-
-  // Prepare Themes
-  const themes = [
-    { value: "All", label: "All" },
-    ...themeOrder
-      .filter((theme) => state.restaurants.some((r) => r.theme === theme))
-      .map((theme) => {
-        const r = state.restaurants.find((r) => r.theme === theme);
-        return { value: theme, label: r.theme_en || theme };
-      }),
-  ];
-
-  buildChipRow(elements.districtFilters, districts, "district");
-  buildChipRow(elements.cuisineFilters, cuisines, "cuisine");
-  buildChipRow(elements.mealFilters, mealTimes, "mealTime");
-  buildChipRow(elements.themeFilters, themes, "theme");
-
-  elements.searchInput.addEventListener("input", (event) => {
-    state.search = event.target.value.trim().toLowerCase();
+  // Search
+  elements.searchInput.addEventListener('input', (e) => {
+    state.filters.search = e.target.value.toLowerCase();
     applyFilters();
   });
 
-  elements.resetBtn.addEventListener("click", () => resetFilters());
-  elements.locateBtn.addEventListener("click", () => locateUser());
-  elements.fitBtn.addEventListener("click", () => fitVisibleMarkers());
+  // Main Filter Toggle
+  elements.filterToggle.addEventListener('click', function() {
+    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', !isExpanded);
+    this.querySelector('.filter-toggle__text').textContent = isExpanded ? 'Show Filters' : 'Hide Filters';
+    elements.filterContent.classList.toggle('is-collapsed');
+  });
 
-  applyFilters();
-  fitVisibleMarkers();
+  // Independent Group Toggles
+  document.querySelectorAll('.toolbar__toggle').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const wrapperId = this.getAttribute('aria-controls');
+      const wrapper = document.getElementById(wrapperId);
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !isExpanded);
+      wrapper.classList.toggle('is-collapsed');
+    });
+  });
+
+  // Action Buttons
+  elements.resetBtn.addEventListener('click', () => resetFilters());
+  elements.fitBtn.addEventListener('click', fitMapToMarkers);
+  elements.locateBtn.addEventListener('click', useMyLocation);
 }
 
-function buildChipRow(container, items, key) {
-  if (!container) return;
-  container.innerHTML = "";
-  items.forEach((item) => {
-    const value = typeof item === "string" ? item : item.value;
-    const label = typeof item === "string" ? item : item.label;
+// --- Data Handling ---
+async function loadCityData(city) {
+  state.currentCity = city;
+  const config = CONFIG[city];
+  
+  // Update UI
+  elements.cityTitle.textContent = config.title;
+  elements.cityEyebrow.textContent = config.eyebrow;
+  elements.cityDescription.textContent = config.description;
+  elements.sourceStamp.textContent = config.source;
+  
+  try {
+    const response = await fetch(config.dataUrl);
+    const data = await response.json();
+    state.allRestaurants = Array.isArray(data) ? data : data.restaurants;
+    
+    // Reset filters and state
+    resetFilters(false); 
+    state.map.setView(config.center, config.zoom);
+    
+    // Populate UI
+    renderFilters();
+    applyFilters();
+    
+    elements.datasetCount.textContent = `${state.allRestaurants.length} places`;
+  } catch (err) {
+    console.error('Failed to load data:', err);
+    elements.list.innerHTML = '<p class="empty-state">Error loading data. Please try again.</p>';
+  }
+}
 
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = `chip${value === "All" ? " is-active" : ""}`;
-    button.textContent = label;
-    button.dataset.value = value;
-    button.addEventListener("click", () => {
-      state[key] = value;
-      container.querySelectorAll(".chip").forEach((chip) => {
-        chip.classList.toggle("is-active", chip.dataset.value === value);
+function renderFilters() {
+  const districts = new Set(['All']);
+  const cuisines = new Set(['All']);
+  const meals = new Set(['All']);
+  const themes = new Set(['All']);
+
+  state.allRestaurants.forEach(r => {
+    if (r.district_en) districts.add(r.district_en);
+    if (r.cuisine) cuisines.add(r.cuisine);
+    if (r.meal_times) r.meal_times.forEach(m => meals.add(m));
+    if (r.theme_en) themes.add(r.theme_en);
+  });
+
+  renderChipRow(elements.districtFilters, Array.from(districts).sort(), 'district');
+  renderChipRow(elements.cuisineFilters, Array.from(cuisines).sort(), 'cuisine');
+  renderChipRow(elements.mealFilters, ['All', 'Breakfast', 'Lunch', 'Dinner'], 'meal');
+  renderChipRow(elements.themeFilters, Array.from(themes).sort(), 'theme');
+}
+
+function renderChipRow(container, items, filterKey) {
+  container.innerHTML = '';
+  
+  items.forEach(item => {
+    const chip = document.createElement('button');
+    chip.className = `chip${state.filters[filterKey] === item ? ' is-active' : ''}`;
+    chip.textContent = item;
+    chip.dataset.value = item;
+    chip.addEventListener('click', () => {
+      state.filters[filterKey] = item;
+      container.querySelectorAll('.chip').forEach(c => {
+        c.classList.toggle('is-active', c.dataset.value === item);
       });
       applyFilters();
     });
-    container.appendChild(button);
+    container.appendChild(chip);
   });
 }
 
+// --- Filtering & Rendering ---
 function applyFilters() {
-  const search = state.search;
-
-  state.visibleRestaurants = state.restaurants.filter((restaurant) => {
+  state.visibleRestaurants = state.allRestaurants.filter(r => {
     const searchable = [
-      restaurant.name,
-      restaurant.name_en,
-      restaurant.district,
-      restaurant.district_en,
-      restaurant.address,
-      restaurant.category,
-      restaurant.category_en,
-      restaurant.theme,
-      restaurant.theme_en,
-      restaurant.menu,
-      restaurant.menu_en,
-      restaurant.cuisine,
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase();
+      r.name, r.name_en, r.district_en, r.cuisine, r.theme_en, r.description_en, r.address
+    ].filter(Boolean).join(' ').toLowerCase();
 
-    const matchesSearch = !search || searchable.includes(search);
-    const matchesDistrict = state.district === "All" || restaurant.district === state.district;
-    const matchesCuisine = state.cuisine === "All" || restaurant.cuisine === state.cuisine;
-    const matchesMealTime = state.mealTime === "All" || (restaurant.meal_times && restaurant.meal_times.includes(state.mealTime));
-    const matchesTheme = state.theme === "All" || restaurant.theme === state.theme;
-    
-    return matchesSearch && matchesDistrict && matchesCuisine && matchesMealTime && matchesTheme;
+    const matchesSearch = !state.filters.search || searchable.includes(state.filters.search);
+    const matchesDistrict = state.filters.district === 'All' || r.district_en === state.filters.district;
+    const matchesCuisine = state.filters.cuisine === 'All' || r.cuisine === state.filters.cuisine;
+    const matchesMeal = state.filters.meal === 'All' || (r.meal_times && r.meal_times.includes(state.filters.meal));
+    const matchesTheme = state.filters.theme === 'All' || r.theme_en === state.filters.theme;
+
+    return matchesSearch && matchesDistrict && matchesCuisine && matchesMeal && matchesTheme;
   });
-
-  if (state.userLocation) {
-    state.visibleRestaurants = state.visibleRestaurants
-      .map((restaurant) => ({
-        ...restaurant,
-        distanceKm: getDistanceKm(
-          state.userLocation.lat,
-          state.userLocation.lng,
-          restaurant.lat,
-          restaurant.lng
-        ),
-      }))
-      .sort((a, b) => a.distanceKm - b.distanceKm);
-  } else {
-    state.visibleRestaurants = state.visibleRestaurants
-      .map((restaurant) => ({ ...restaurant, distanceKm: null }))
-      .sort((a, b) => a.name.localeCompare(b.name, "ko"));
-  }
-
-  if (
-    state.selectedId &&
-    !state.visibleRestaurants.some((restaurant) => restaurant.id === state.selectedId)
-  ) {
-    state.selectedId = null;
-  }
 
   renderList();
-  renderMarkers();
-
+  updateMarkers();
   elements.visibleCount.textContent = `${state.visibleRestaurants.length} visible`;
-
-  if (state.visibleRestaurants.length) {
-    hideStatus();
-  } else {
-    showStatus("No restaurants match the current filters.");
-  }
-}
-
-function renderRibbonBadge(restaurant) {
-  if (!restaurant.ribbons) {
-    return '<div class="ribbon-badge"><span>Blue Ribbon selection</span></div>';
-  }
-
-  return `
-    <div class="ribbon-badge" aria-label="${restaurant.ribbons} blue ribbons">
-      <span class="ribbon-dots">${"•".repeat(restaurant.ribbons)}</span>
-      <span>${restaurant.ribbons} Ribbon${restaurant.ribbons > 1 ? "s" : ""}</span>
-    </div>
-  `;
 }
 
 function renderList() {
-  elements.list.innerHTML = "";
+  elements.list.innerHTML = '';
 
-  if (!state.visibleRestaurants.length) {
-    elements.list.appendChild(renderEmptyState());
+  if (state.visibleRestaurants.length === 0) {
+    elements.list.innerHTML = '<div class="empty-state"><p>No restaurants match your filters.</p></div>';
     return;
   }
 
-  const fragment = document.createDocumentFragment();
-  state.visibleRestaurants.forEach((restaurant) => {
-    const card = document.createElement("article");
-    card.className = `restaurant-card${
-      restaurant.id === state.selectedId ? " is-selected" : ""
-    }`;
-    card.tabIndex = 0;
-    card.addEventListener("click", () => focusRestaurant(restaurant.id));
-    card.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        focusRestaurant(restaurant.id);
-      }
-    });
-
-    const description = restaurant.description_en || restaurant.description || restaurant.menu_en || restaurant.menu || "";
-    const shortDescription =
-      description.length > 120 ? `${description.slice(0, 120)}…` : description;
-
+  state.visibleRestaurants.forEach(r => {
+    const card = document.createElement('article');
+    card.className = 'restaurant-card';
     card.innerHTML = `
       <div class="restaurant-card__top">
         <div>
-          <h3>${escapeHtml(restaurant.name_en || restaurant.name)}</h3>
-          <p class="restaurant-card__subtitle-kr">${escapeHtml(restaurant.name)}</p>
-          <p class="restaurant-card__subtitle">${escapeHtml(
-            [restaurant.cuisine, restaurant.category_en || restaurant.category, restaurant.district_en || restaurant.district].filter(Boolean).join(" · ")
-          )}</p>
+          <h3>${r.name_en || r.name}</h3>
+          <p class="restaurant-card__subtitle-kr">${r.name}</p>
         </div>
-        ${renderRibbonBadge(restaurant)}
+        ${r.ribbons ? `<div class="ribbon-badge"><span class="ribbon-dots">${'•'.repeat(r.ribbons)}</span></div>` : ''}
       </div>
-      <p class="restaurant-card__meta">${escapeHtml(
-        [restaurant.theme, restaurant.hours || restaurant.hoursSummary]
-          .filter(Boolean)
-          .join(" · ")
-      )}</p>
-      <p class="restaurant-card__address">${escapeHtml(restaurant.address)}</p>
-      ${
-        shortDescription
-          ? `<p class="restaurant-card__desc">${escapeHtml(shortDescription)}</p>`
-          : ""
-      }
-      <div class="restaurant-card__chips">
-        ${
-          restaurant.distanceKm != null
-            ? `<span class="mini-chip">${restaurant.distanceKm.toFixed(1)} km away</span>`
-            : ""
-        }
-        ${restaurant.phone ? `<span class="mini-chip">${escapeHtml(restaurant.phone)}</span>` : ""}
-        ${
-          restaurant.rating != null
-            ? `<span class="mini-chip">Visit Busan ${restaurant.rating.toFixed(1)}</span>`
-            : ""
-        }
-      </div>
+      <p class="restaurant-card__meta">${r.category_en || r.category} • ${r.district_en || r.district}</p>
+      <p class="restaurant-card__address">${r.address}</p>
+      <p class="restaurant-card__desc">${r.description_en || r.description || ''}</p>
       <div class="card-actions">
-        <a href="${restaurant.links.googleDirections}" target="_blank" rel="noreferrer" data-kind="primary">Google</a>
-        <button type="button" data-action="naver">Naver</button>
-        <a href="${restaurant.links.kakaoDirections}" target="_blank" rel="noreferrer">Kakao</a>
-        <button type="button" data-action="share">Share</button>
-        <a href="${restaurant.visitBusanUrl}" target="_blank" rel="noreferrer">Visit Busan</a>
+        <a href="${getGoogleMapsUrl(r)}" target="_blank" data-kind="primary">Google Maps</a>
+        <a href="${getNaverMapUrl(r)}" target="_blank">Naver</a>
+        <a href="${getKakaoMapUrl(r)}" target="_blank">Kakao</a>
       </div>
     `;
-
-    card.querySelectorAll(".card-actions a, .card-actions button").forEach((control) => {
-      control.addEventListener("click", (event) => {
-        event.stopPropagation();
-        const action = control.dataset.action;
-        if (action === "naver") {
-          window.open(restaurant.links.naverMap, "_blank", "noreferrer");
-        } else if (action === "share") {
-          shareRestaurant(restaurant);
-        }
-      });
+    card.addEventListener('click', () => {
+      state.map.flyTo([r.lat, r.lng], 16);
+      document.querySelectorAll('.restaurant-card').forEach(c => c.classList.remove('is-selected'));
+      card.classList.add('is-selected');
     });
-
-    fragment.appendChild(card);
+    elements.list.appendChild(card);
   });
-  elements.list.appendChild(fragment);
-
-  if (state.selectedId) {
-    const selectedCard = elements.list.querySelector(".is-selected");
-    if (selectedCard) {
-      selectedCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    }
-  }
 }
 
-function renderMarkers() {
-  markerLayer.clearLayers();
-  state.visibleRestaurants.forEach((restaurant) => {
-    const isSelected = restaurant.id === state.selectedId;
-    const color = themeColors[restaurant.theme] || "#142738";
+function updateMarkers() {
+  state.markers.forEach(m => state.map.removeLayer(m));
+  state.markers = [];
 
-    const marker = L.circleMarker([restaurant.lat, restaurant.lng], {
-      radius: isSelected ? 10 : 7,
-      fillColor: color,
-      color: "#fff",
-      weight: 2,
-      opacity: 1,
-      fillOpacity: 0.9,
-    });
-
+  state.visibleRestaurants.forEach(r => {
+    if (!r.lat || !r.lng) return;
+    const marker = L.marker([r.lat, r.lng]).addTo(state.map);
     marker.bindPopup(`
-      <div class="map-popup">
-        <strong>${escapeHtml(restaurant.name_en || restaurant.name)}</strong><br>
-        <small>${escapeHtml(restaurant.name)}</small><br>
-        ${escapeHtml(restaurant.cuisine)} · ${escapeHtml(restaurant.district_en || restaurant.district)}
+      <div class="popup-content">
+        <strong>${r.name_en || r.name}</strong><br>
+        <small>${r.category_en || r.category}</small><br>
+        <div class="popup-actions" style="margin-top:8px">
+          <a href="${getGoogleMapsUrl(r)}" target="_blank" style="font-size:12px">Google</a>
+          <a href="${getNaverMapUrl(r)}" target="_blank" style="font-size:12px">Naver</a>
+        </div>
       </div>
     `);
-
-    marker.on("click", () => focusRestaurant(restaurant.id));
-    marker.addTo(markerLayer);
+    state.markers.push(marker);
   });
 }
 
-function focusRestaurant(id) {
-  state.selectedId = id;
-  const restaurant = state.restaurants.find((r) => r.id === id);
-  if (restaurant) {
-    map.setView([restaurant.lat, restaurant.lng], 15, { animate: true });
-  }
-  renderList();
-  renderMarkers();
-}
-
-function resetFilters() {
-  state.search = "";
-  state.district = "All";
-  state.cuisine = "All";
-  state.mealTime = "All";
-  state.theme = "All";
-  elements.searchInput.value = "";
-  document.querySelectorAll(".chip").forEach((chip) => {
-    chip.classList.toggle("is-active", chip.dataset.value === "All");
-  });
-  applyFilters();
-}
-
-function locateUser() {
-  if (!navigator.geolocation) {
-    showStatus("Geolocation is not supported by your browser.");
-    return;
-  }
-
-  showStatus("Locating...");
-  navigator.geolocation.getCurrentPosition(
-    (position) => {
-      state.userLocation = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude,
-      };
-
-      if (userMarker) {
-        userMarker.setLatLng([state.userLocation.lat, state.userLocation.lng]);
-      } else {
-        userMarker = L.marker([state.userLocation.lat, state.userLocation.lng], {
-          icon: L.divIcon({
-            className: "user-location-marker",
-            html: '<div class="user-location-dot"></div>',
-          }),
-        }).addTo(map);
-      }
-
-      hideStatus();
-      applyFilters();
-      map.setView([state.userLocation.lat, state.userLocation.lng], 13);
-    },
-    () => {
-      showStatus("Could not determine your location.");
-    }
-  );
-}
-
-function fitVisibleMarkers() {
-  if (!state.visibleRestaurants.length) return;
-  const bounds = L.latLngBounds(
-    state.visibleRestaurants.map((r) => [r.lat, r.lng])
-  );
-  map.fitBounds(bounds, { padding: [50, 50] });
-}
-
-function shareRestaurant(restaurant) {
-  const text = `${restaurant.name_en || restaurant.name} (${restaurant.name})\n${restaurant.cuisine} in ${restaurant.district_en || restaurant.district}\n${restaurant.address}`;
-  if (navigator.share) {
-    navigator.share({
-      title: restaurant.name_en || restaurant.name,
-      text: text,
-      url: window.location.href,
-    });
-  } else {
-    navigator.clipboard.writeText(`${text}\n${window.location.href}`);
-    showStatus("Restaurant details copied to clipboard.");
-    setTimeout(hideStatus, 2000);
+// --- Utilities ---
+function resetFilters(shouldApply = true) {
+  state.filters.search = '';
+  state.filters.district = 'All';
+  state.filters.cuisine = 'All';
+  state.filters.meal = 'All';
+  state.filters.theme = 'All';
+  
+  elements.searchInput.value = '';
+  
+  if (shouldApply) {
+    renderFilters();
+    applyFilters();
   }
 }
 
-function formatFetchTime(isoString) {
-  if (!isoString) return "unknown";
-  const date = new Date(isoString);
-  return date.toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
+function fitMapToMarkers() {
+  if (state.markers.length === 0) return;
+  const group = L.featureGroup(state.markers);
+  state.map.fitBounds(group.getBounds(), { padding: [50, 50] });
 }
 
-function showStatus(message) {
-  elements.statusBanner.textContent = message;
-  elements.statusBanner.classList.add("is-visible");
+function useMyLocation() {
+  state.map.locate({ setView: true, maxZoom: 15 });
 }
 
-function hideStatus() {
-  elements.statusBanner.classList.remove("is-visible");
+function getGoogleMapsUrl(r) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((r.name_en || r.name) + ' ' + r.address)}`;
 }
 
-function renderEmptyState() {
-  const div = document.createElement("div");
-  div.className = "empty-state";
-  div.innerHTML = `
-    <p>No restaurants found matching your criteria.</p>
-    <button type="button" class="action-button action-button--ghost">Reset all filters</button>
-  `;
-  div.querySelector("button").addEventListener("click", () => resetFilters());
-  return div;
+function getNaverMapUrl(r) {
+  return `https://map.naver.com/v5/search/${encodeURIComponent(r.name + ' ' + r.address)}`;
 }
 
-function escapeHtml(str) {
-  if (!str) return "";
-  const div = document.createElement("div");
-  div.textContent = str;
-  return div.innerHTML;
+function getKakaoMapUrl(r) {
+  return `https://map.kakao.com/link/search/${encodeURIComponent(r.name + ' ' + r.address)}`;
 }
 
-function getDistanceKm(lat1, lon1, lat2, lon2) {
-  const R = 6371;
-  const dLat = deg2rad(lat2 - lat1);
-  const dLon = deg2rad(lon2 - lon1);
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos(deg2rad(lat1)) *
-      Math.cos(deg2rad(lat2)) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  return R * c;
-}
-
-function deg2rad(deg) {
-  return deg * (Math.PI / 180);
-}
+// --- Start ---
+document.addEventListener('DOMContentLoaded', init);
