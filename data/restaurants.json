@@ -39,7 +39,12 @@
       "district_en": "Donggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Dwaejigukbap, Naejanggukbap, Guksu, Ttarogukbap, Suyuk",
-      "description_en": "Busan-style pork soup with chives is famous.The taste of the soup is clean, and you can enjoy the taste even better by adding plenty of chives to the soup.Baek refers to boiled pork and rice, and boiled pork and sundae are served separately along with soup."
+      "description_en": "Busan-style pork soup with chives is famous.The taste of the soup is clean, and you can enjoy the taste even better by adding plenty of chives to the soup.Baek refers to boiled pork and rice, and boiled pork and sundae are served separately along with soup.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1602",
@@ -74,7 +79,12 @@
       "district_en": "Busanjingu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Mulmilmyeon, Bibimmilmyeon, Gaegeummandu, Gogigomyeong, Hoegomyeongchuga",
-      "description_en": "A place that boasts over 50 years of history along with Gaya Milmyeon.The noodles are made by mixing sweet potato starch with wheat flour and are characterized by their chewy texture.In the summer, you have to wait in line to eat."
+      "description_en": "A place that boasts over 50 years of history along with Gaya Milmyeon.The noodles are made by mixing sweet potato starch with wheat flour and are characterized by their chewy texture.In the summer, you have to wait in line to eat.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1549",
@@ -109,7 +119,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Hanuyangnyeomgalbi, Ansim, Galbissal, Deungsim, Anchangsal, Pyeongyangnaengmyeon(mul/binaeng), Geodaegomtang, Jeomsimteukseon",
-      "description_en": "A place where you can enjoy 1++ grade high-quality Korean beef in a luxurious atmosphere.Seasoned ribs that have been marinated in seasoning and aged are the representative menu items, and various cuts such as ribs, tenderloin, and shank meat are featured.The side dishes that come as standard are also very tasty, and Pyongyang Naengmyeon is a great option to fill your mouth with."
+      "description_en": "A place where you can enjoy 1++ grade high-quality Korean beef in a luxurious atmosphere.Seasoned ribs that have been marinated in seasoning and aged are the representative menu items, and various cuts such as ribs, tenderloin, and shank meat are featured.The side dishes that come as standard are also very tasty, and Pyongyang Naengmyeon is a great option to fill your mouth with.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1576",
@@ -144,7 +159,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Ocean View Dining",
       "menu_en": "Jayeonsanmodumhoe",
-      "description_en": "This raw fish restaurant in Mipo, Haeundae, offers excellent taste of natural raw fish.In addition to raw fish, various side dishes and spicy fish stew are also excellent.The secret to the taste is the fermented soybean paste, which is made by mixing various seasonings with hand-made red pepper paste and aging it for 6 months.This is former President Moon Jae-in's favorite presidential restaurant."
+      "description_en": "This raw fish restaurant in Mipo, Haeundae, offers excellent taste of natural raw fish.In addition to raw fish, various side dishes and spicy fish stew are also excellent.The secret to the taste is the fermented soybean paste, which is made by mixing various seasonings with hand-made red pepper paste and aging it for 6 months.This is former President Moon Jae-in's favorite presidential restaurant.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1577",
@@ -179,7 +199,12 @@
       "district_en": "Gijanggun",
       "theme_en": "Ocean View Dining",
       "menu_en": "Hanudeungsimgui, Hanuansim, Hanutteokkalbisotbapjeongsik",
-      "description_en": "It is a bungalow with a great view on the beach.You can enjoy high-quality beef in a room with a great view.The special feature is that dogs are allowed.It's also good for a walk after a meal."
+      "description_en": "It is a bungalow with a great view on the beach.You can enjoy high-quality beef in a room with a great view.The special feature is that dogs are allowed.It's also good for a walk after a meal.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1603",
@@ -214,7 +239,12 @@
       "district_en": "Geumjeonggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Guksu",
-      "description_en": "A place that specializes in just one thing: anchovy noodles.When you order noodles, boiled noodles are served, and you pour broth from a silver kettle according to your preference.The broth is made by boiling anchovies from the south coast.The taste is excellent when eaten with plenty of chopped Cheongyang peppers.It can be said to be the original restaurant of Gupo Noodles."
+      "description_en": "A place that specializes in just one thing: anchovy noodles.When you order noodles, boiled noodles are served, and you pour broth from a silver kettle according to your preference.The broth is made by boiling anchovies from the south coast.The taste is excellent when eaten with plenty of chopped Cheongyang peppers.It can be said to be the original restaurant of Gupo Noodles.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1578",
@@ -249,7 +279,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Ocean View Dining",
       "menu_en": "Chaekkeut, Ansim, Deungsim, Kkotdeungsim, Teugansim, Hansanggadeungmodum, Omeuraiseu",
-      "description_en": "A grilled beef restaurant with a great ocean view from the window.When you order meat, basic side dishes and three sauces: salt, sesame oil, and demi-glace are placed on the table.The aged meat has a good flavor, and the omelet rice with demi-glace sauce is also good to enjoy as a single meal."
+      "description_en": "A grilled beef restaurant with a great ocean view from the window.When you order meat, basic side dishes and three sauces: salt, sesame oil, and demi-glace are placed on the table.The aged meat has a good flavor, and the omelet rice with demi-glace sauce is also good to enjoy as a single meal.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1579",
@@ -284,7 +319,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "Ocean View Dining",
       "menu_en": "Geumnanghansang, Subyeonhansang, Gwanganhansang, Badahansang, Teungmodumhoe, Modumhoe",
-      "description_en": "Located in Gwangalli Waterside Park, it is a place where you can enjoy a meal while looking at Gwangan Bridge.Along with fresh raw fish, there are plenty of side dishes including spicy fish stew, steamed abalone, mero steak, assorted seafood, and shrimp paste.This is the presidential restaurant visited by former President Moon Jae-in."
+      "description_en": "Located in Gwangalli Waterside Park, it is a place where you can enjoy a meal while looking at Gwangan Bridge.Along with fresh raw fish, there are plenty of side dishes including spicy fish stew, steamed abalone, mero steak, assorted seafood, and shrimp paste.This is the presidential restaurant visited by former President Moon Jae-in.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1604",
@@ -319,7 +359,12 @@
       "district_en": "",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Bokkuk, Boktwigim, Bokgeopjiltwigim, Bokgeopjilmuchim, Bokjjim, Boksuyuk, Boksasimi",
-      "description_en": "The oldest bokguk restaurant in the Haeundae area.Bok-guk is Busan’s representative hangover soup, and a bowl of clear Jiri-bok-guk will completely eliminate your hangover.Spicy puffer fish stew is good, but if you want to truly taste the light puffer fish, I recommend Jiri.The second floor is operated as a space where you can enjoy a variety of courses."
+      "description_en": "The oldest bokguk restaurant in the Haeundae area.Bok-guk is Busan’s representative hangover soup, and a bowl of clear Jiri-bok-guk will completely eliminate your hangover.Spicy puffer fish stew is good, but if you want to truly taste the light puffer fish, I recommend Jiri.The second floor is operated as a space where you can enjoy a variety of courses.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1605",
@@ -354,7 +399,12 @@
       "district_en": "Bukku",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Mulmandu, Jjinmandu, Gunmandu, Mandugukbap",
-      "description_en": "This is a place where you can taste old-fashioned steamed dumplings made by yourself, and it is run by an overseas Chinese.The dumplings are juicy because they are made fresh each day rather than pre-made.Grilled dumplings are also a popular menu item, and dumpling soup and rice are recommended as a meal.You can feel the power of focusing only on dumplings for over 50 years.You can eat fried dumplings after 10:30 a.m., so keep that in mind when you visit."
+      "description_en": "This is a place where you can taste old-fashioned steamed dumplings made by yourself, and it is run by an overseas Chinese.The dumplings are juicy because they are made fresh each day rather than pre-made.Grilled dumplings are also a popular menu item, and dumpling soup and rice are recommended as a meal.You can feel the power of focusing only on dumplings for over 50 years.You can eat fried dumplings after 10:30 a.m., so keep that in mind when you visit.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1606",
@@ -389,7 +439,12 @@
       "district_en": "Gijanggun",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Jipbulgui, Tonggui, Yangnyeomgui, Sogeumgui, Gomjangeomaeuntang, Gomjangeodoenjangguk",
-      "description_en": "The origin of millet grilled eel grilled over a straw fire.When you peel off the charred skin of a sea eel that has been properly grilled over a straw fire, the golden-brown white flesh is revealed. It is cut into bite-size pieces and dipped in salt or oil.You can also taste raw pine needle eel with the scent of pine needles and savory bear eel miso soup."
+      "description_en": "The origin of millet grilled eel grilled over a straw fire.When you peel off the charred skin of a sea eel that has been properly grilled over a straw fire, the golden-brown white flesh is revealed. It is cut into bite-size pieces and dipped in salt or oil.You can also taste raw pine needle eel with the scent of pine needles and savory bear eel miso soup.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1541",
@@ -424,7 +479,13 @@
       "district_en": "Busanjingu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Sonkalguksu, Bibimsonkalguksu, Naengkalguksu, Gimbap",
-      "description_en": "You can taste Gyeongsang-do style kalguksu with anchovy broth topped with crown crown and chives.Sesame seeds and minced garlic are also added, giving the soup a light yet clean taste.The noodles are made by rolling out the dough, and radish radish kimchi is served as the only side dish.It feels simple yet hearty."
+      "description_en": "You can taste Gyeongsang-do style kalguksu with anchovy broth topped with crown crown and chives.Sesame seeds and minced garlic are also added, giving the soup a light yet clean taste.The noodles are made by rolling out the dough, and radish radish kimchi is served as the only side dish.It feels simple yet hearty.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1586",
@@ -459,7 +520,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Jeomsimkoseu, Syepeusigeunicheokoseu, Seupesyeolkoseu, Buldojang, Eojahaesamsongi",
-      "description_en": "This place has been representing Busan's high-end Chinese restaurants for a long time.Authentic Cantonese Chinese food is reinterpreted in a Korean way.Sea cucumber, Guangdong-style veal rib dish, and buldojang are signature menu items made using Nampoong’s unique recipe.It is located on the 3rd floor of the new building of Paradise Hotel and has a great view of the sea."
+      "description_en": "This place has been representing Busan's high-end Chinese restaurants for a long time.Authentic Cantonese Chinese food is reinterpreted in a Korean way.Sea cucumber, Guangdong-style veal rib dish, and buldojang are signature menu items made using Nampoong’s unique recipe.It is located on the 3rd floor of the new building of Paradise Hotel and has a great view of the sea.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1580",
@@ -494,7 +560,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "Ocean View Dining",
       "menu_en": "Bonggollepaseuta, Poreumajipaseuta, Chaekkeutseuteikeu, Ansimseuteikeu, Gamjatwigim, Reonchiseteu, Dineoseteu",
-      "description_en": "A steakhouse with a great view of the Gwangalli Sea.It is operated a la carte, and if you order a lunch set, the course includes salad, pasta, Korean beef steak, and dessert.It is also used as a wine bar in the evening."
+      "description_en": "A steakhouse with a great view of the Gwangalli Sea.It is operated a la carte, and if you order a lunch set, the course includes salad, pasta, Korean beef steak, and dessert.It is also used as a wine bar in the evening.",
+      "cuisine": "Western",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1573",
@@ -529,7 +600,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Ppupatpongkeori, Ttomyangkkung, Pattai, Geurin/redeukeori, Ssomttam, Ssaikeureok Issan, Yamunsen, Namttongmu",
-      "description_en": "Pu Pat Pong Curry and Tom Yum Goong are popular Thai restaurants.You can taste Thai food that well replicates the local taste.It’s even better with Thai beer.The interior has been renewed to become more modern and stylish."
+      "description_en": "Pu Pat Pong Curry and Tom Yum Goong are popular Thai restaurants.You can taste Thai food that well replicates the local taste.It’s even better with Thai beer.The interior has been renewed to become more modern and stylish.",
+      "cuisine": "Thai",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1558",
@@ -564,7 +640,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "International Cuisine",
       "menu_en": "Donggyeongsingminmuljangeodeopbap, Nagoyasingminmuljangeodeopbap, Minmuljangeodeopbap",
-      "description_en": "This restaurant specializes in eel rice bowls, and features Tokyo-style eel rice bowls (unaju) and Nagoya-style eel rice bowls (hitsumabushi).Hitsumabushi is characterized by eating a portion of the rice bowl and then making the rest into ochazuke."
+      "description_en": "This restaurant specializes in eel rice bowls, and features Tokyo-style eel rice bowls (unaju) and Nagoya-style eel rice bowls (hitsumabushi).Hitsumabushi is characterized by eating a portion of the rice bowl and then making the rest into ochazuke.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1607",
@@ -599,7 +680,12 @@
       "district_en": "Dongnaegu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Dongnaepajeon, Dongnaegodongjjim, Yakchojeonbyeongmuchim, Samsaekdeodeokkui, Golbaengimuchim, Ttugisang, Ttumisang",
-      "description_en": "It is a place synonymous with green onion pancakes that have been passed down for four generations for over 80 years.Thick green onion pancakes, which are also good as a meal replacement, have a deep flavor with just the right amount of seafood.It is characterized by stuffing clams, shrimp, oysters, mussels, etc. and frying them in rapeseed oil.The Korean set menu consisting of green onion pancakes, braised drumstick stew, seasoned whelk, and grilled deodeok is also popular."
+      "description_en": "It is a place synonymous with green onion pancakes that have been passed down for four generations for over 80 years.Thick green onion pancakes, which are also good as a meal replacement, have a deep flavor with just the right amount of seafood.It is characterized by stuffing clams, shrimp, oysters, mussels, etc. and frying them in rapeseed oil.The Korean set menu consisting of green onion pancakes, braised drumstick stew, seasoned whelk, and grilled deodeok is also popular.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1546",
@@ -634,7 +720,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Jeomsimteukseonhoejeongsik, Hoekoseu, Sekkosi",
-      "description_en": "This natural raw fish restaurant is popular among locals and is famous for its fresh raw fish.When you order raw fish, various seafood and fries are served.In Busan, raw fish is usually eaten dipped in ssamjang (soybean paste), and you can make sushi by adding raw fish to sushi rice.Meals include spicy stew and steamed fish."
+      "description_en": "This natural raw fish restaurant is popular among locals and is famous for its fresh raw fish.When you order raw fish, various seafood and fries are served.In Busan, raw fish is usually eaten dipped in ssamjang (soybean paste), and you can make sushi by adding raw fish to sushi rice.Meals include spicy stew and steamed fish.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1565",
@@ -669,7 +760,12 @@
       "district_en": "Busanjingu",
       "theme_en": "International Cuisine",
       "menu_en": "Reonchipaseuta, Songeogeurabeurakseu&chajikisoseu, Hanubipeutareutareu, Maneulhyanguiollibeujeorim, Nakjijeotgalkeurimchijeuaenkeuraekeo",
-      "description_en": "A wine bar with a casual and bright atmosphere.Beef tartare, a French-style raw meat, is a popular menu item and is served on the accompanying baguette.Pasta is also served as a lunch menu item.It is mandatory to order alcohol or beverages."
+      "description_en": "A wine bar with a casual and bright atmosphere.Beef tartare, a French-style raw meat, is a popular menu item and is served on the accompanying baguette.Pasta is also served as a lunch menu item.It is mandatory to order alcohol or beverages.",
+      "cuisine": "French",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1566",
@@ -704,7 +800,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Dineokoseu, Saengmyeonpaseuta, Chaekkeutdeungsimseuteikeu",
-      "description_en": "A place where you can enjoy high-quality Italian cuisine.The specialty is that they use pasta noodles made in-house every day, and pizza and steaks baked in an oak oven are also recommended.The course menu consisting of a variety of dishes also has a high level of satisfaction."
+      "description_en": "A place where you can enjoy high-quality Italian cuisine.The specialty is that they use pasta noodles made in-house every day, and pizza and steaks baked in an oak oven are also recommended.The course menu consisting of a variety of dishes also has a high level of satisfaction.",
+      "cuisine": "Italian",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1572",
@@ -739,7 +840,12 @@
       "district_en": "Namgu",
       "theme_en": "International Cuisine",
       "menu_en": "Sogogissalguksu, Raiokpeoga, Haemulbokkeumbap, Goikkuon, Bansseo, Bankkwoi, Bunmangbit, Bunbohue",
-      "description_en": "A pho noodle restaurant learned from Lai Oc, a pho restaurant in Hanoi, Vietnam.You can taste beef rice noodles in a clean broth.The generous portion of banh xeo is also recommended.The interior, which recreates the feel of a local restaurant, is also impressive."
+      "description_en": "A pho noodle restaurant learned from Lai Oc, a pho restaurant in Hanoi, Vietnam.You can taste beef rice noodles in a clean broth.The generous portion of banh xeo is also recommended.The interior, which recreates the feel of a local restaurant, is also impressive.",
+      "cuisine": "Vietnamese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1587",
@@ -774,7 +880,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Reonchikoseu, Dineokoseu",
-      "description_en": "Chef Edward Kwon's fine dining French restaurant.You can enjoy a panoramic ocean view of Songjeong, and enjoy delicate course meals in a luxurious atmosphere at a reasonable price.It is located on the 4th floor of the cultural complex called Kumudara."
+      "description_en": "Chef Edward Kwon's fine dining French restaurant.You can enjoy a panoramic ocean view of Songjeong, and enjoy delicate course meals in a luxurious atmosphere at a reasonable price.It is located on the 4th floor of the cultural complex called Kumudara.",
+      "cuisine": "French",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1571",
@@ -809,7 +920,12 @@
       "district_en": "Busanjingu",
       "theme_en": "International Cuisine",
       "menu_en": "Sijeunkoseu",
-      "description_en": "A place that offers French courses based on experiences in France and Japan.The course composition changes depending on the season, using seasonal ingredients.The interior has a counter table structure, and since it is operated by a single chef, reservations are essential.You can experience French cuisine that is hard to find, such as escargot and rabbit meat, at a reasonable price.A variety of wines that go well with the course are available, making it a great place to enjoy a glass of wine."
+      "description_en": "A place that offers French courses based on experiences in France and Japan.The course composition changes depending on the season, using seasonal ingredients.The interior has a counter table structure, and since it is operated by a single chef, reservations are essential.You can experience French cuisine that is hard to find, such as escargot and rabbit meat, at a reasonable price.A variety of wines that go well with the course are available, making it a great place to enjoy a glass of wine.",
+      "cuisine": "French",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1627",
@@ -844,7 +960,13 @@
       "district_en": "Dongnaegu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Ttalgimilpoeyu, Syokollatareuteu, Orenjikokoamadeullen, Muhwagwakeurimchijeupinangsie, Haenambamgogumakeurembeurwille, Amerikano, Kaperate",
-      "description_en": "A place specializing in authentic French baked goods such as madeleines and financiers.Popular menu items include chocolate-filled chocolate tarts and millefeuille.There are also seasonal menus such as strawberry millefeuille and chestnut madeleine."
+      "description_en": "A place specializing in authentic French baked goods such as madeleines and financiers.Popular menu items include chocolate-filled chocolate tarts and millefeuille.There are also seasonal menus such as strawberry millefeuille and chestnut madeleine.",
+      "cuisine": "French",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1588",
@@ -879,7 +1001,11 @@
       "district_en": "",
       "theme_en": "Fine Dining",
       "menu_en": "Dineokoseu",
-      "description_en": "It is a modern Korean food bar with a luxurious atmosphere, where you can enjoy the course while looking at the beautiful night view.Dishes using a variety of seasonal seafood such as octopus, eel, and yellowtail are served.There is also a cocktail bar, so it's great for a late night cocktail."
+      "description_en": "It is a modern Korean food bar with a luxurious atmosphere, where you can enjoy the course while looking at the beautiful night view.Dishes using a variety of seasonal seafood such as octopus, eel, and yellowtail are served.There is also a cocktail bar, so it's great for a late night cocktail.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1567",
@@ -914,7 +1040,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "International Cuisine",
       "menu_en": "Saelleodeu, Seonggeareoranpaseuta, Chorijoallioollido, Tomatoraguobeunpennepaseuta, Algamjanyoki",
-      "description_en": "A casual Italian restaurant with delicious gnocchi.The potato-shaped gnocchi goes well with the truffle flavor and cream sauce.The nature-friendly small garden in front of the entrance attracts attention."
+      "description_en": "A casual Italian restaurant with delicious gnocchi.The potato-shaped gnocchi goes well with the truffle flavor and cream sauce.The nature-friendly small garden in front of the entrance attracts attention.",
+      "cuisine": "Italian",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1589",
@@ -949,7 +1080,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "Fine Dining",
       "menu_en": "Bijeuniseukoseu, Maikeulseukoseu, Saelleodeu, Paseuta, Saendeuwichi&beogeo, Kokoneossyurimpeu, Geurildeukallamari",
-      "description_en": "An American restaurant that uses seasonal ingredients from Busan and serves dishes in an American style.Recommended menu items include fajita, truffle spaghetti, and Michael’s signature burger.We highly recommend a seat on the outdoor terrace where you can enjoy the city view of Busan at night.It is located in F1963, a complex cultural space."
+      "description_en": "An American restaurant that uses seasonal ingredients from Busan and serves dishes in an American style.Recommended menu items include fajita, truffle spaghetti, and Michael’s signature burger.We highly recommend a seat on the outdoor terrace where you can enjoy the city view of Busan at night.It is located in F1963, a complex cultural space.",
+      "cuisine": "Western",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1581",
@@ -984,7 +1120,13 @@
       "district_en": "Gijanggun",
       "theme_en": "Ocean View Dining",
       "menu_en": "Aepeuteonuntiseteu, Hongcha, Heobeucha, Gwasilcha, Nokcha, Jeontongcha, Eseupeureso, Amerikano, Kapuchino, Kaperate, Kapemoka, Banillarate",
-      "description_en": "A lounge located within Ananti at Busan Cove.This is a space where you can enjoy dessert and tea while looking at the fantastic ocean view.The signature menu is an afternoon tea set consisting of bakery items such as cakes and a signature tea collection."
+      "description_en": "A lounge located within Ananti at Busan Cove.This is a space where you can enjoy dessert and tea while looking at the fantastic ocean view.The signature menu is an afternoon tea set consisting of bakery items such as cakes and a signature tea collection.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1628",
@@ -1019,7 +1161,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Amerikano, Kaperate, Saengtonore, Piseutachioparibeureseuteu, Biollet, Rajeuberisaengtonore, Mejongsyokollaekeullereu",
-      "description_en": "This is a place where you can taste luxuriously plated desserts.Violette topped with light purple lavender mousse is a popular menu item, and goes well with raspberry jam and tart."
+      "description_en": "This is a place where you can taste luxuriously plated desserts.Violette topped with light purple lavender mousse is a popular menu item, and goes well with raspberry jam and tart.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1590",
@@ -1054,7 +1201,11 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Koseu",
-      "description_en": "A place where you can experience Japanese kaiseki cuisine while enjoying the sea view of Haeundae.You can feel the Japanese atmosphere from the interior to the staff’s yukata.Try a variety of dishes using fresh seasonal seafood, including sashimi, suimono, tempura, grilled food, and pot rice.It is located on the 2nd floor of Pale de Cise Resort."
+      "description_en": "A place where you can experience Japanese kaiseki cuisine while enjoying the sea view of Haeundae.You can feel the Japanese atmosphere from the interior to the staff’s yukata.Try a variety of dishes using fresh seasonal seafood, including sashimi, suimono, tempura, grilled food, and pot rice.It is located on the 2nd floor of Pale de Cise Resort.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1634",
@@ -1089,7 +1240,13 @@
       "district_en": "Geumjeonggu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Oneuruihaendeudeurip, Amerikano, Eseupeureso, Kangkang, Koldeubeuru, Kaperate, Sijeuneolti, Remonpaundeu, Keuruasang, Keurimbeurauni, Chijeukeikeu",
-      "description_en": "It started as a 4-pyeong takeout store near Oncheonjang Station in 2007.Founding member Juyeon Jeon is the first Korean barista to win two consecutive World Barista Champions.The store, which is reminiscent of an old Jeoksan house, is beautiful, and they recently opened a large-scale second roastery and store in Yeongdo.The representative coffee is a blend of Es Chocolat and Fruity Bonbon.Coffees similar to Panama's Savage Auction were introduced for the first time in Korea."
+      "description_en": "It started as a 4-pyeong takeout store near Oncheonjang Station in 2007.Founding member Juyeon Jeon is the first Korean barista to win two consecutive World Barista Champions.The store, which is reminiscent of an old Jeoksan house, is beautiful, and they recently opened a large-scale second roastery and store in Yeongdo.The representative coffee is a blend of Es Chocolat and Fruity Bonbon.Coffees similar to Panama's Savage Auction were introduced for the first time in Korea.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1559",
@@ -1124,7 +1281,11 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Ocheumamikoseu, Dasimakitamago, Osingkomoriawase, Daikonsarada, Negitoromaki, Seunagimo, Nankocheu, Seseri, Tebasaki, Momo, Udong, Soba",
-      "description_en": "A great place to have a drink with an Otsumami (alcohol snack) course.You can order it as a single item and enjoy a variety of skewered dishes and Japanese snacks.This is a Busan branch opened by Chef Yokomori of Moz, which is popular in Sinsa-dong, Seoul."
+      "description_en": "A great place to have a drink with an Otsumami (alcohol snack) course.You can order it as a single item and enjoy a variety of skewered dishes and Japanese snacks.This is a Busan branch opened by Chef Yokomori of Moz, which is popular in Sinsa-dong, Seoul.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1582",
@@ -1159,7 +1320,12 @@
       "district_en": "Yeongdogu",
       "theme_en": "Ocean View Dining",
       "menu_en": "Hanudeungsim, Hanuyangnyeomgui, Hanukkotdeungsim, Yangnyeomgalbissal, Kkotgalbissalsogeumgui, Hanuteuksubuwimodum, Hanukkotgalbisal, Hanugomtang, Galbitang",
-      "description_en": "A charcoal grilled rib restaurant where you can taste Korean beef and imported meat.You can eat while looking at the spectacular view of Taejongdae.You can enjoy a cup of tea at Cafe Debom on the second floor, and there is also a banquet hall and an outdoor wedding hall."
+      "description_en": "A charcoal grilled rib restaurant where you can taste Korean beef and imported meat.You can eat while looking at the spectacular view of Taejongdae.You can enjoy a cup of tea at Cafe Debom on the second floor, and there is also a banquet hall and an outdoor wedding hall.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1591",
@@ -1194,7 +1360,12 @@
       "district_en": "Busanjingu",
       "theme_en": "Fine Dining",
       "menu_en": "Suryeon, Dongbaek, Mugunghwa, Moran, Hanubulgogibansang",
-      "description_en": "It is an elegant Korean restaurant with a panoramic view of Baekyangsan Mountain and is located on the 43rd floor of Lotte Hotel Busan.We serve high-quality Korean food that is a new interpretation of traditional Korean food.It is popular not only with Koreans but also foreigners as it adds a modern sensibility to Korean taste.There is a wine collection that goes well with Korean food, and a halal menu is also available for Muslims."
+      "description_en": "It is an elegant Korean restaurant with a panoramic view of Baekyangsan Mountain and is located on the 43rd floor of Lotte Hotel Busan.We serve high-quality Korean food that is a new interpretation of traditional Korean food.It is popular not only with Koreans but also foreigners as it adds a modern sensibility to Korean taste.There is a wine collection that goes well with Korean food, and a halal menu is also available for Muslims.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1629",
@@ -1229,7 +1400,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Batong, Bageteu, Oteuamondeu, Paengosyokolla, Keuruasang, Sinamollol, Ollibeu",
-      "description_en": "A French bakery cafe that uses French ingredients such as flour, salt, butter, and chocolate.The stick-shaped baton is a popular bread, and only 5 can be purchased per person."
+      "description_en": "A French bakery cafe that uses French ingredients such as flour, salt, butter, and chocolate.The stick-shaped baton is a popular bread, and only 5 can be purchased per person.",
+      "cuisine": "French",
+      "meal_times": [
+        "Breakfast",
+        "Lunch"
+      ]
     },
     {
       "id": "1553",
@@ -1264,7 +1440,12 @@
       "district_en": "Gijanggun",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Bungjangeohoe, Modumhoe, Dodari, Chamgajami, Dom, Maeuntang",
-      "description_en": "An old anago (conger eel) specialty store.You can taste the soft anago raw fish with all the moisture drained, and it is excellent when dipped in makjang.The spicy spicy stew that comes when you order anago raw fish is also good.It is located in a place with a view of the sea, so the scenery is nice."
+      "description_en": "An old anago (conger eel) specialty store.You can taste the soft anago raw fish with all the moisture drained, and it is excellent when dipped in makjang.The spicy spicy stew that comes when you order anago raw fish is also good.It is located in a place with a view of the sea, so the scenery is nice.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1608",
@@ -1299,7 +1480,12 @@
       "district_en": "Junggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Agwijjim, Agwisuyuk, Agwitang",
-      "description_en": "This is a monkfish specialty store that has been making steamed monkfish for over 60 years.Using only fresh raw monkfish, we serve steamed dishes that are clean and have a refreshing aftertaste.Monkfish stew contains millet leaves, which are eaten in the Gyeongsang Province region, so its aroma and taste may be unfamiliar."
+      "description_en": "This is a monkfish specialty store that has been making steamed monkfish for over 60 years.Using only fresh raw monkfish, we serve steamed dishes that are clean and have a refreshing aftertaste.Monkfish stew contains millet leaves, which are eaten in the Gyeongsang Province region, so its aroma and taste may be unfamiliar.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1555",
@@ -1334,7 +1520,12 @@
       "district_en": "Dongnaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Jjajangmyeon, Jjamppong, Sacheonjjajangmyeon, Junghwadeopbap, Sacheollajeuji, Yuringi, Gungbogijeong, Menbosya, Tangsuyuk",
-      "description_en": "This is a Chinese restaurant that is very popular in Busan.You can enjoy excellent Chinese cuisine at a reasonable price.In particular, Sichuan Rajjiji is a representative menu item with an impressive combination of spicy aroma and ingredients.All meal menus feature a fried egg."
+      "description_en": "This is a Chinese restaurant that is very popular in Busan.You can enjoy excellent Chinese cuisine at a reasonable price.In particular, Sichuan Rajjiji is a representative menu item with an impressive combination of spicy aroma and ingredients.All meal menus feature a fried egg.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1609",
@@ -1369,7 +1560,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Bokkuk, Bongmaeuntang, Eunboksuyuk, Daegutang",
-      "description_en": "A place where you can enjoy the clean taste of pufferfish soup.It is important to add the right amount of meat and drain the broth well when making puffer fish soup, and it boasts a great taste by using broth of the right consistency.Although it is small in size, it is so popular that you have to wait in line during lunch."
+      "description_en": "A place where you can enjoy the clean taste of pufferfish soup.It is important to add the right amount of meat and drain the broth well when making puffer fish soup, and it boasts a great taste by using broth of the right consistency.Although it is small in size, it is so popular that you have to wait in line during lunch.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1610",
@@ -1404,7 +1600,12 @@
       "district_en": "Dongnaegu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Dongnaesamgyetang, Gungjungyakkyetang",
-      "description_en": "This place specializes only in samgyetang, and there are only two menu items: Gungjung Yak-tang and Dongrae Sam-gyetang.They use a large piece of chicken and the rich soup is excellent.A glass of ginseng liquor is served before the samgyetang is served, and the special feature of the samgyetang is that it is topped with green onion salad.There are a lot of customers waiting, so you usually have to wait in line."
+      "description_en": "This place specializes only in samgyetang, and there are only two menu items: Gungjung Yak-tang and Dongrae Sam-gyetang.They use a large piece of chicken and the rich soup is excellent.A glass of ginseng liquor is served before the samgyetang is served, and the special feature of the samgyetang is that it is topped with green onion salad.There are a lot of customers waiting, so you usually have to wait in line.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1611",
@@ -1439,7 +1640,13 @@
       "district_en": "Junggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Baekkupai, Keuroijeun, Ssukssalsikppang, Beulluberisikppang, Patdoneot, Italliankeuroket, Chapssalpatdoneot, Bageteupija, Yachaeppang, Duyuterapi, Sosijipeiseuteuri",
-      "description_en": "It is an old bakery in Busan, boasting a history of over 60 years.Croisin with soft bread and corn salad is popular.Although it is not sophisticated, there are many breads with an old-fashioned taste, and many people who feel nostalgic visit this place."
+      "description_en": "It is an old bakery in Busan, boasting a history of over 60 years.Croisin with soft bread and corn salad is popular.Although it is not sophisticated, there are many breads with an old-fashioned taste, and many people who feel nostalgic visit this place.",
+      "cuisine": "Western",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1635",
@@ -1474,7 +1681,13 @@
       "district_en": "Busanjingu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Eseupeureso, Amerikano, Pilteokeopi, Kaperate, Koldeubeuru, Eolgeurei, Beigeul",
-      "description_en": "Along with Heate, this store is at the forefront of Busan's new specialty coffee wave.It is popular not only in Busan but also nationwide for its coffee roasting, store management, planning, events, and creative activities.The initial store, which had a monastery feel, was so popular that numerous imitation stores were created across the country, but after renovation, the atmosphere became focused on the coffee itself."
+      "description_en": "Along with Heate, this store is at the forefront of Busan's new specialty coffee wave.It is popular not only in Busan but also nationwide for its coffee roasting, store management, planning, events, and creative activities.The initial store, which had a monastery feel, was so popular that numerous imitation stores were created across the country, but after renovation, the atmosphere became focused on the coffee itself.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1630",
@@ -1509,7 +1722,13 @@
       "district_en": "Yeonjegu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Mongbeullang, Bwisyeteu, Porebeullangswi, Peurejie, Poakaramel, Seukon&jaem, Keurim, Kaneulle, Jeorinbaekeullaputi, Kapeallongje, Kaperate, Banillarate, Ti",
-      "description_en": "A dessert cafe specializing in sweet bread, baked goods, and cakes.A variety of desserts and teas are also available.Popular menu items include Mont Blanc and Forre Blanche."
+      "description_en": "A dessert cafe specializing in sweet bread, baked goods, and cakes.A variety of desserts and teas are also available.Popular menu items include Mont Blanc and Forre Blanche.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1550",
@@ -1544,7 +1763,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Sunmemillaengmyeon, Sari, Matbogihanusuyuk, Hanuhanmarikkorisuyuk, Gyeoul - Kkorigomtang, Yukkaejang",
-      "description_en": "A Pyeongyang cold noodle restaurant with excellent, clean soup.Usually, only two menu items are offered, Pyongyang cold noodles and boiled pork, but in winter, you can also taste gomtang and beef stew."
+      "description_en": "A Pyeongyang cold noodle restaurant with excellent, clean soup.Usually, only two menu items are offered, Pyongyang cold noodles and boiled pork, but in winter, you can also taste gomtang and beef stew.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1612",
@@ -1579,7 +1803,12 @@
       "district_en": "Junggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Hoebaekban, Hoebibimbap, Mulhoe, Jeonbokjuk, Dommeoritang, Yangnyeomgui",
-      "description_en": "A hoebaekban restaurant with over 80 years of tradition located in Jagalchi Market.The generous serving of large pieces of fish meat, vinegared sauce, and side dishes is very appetizing.The hoebaekban comes with a plate of flounder sashimi, rice, clear fish soup, and five or six side dishes.Depending on the season, salted intestines, salted rockfish, and crab sauce are served on the table."
+      "description_en": "A hoebaekban restaurant with over 80 years of tradition located in Jagalchi Market.The generous serving of large pieces of fish meat, vinegared sauce, and side dishes is very appetizing.The hoebaekban comes with a plate of flounder sashimi, rice, clear fish soup, and five or six side dishes.Depending on the season, salted intestines, salted rockfish, and crab sauce are served on the table.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1556",
@@ -1614,7 +1843,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Sacheonsikbaechujjim, Chasyu, Mauisangsu, Sannibaegyuk, Dimseom, Beijingdeok, Reonchiseteu, Dineoseteu",
-      "description_en": "A Chinese restaurant with a modern atmosphere decorated in black tones.Crispy-skinned Peking duck is their signature dish, and it is made properly using a dedicated oven.In addition to Peking duck, we also serve a variety of familiar Chinese dishes with a modern touch.This restaurant's unique menu items include Horse's Sangsu and Sanni Baekyuk."
+      "description_en": "A Chinese restaurant with a modern atmosphere decorated in black tones.Crispy-skinned Peking duck is their signature dish, and it is made properly using a dedicated oven.In addition to Peking duck, we also serve a variety of familiar Chinese dishes with a modern touch.This restaurant's unique menu items include Horse's Sangsu and Sanni Baekyuk.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1631",
@@ -1649,7 +1883,12 @@
       "district_en": "Namgu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Keuruasang, Chiabata, Bajilmeongmulbageteu, Gongjubamsikppang, Tongmilsikppang, Ttalgipeiseuteuri, Jambongsaendeuwichi",
-      "description_en": "A bakery offering a variety of bakeries.Various types of baguettes are popular menu items.Croissants and light bread with a good texture of the pastry are also delicious."
+      "description_en": "A bakery offering a variety of bakeries.Various types of baguettes are popular menu items.Croissants and light bread with a good texture of the pastry are also delicious.",
+      "cuisine": "Western",
+      "meal_times": [
+        "Breakfast",
+        "Lunch"
+      ]
     },
     {
       "id": "1632",
@@ -1684,7 +1923,11 @@
       "district_en": "Dongnaegu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Beuriangkeolleksyeon, Beurianggeurangbuateu, Madeullen, Pinangsie, Kaneulle, Gatoositeurong, Gallaeteubeureutong",
-      "description_en": "A baked confectionery specialty store that offers representative local confectionery from the French region.Because it operates mainly on pre-orders and products sell out quickly, reservations must be made one day in advance."
+      "description_en": "A baked confectionery specialty store that offers representative local confectionery from the French region.Because it operates mainly on pre-orders and products sell out quickly, reservations must be made one day in advance.",
+      "cuisine": "French",
+      "meal_times": [
+        "Lunch"
+      ]
     },
     {
       "id": "1636",
@@ -1719,7 +1962,13 @@
       "district_en": "Busanjingu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Haendeudeuripkeopi, Eseupeureso, Amerikano, Yuginongmilkeuti, Biktoriattalgikeikeu, Malchasyokollakeikeu, Bajilchijeuseukon, Banillamadeullen, Cheripinangsie",
-      "description_en": "Along with Momos, it is a specialty coffee company that symbolizes Busan.It operates eight large stores in Busan, Ulsan, and Gyeongnam regions.The most representative place is the first Black Up Coffee in Seomyeon and the origin of Busan's Seomyeon Cafe Street.The representative coffee is Nero, a blend that has been maintained consistently for over 10 years.The sea salt creative menu with a small amount of salt and cold brew coffee whipped cream is also popular."
+      "description_en": "Along with Momos, it is a specialty coffee company that symbolizes Busan.It operates eight large stores in Busan, Ulsan, and Gyeongnam regions.The most representative place is the first Black Up Coffee in Seomyeon and the origin of Busan's Seomyeon Cafe Street.The representative coffee is Nero, a blend that has been maintained consistently for over 10 years.The sea salt creative menu with a small amount of salt and cold brew coffee whipped cream is also popular.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1613",
@@ -1754,7 +2003,13 @@
       "district_en": "",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Busanaeppang, Keuruasang, Peurenchipai, Kaseuteramini, Sangtugwaja, Chokomeopin, Chijeumeopin, Pangneujenneu, Mongbeullang, Soboruppang, Ttalgisaengkeurimminikeikeu",
-      "description_en": "This is an old bakery in Busan, boasting a history of over 40 years.Salad bread and pie manju with potatoes are popular menu items.In addition to old-fashioned bread, they also offer Mont Blanc and egg tarts."
+      "description_en": "This is an old bakery in Busan, boasting a history of over 40 years.Salad bread and pie manju with potatoes are popular menu items.In addition to old-fashioned bread, they also offer Mont Blanc and egg tarts.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1592",
@@ -1789,7 +2044,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Koseu, Seteu, Cheolpankoseu",
-      "description_en": "A Japanese restaurant located at the Paradise Hotel.You can taste the essence of high-quality, authentic Japanese cuisine using fresh ingredients.The sushi counter is also popular, and the teppanyaki, which brings out the natural flavors of the ingredients, is also recommended."
+      "description_en": "A Japanese restaurant located at the Paradise Hotel.You can taste the essence of high-quality, authentic Japanese cuisine using fresh ingredients.The sushi counter is also popular, and the teppanyaki, which brings out the natural flavors of the ingredients, is also recommended.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1557",
@@ -1824,7 +2084,12 @@
       "district_en": "Donggu",
       "theme_en": "International Cuisine",
       "menu_en": "Wantang, Gogimandu, Gimchimandu, Mulmandu, Samsaengmodummandu, Gajiyori, Tomatogyeranbokkeum, Kkanpungsaeu, Ohyangjangyuk, Mapadubu",
-      "description_en": "This is a place where you can enjoy wontons and dumplings at an affordable price, and enjoy the taste of mainland China.Dishes and snacks are also sold at a low price, making them great to enjoy with alcohol.I recommend the mapo tofu and eggplant dishes."
+      "description_en": "This is a place where you can enjoy wontons and dumplings at an affordable price, and enjoy the taste of mainland China.Dishes and snacks are also sold at a low price, making them great to enjoy with alcohol.I recommend the mapo tofu and eggplant dishes.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1543",
@@ -1859,7 +2124,11 @@
       "district_en": "Suyeonggu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Samgyeopsal",
-      "description_en": "A meat restaurant that only offers two menu items: thinly sliced ​​pork belly and seasoned pork ribs.A variety of side dishes are provided that go well with the meat, and sikhye is also served for dessert.Seasoned crab is served as a side dish and is very popular.This is a place where you can enjoy a meal at an affordable price."
+      "description_en": "A meat restaurant that only offers two menu items: thinly sliced ​​pork belly and seasoned pork ribs.A variety of side dishes are provided that go well with the meat, and sikhye is also served for dessert.Seasoned crab is served as a side dish and is very popular.This is a place where you can enjoy a meal at an affordable price.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1614",
@@ -1894,7 +2163,12 @@
       "district_en": "",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Yukhoebibimbap, Dolsotbibimbap, Hoebibimbap, Seoksoebulgogi, Yukhoe, Gaorimuchim, Pajeon",
-      "description_en": "Jinju-style beef bibimbap restaurant with over 70 years of history.Various vegetables and raw meat are mixed evenly.When you order bibimbap, the seonjit soup and water kimchi that come out are delicacies.In addition, you can also taste menu items such as grilled bulgogi, green onion pancakes, and seasoned stingray."
+      "description_en": "Jinju-style beef bibimbap restaurant with over 70 years of history.Various vegetables and raw meat are mixed evenly.When you order bibimbap, the seonjit soup and water kimchi that come out are delicacies.In addition, you can also taste menu items such as grilled bulgogi, green onion pancakes, and seasoned stingray.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1547",
@@ -1929,7 +2203,11 @@
       "district_en": "Haeundaegu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Jayeonsanhoe, Isigari",
-      "description_en": "This is a place where you can taste raw flounder (Ishigari), which is characterized by a savory, fatty taste.Natural raw fish is also sold, so you can eat raw fish from various high-quality fish such as sea bream and flounder.You can also enjoy the deep flavor of the spicy fish stew served as a meal."
+      "description_en": "This is a place where you can taste raw flounder (Ishigari), which is characterized by a savory, fatty taste.Natural raw fish is also sold, so you can eat raw fish from various high-quality fish such as sea bream and flounder.You can also enjoy the deep flavor of the spicy fish stew served as a meal.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1615",
@@ -1964,7 +2242,13 @@
       "district_en": "Junggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Seolleongtang, Gomtang, Yangjitang, Suyuk",
-      "description_en": "A place that has been making seolleongtang for over 80 years.Seolleongtang is a dish commonly eaten in Seoul, but it has also captured the taste buds of people in Busan.There are only two side dishes: cabbage kimchi and radish radish kimchi, but the taste is excellent."
+      "description_en": "A place that has been making seolleongtang for over 80 years.Seolleongtang is a dish commonly eaten in Seoul, but it has also captured the taste buds of people in Busan.There are only two side dishes: cabbage kimchi and radish radish kimchi, but the taste is excellent.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1593",
@@ -1999,7 +2283,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Koseuyori, Hanubulgalbi, Hanuyukhoebibimbap, Hanutteokkalbibansangcharim",
-      "description_en": "This is a Korean restaurant that has been operating for a long time at the Westin Chosun Busan Hotel, and serves traditional Korean cuisine filled with sincerity.The banquet room with a panoramic view of the Haeundae sea is used as a meeting place with important people."
+      "description_en": "This is a Korean restaurant that has been operating for a long time at the Westin Chosun Busan Hotel, and serves traditional Korean cuisine filled with sincerity.The banquet room with a panoramic view of the Haeundae sea is used as a meeting place with important people.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1616",
@@ -2034,7 +2323,13 @@
       "district_en": "Busanjingu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Dwaejigukbap, Sundaegukbap, Naejanggukbap, Ttarogukbap, Suyukbaekban, Chapssalsundae, Suyuk",
-      "description_en": "The soup of pork soup made from the best parts of the pig is white and clean.Glutinous rice sundae, made with glutinous rice instead of glass noodles, is also popular.It is one of the original restaurants in Seomyeon's pork soup alley, boasting a history of over 80 years."
+      "description_en": "The soup of pork soup made from the best parts of the pig is white and clean.Glutinous rice sundae, made with glutinous rice instead of glass noodles, is also popular.It is one of the original restaurants in Seomyeon's pork soup alley, boasting a history of over 80 years.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1560",
@@ -2069,7 +2364,11 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Omakase",
-      "description_en": "A place where you can experience Japanese kaiseki course meals.We use high-quality seasonal ingredients that change with each season, such as gold tae, tuna, sea urchin roe, sweet shrimp, and beef.You can taste a variety of dishes, including sashimi, suimono, soba, grilled food, and pot rice."
+      "description_en": "A place where you can experience Japanese kaiseki course meals.We use high-quality seasonal ingredients that change with each season, such as gold tae, tuna, sea urchin roe, sweet shrimp, and beef.You can taste a variety of dishes, including sashimi, suimono, soba, grilled food, and pot rice.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1568",
@@ -2104,7 +2403,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Allioollio, Kachiopepe, Anchobipaseuta, Goreugonjollapija, Peurosyutopija, Rukollapija, Gambaseu, Maeunhonghapjjim, Hanuchaekkeut",
-      "description_en": "This is an Italian restaurant that sticks to the basics, and pasta is a popular menu item.The pizza is baked in an Italian style in a wood-fired oven, and you can clearly taste the ingredients.You can also taste Italian beers that are difficult to find."
+      "description_en": "This is an Italian restaurant that sticks to the basics, and pasta is a popular menu item.The pizza is baked in an Italian style in a wood-fired oven, and you can clearly taste the ingredients.You can also taste Italian beers that are difficult to find.",
+      "cuisine": "Italian",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1561",
@@ -2139,7 +2443,11 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Seusiomakase",
-      "description_en": "You can taste sushi omakase run by a single chef.Dinner Omakase is divided into Part 1 and Part 2 only in the evening.Some say that Shari's seasoning is a bit strong, but many people prefer it, and overall it is good value for money."
+      "description_en": "You can taste sushi omakase run by a single chef.Dinner Omakase is divided into Part 1 and Part 2 only in the evening.Some say that Shari's seasoning is a bit strong, but many people prefer it, and overall it is good value for money.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1562",
@@ -2174,7 +2482,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Reonchi, Dineo",
-      "description_en": "A place where you can enjoy sushi omakase that is reasonably priced.Shari made with red vinegar goes well with rich-tasting fish such as aji or saba."
+      "description_en": "A place where you can enjoy sushi omakase that is reasonably priced.Shari made with red vinegar goes well with rich-tasting fish such as aji or saba.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1617",
@@ -2209,7 +2522,13 @@
       "district_en": "Donggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Gogimandu, Jjingyoja, Gunmandu, Maepgun, Saeugyoja, Maramandu",
-      "description_en": "It is famous for its Chinese dumplings, which have a thick yet soft dumpling skin and a filling filled with ginger and pork.In addition to Chinese dumplings, they specialize in Chinese breads such as red bean bread and egg bread.Soybean soup, a favorite breakfast among Chinese people, is served with snacks.A place that boasts over 70 years of history."
+      "description_en": "It is famous for its Chinese dumplings, which have a thick yet soft dumpling skin and a filling filled with ginger and pork.In addition to Chinese dumplings, they specialize in Chinese breads such as red bean bread and egg bread.Soybean soup, a favorite breakfast among Chinese people, is served with snacks.A place that boasts over 70 years of history.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1618",
@@ -2244,7 +2563,13 @@
       "district_en": "Junggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Ttarogukbap, Suyukbaekban",
-      "description_en": "This is a place where you can taste refreshing and savory pork soup.There is a generous amount of well-boiled pork and sundae.It is located within the Gukje Market in Nampo-dong, and is popular among tourists for its deliciousness, attracting many tourists to Busan."
+      "description_en": "This is a place where you can taste refreshing and savory pork soup.There is a generous amount of well-boiled pork and sundae.It is located within the Gukje Market in Nampo-dong, and is popular among tourists for its deliciousness, attracting many tourists to Busan.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1619",
@@ -2279,7 +2604,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Jjajangmyeon, Udong, Jjamppong, Tangsuyuk, Kkanpunggi",
-      "description_en": "A Sichuan Chinese restaurant with over 70 years of tradition.Popular menu items include black bean noodles with fiery Szechuan sauce and old-fashioned sweet and sour pork with large chunks of cucumber, carrot, and wood ear mushroom.Besides that, the taste of the kkanpunggi is also excellent."
+      "description_en": "A Sichuan Chinese restaurant with over 70 years of tradition.Popular menu items include black bean noodles with fiery Szechuan sauce and old-fashioned sweet and sour pork with large chunks of cucumber, carrot, and wood ear mushroom.Besides that, the taste of the kkanpunggi is also excellent.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1542",
@@ -2314,7 +2644,13 @@
       "district_en": "Namgu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Dwaejigukbap, Naejanggukbap, Suyukbaekban, Dwaejisuyuk, Naejangsuyuk",
-      "description_en": "It comes out through affection.It is good to eat it by adding a lot of seasoned chives, called jeongguji, to the soup.Boiled pork made with dried pork is also recommended."
+      "description_en": "It comes out through affection.It is good to eat it by adding a lot of seasoned chives, called jeongguji, to the soup.Boiled pork made with dried pork is also recommended.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1594",
@@ -2349,7 +2685,12 @@
       "district_en": "Gijanggun",
       "theme_en": "Fine Dining",
       "menu_en": "Reonchikoseu, Dineokoseu",
-      "description_en": "A place where you can enjoy a multi-course meal while looking at the open sea.It offers a course menu consisting of eight menus, and you can taste dishes that combine French and Korean cuisine.The main feature of the steak is that it is followed by a Korean meal.The fish dishes included in the course change depending on the season.It operates on a reservation basis only."
+      "description_en": "A place where you can enjoy a multi-course meal while looking at the open sea.It offers a course menu consisting of eight menus, and you can taste dishes that combine French and Korean cuisine.The main feature of the steak is that it is followed by a Korean meal.The fish dishes included in the course change depending on the season.It operates on a reservation basis only.",
+      "cuisine": "French",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1595",
@@ -2384,7 +2725,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Reonchiomakase, Dineoseusiomakase",
-      "description_en": "You can taste high-quality sashimi at this Japanese restaurant within the Centum Hotel.If you order a course, sashimi is served, followed by various seafood, followed by vegetables, scallops, grilled beef, and a meal menu.The sushi course is also popular, and the sake list is also good."
+      "description_en": "You can taste high-quality sashimi at this Japanese restaurant within the Centum Hotel.If you order a course, sashimi is served, followed by various seafood, followed by vegetables, scallops, grilled beef, and a meal menu.The sushi course is also popular, and the sake list is also good.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1551",
@@ -2419,7 +2765,13 @@
       "district_en": "Haeundaegu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Daegutang, Daeguppoljjim",
-      "description_en": "This place is popular for its spicy cod soup.It is characterized by adding cod heads to give the soup flavor.The pickled vegetables and salted sea squirt served as side dishes are delicious.In addition to artist Heo Young-man, it is also a famous restaurant for celebrity Jeong-woo."
+      "description_en": "This place is popular for its spicy cod soup.It is characterized by adding cod heads to give the soup flavor.The pickled vegetables and salted sea squirt served as side dishes are delicious.In addition to artist Heo Young-man, it is also a famous restaurant for celebrity Jeong-woo.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1574",
@@ -2454,7 +2806,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "International Cuisine",
       "menu_en": "Ppupatpongkeori, Ppunimpatpongkeori, Taisikhaemulssalguksu, Painaepeulbokkeumbap, Yamunsen, Alloiseteu",
-      "description_en": "It is a Thai Select Premium certified store certified by the Thai government.You can taste authentic Thai cuisine prepared by a chef from a local hotel.In particular, Pu Pat Pong curry made with crab and whipped cream and fried rice with a generous amount of fresh pineapple are popular."
+      "description_en": "It is a Thai Select Premium certified store certified by the Thai government.You can taste authentic Thai cuisine prepared by a chef from a local hotel.In particular, Pu Pat Pong curry made with crab and whipped cream and fried rice with a generous amount of fresh pineapple are popular.",
+      "cuisine": "Thai",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1563",
@@ -2489,7 +2846,11 @@
       "district_en": "Suyeonggu",
       "theme_en": "International Cuisine",
       "menu_en": "Yakitoriomakase, Yakitori, Cheukune, Saengyachaeboridoenjang, Chaesogui, Dalkbongkeuroket, Saeusisomarichungwontwigim, Chijeugui",
-      "description_en": "This is a yakitori restaurant with a luxurious atmosphere, famous for its yakitori omakase using local chicken.You can taste almost all parts of the chicken, including tenderloin, neck meat, oyster meat, Achilles tendon, thigh meat, wings, legs, and skin."
+      "description_en": "This is a yakitori restaurant with a luxurious atmosphere, famous for its yakitori omakase using local chicken.You can taste almost all parts of the chicken, including tenderloin, neck meat, oyster meat, Achilles tendon, thigh meat, wings, legs, and skin.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1544",
@@ -2524,7 +2885,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Eonyangbulgogi, Deungsim, Saenggalbissal, Yuksasimi",
-      "description_en": "A place specializing in Eonyang-style bulgogi.The taste of high-quality beef is finely chopped, marinated in the unique seasoning of the Eonyang region, and grilled over charcoal.It's good to eat bulgogi wrapped in white kimchi that comes with it."
+      "description_en": "A place specializing in Eonyang-style bulgogi.The taste of high-quality beef is finely chopped, marinated in the unique seasoning of the Eonyang region, and grilled over charcoal.It's good to eat bulgogi wrapped in white kimchi that comes with it.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1552",
@@ -2559,7 +2925,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Sogogideungsim, Galbissal, Chadolbagi, Yangnyeomchadolbagi, Anchangsal, Angeomi, Samgyeomnoseu, Samgyeopsal, Moksal, Mul/bibimnaengmyeon, Chadoldoenjang",
-      "description_en": "A place where you can eat a variety of high-quality grilled beef and pork.The meat is grilled to an easy-to-eat level so you can enjoy it comfortably.Seasoned green onions and pickled mellow seasoned vegetables are also good to serve with meat.Mulnaengmyeon (naengmyeon) with meat-flavored broth is a popular menu item."
+      "description_en": "A place where you can eat a variety of high-quality grilled beef and pork.The meat is grilled to an easy-to-eat level so you can enjoy it comfortably.Seasoned green onions and pickled mellow seasoned vegetables are also good to serve with meat.Mulnaengmyeon (naengmyeon) with meat-flavored broth is a popular menu item.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1620",
@@ -2594,7 +2965,12 @@
       "district_en": "Seogu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Teugyang, Daechang, Gopchang, Baekteugyang, Yangnyeomgalbi, Saenggalbi, Yeomtong, Kongpat",
-      "description_en": "A lamb tripe specialty restaurant with over 60 years of tradition.Korean beef lamb and tripe are marinated in homemade sesame oil and seasoning sauce and grilled over charcoal.The quality of the quantity, daechang, and giblets is good, and the seasoning tastes well combined.The marinade is Gyeongsang-do style, made by mixing red pepper powder and starch syrup to make it thicker.Lamb fried rice is also a delicacy."
+      "description_en": "A lamb tripe specialty restaurant with over 60 years of tradition.Korean beef lamb and tripe are marinated in homemade sesame oil and seasoning sauce and grilled over charcoal.The quality of the quantity, daechang, and giblets is good, and the seasoning tastes well combined.The marinade is Gyeongsang-do style, made by mixing red pepper powder and starch syrup to make it thicker.Lamb fried rice is also a delicacy.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1583",
@@ -2629,7 +3005,12 @@
       "district_en": "Namgu",
       "theme_en": "Ocean View Dining",
       "menu_en": "Galbissal, Deungsim, Jebichuri, Kkotsal",
-      "description_en": "A Korean beef restaurant with a great view of the sea.It tastes good eating high quality Korean beef grilled over charcoal.If you order grilled Korean beef during lunch, the meal and cold noodles are provided free of charge.The exterior, which harmonizes with a pond with flowing water and a field, is so good that it won an architectural award.There is a cafe next door, so you can have tea after eating meat."
+      "description_en": "A Korean beef restaurant with a great view of the sea.It tastes good eating high quality Korean beef grilled over charcoal.If you order grilled Korean beef during lunch, the meal and cold noodles are provided free of charge.The exterior, which harmonizes with a pond with flowing water and a field, is so good that it won an architectural award.There is a cafe next door, so you can have tea after eating meat.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1633",
@@ -2664,7 +3045,13 @@
       "district_en": "Suyeonggu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Hagwonjeon, Chamchippang, Jayeonhyomoppang, Myeongnanbageteu, Keurimchijeuheoni, Danggeunkeikeu, Beuriosyurol, Sogeumppang, Maseukaponepuding",
-      "description_en": "This is one of the popular bakeries in Busan, and is famous for its delicious, non-greasy, soft wangshu cream bread.Cream puff bread, which is steadily gaining popularity, can sell out quickly, so you need to hurry."
+      "description_en": "This is one of the popular bakeries in Busan, and is famous for its delicious, non-greasy, soft wangshu cream bread.Cream puff bread, which is steadily gaining popularity, can sell out quickly, so you need to hurry.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1621",
@@ -2699,7 +3086,12 @@
       "district_en": "Busanjingu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Nakjibokkeum, Nakjisaeubokkeum, Nakjisogopchangbokkeum, Nakjisaeusogopchangbokkeum, Sari",
-      "description_en": "An octopus stir-fry restaurant with over 50 years of tradition.It's stir-fried octopus, but it's closer to a stew because it has soup.A menu with beef tripe is also recommended, and you can eat stir-fried octopus mixed with rice or boiled with udon noodles."
+      "description_en": "An octopus stir-fry restaurant with over 50 years of tradition.It's stir-fried octopus, but it's closer to a stew because it has soup.A menu with beef tripe is also recommended, and you can eat stir-fried octopus mixed with rice or boiled with udon noodles.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1596",
@@ -2734,7 +3126,11 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Koseu, Seupesyeolkoseu, Hanugui, Waingeullaseupeeoring",
-      "description_en": "A Korean beef dining restaurant where you can enjoy the wonderful ocean view of Haeundae.You can enjoy Korean beef omakase, a Japanese-French twist on Korean food, in a luxurious space.It has counter seating, several private rooms, and a large wine cellar."
+      "description_en": "A Korean beef dining restaurant where you can enjoy the wonderful ocean view of Haeundae.You can enjoy Korean beef omakase, a Japanese-French twist on Korean food, in a luxurious space.It has counter seating, several private rooms, and a large wine cellar.",
+      "cuisine": "Fusion",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1539",
@@ -2769,7 +3165,12 @@
       "district_en": "",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Yangnyeomgalbi, Dwaejimoksal, Saenggalbi, Samgyeopsal, Doenjangjjigae",
-      "description_en": "A place where you can eat pork ribs, pork neck, and pork belly.It's not big or fancy, but the side dishes and meat are delicious, so it's always full of customers.Pork ribs marinated in homemade seasoning are the most popular menu item."
+      "description_en": "A place where you can eat pork ribs, pork neck, and pork belly.It's not big or fancy, but the side dishes and meat are delicious, so it's always full of customers.Pork ribs marinated in homemade seasoning are the most popular menu item.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1545",
@@ -2804,7 +3205,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Galchigui, Galchijjigae, Galchijorim, Wangteukdaegui, Wangteukdaejjigae, Wangteukdaejorim",
-      "description_en": "A place where you can eat fresh Jeju cutlassfish dishes in Busan.If you order a special order of grilled cutlassfish, it is grilled to the size and thickness of your palm, and has a plump yet soft texture.The mild yet spicy soybean paste-based cutlassfish stew is also popular.The side dishes served with the three types of salted fish are also delicious and neat."
+      "description_en": "A place where you can eat fresh Jeju cutlassfish dishes in Busan.If you order a special order of grilled cutlassfish, it is grilled to the size and thickness of your palm, and has a plump yet soft texture.The mild yet spicy soybean paste-based cutlassfish stew is also popular.The side dishes served with the three types of salted fish are also delicious and neat.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1569",
@@ -2839,7 +3245,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Oiseuteo, Tongbaldansaeu, Jejusanchamokdom, Muneorijoto, Osobokorijoto, Kareubonara, Italliagajaepaseuta, Bollonyasiksogogipaseuta, Hanu1++chaekkeutseuteikeu",
-      "description_en": "A great place to enjoy wine with local Italian cuisine.Pasta and classic carbonara with Jeju shrimp and linguine noodles are popular, and osso bucco risotto with tender calf meat is also recommended."
+      "description_en": "A great place to enjoy wine with local Italian cuisine.Pasta and classic carbonara with Jeju shrimp and linguine noodles are popular, and osso bucco risotto with tender calf meat is also recommended.",
+      "cuisine": "Italian",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1584",
@@ -2874,7 +3285,13 @@
       "district_en": "Haeundaegu",
       "theme_en": "Ocean View Dining",
       "menu_en": "Gomtang, Yanggomtang, Teukseokkeogomtang, Suyuk",
-      "description_en": "Gomtang specialty store.You can enjoy the light and clean taste of gomtang made with Korean beef.Lamb soup with lamb is also a popular menu item.If you sit on the terrace, you can see the Gwangan Bridge at a glance, boasting the best view."
+      "description_en": "Gomtang specialty store.You can enjoy the light and clean taste of gomtang made with Korean beef.Lamb soup with lamb is also a popular menu item.If you sit on the terrace, you can see the Gwangan Bridge at a glance, boasting the best view.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1570",
@@ -2909,7 +3326,12 @@
       "district_en": "Junggu",
       "theme_en": "International Cuisine",
       "menu_en": "Keureoseuteupija, Haemchijeukeureoseuteupija, Keureoseuteusaeupija, Pepeoronipija, Seupageti",
-      "description_en": "It is a famous pizza restaurant among Busan locals, and the cheese on the pizza is said to be delicious.Pepperoni pizza is a popular menu item, and all pizzas can be changed to a larger size for an additional 4,000 won.This is a place where you have to be prepared to wait."
+      "description_en": "It is a famous pizza restaurant among Busan locals, and the cheese on the pizza is said to be delicious.Pepperoni pizza is a popular menu item, and all pizzas can be changed to a larger size for an additional 4,000 won.This is a place where you have to be prepared to wait.",
+      "cuisine": "Western",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1564",
@@ -2944,7 +3366,11 @@
       "district_en": "Suyeonggu",
       "theme_en": "International Cuisine",
       "menu_en": "Koseuyori",
-      "description_en": "You can taste Japanese Omakase, which is a single course only.Using the highest quality ingredients such as raw wasabi and sea urchin roe from Hokkaido, you can feel the original taste of the ingredients.There are also various types of sake and tokuri, making them great for pairing with courses."
+      "description_en": "You can taste Japanese Omakase, which is a single course only.Using the highest quality ingredients such as raw wasabi and sea urchin roe from Hokkaido, you can feel the original taste of the ingredients.There are also various types of sake and tokuri, making them great for pairing with courses.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1638",
@@ -2979,7 +3405,11 @@
       "district_en": "Haeundaegu",
       "theme_en": "International Cuisine",
       "menu_en": "Kani, Beomgodongsaenggangjorim, Sasimi, Burisiodataki, Hanukusiage, Dureuptenpura, Kamocheukesomyeon, Chamdomochajeuke, Hugujyoseui",
-      "description_en": "Juga Jeonghyo, a kaiseki restaurant led by Chef Jeonghyo Myung, a leader in Busan's Japanese cuisine scene, is back.We offer a course meal focusing on snacks that maximize harmony with sake, and the course composition changes approximately once a month in accordance with the seasons.The signature dish here is naengsomen noodles with plenty of ground sesame seeds."
+      "description_en": "Juga Jeonghyo, a kaiseki restaurant led by Chef Jeonghyo Myung, a leader in Busan's Japanese cuisine scene, is back.We offer a course meal focusing on snacks that maximize harmony with sake, and the course composition changes approximately once a month in accordance with the seasons.The signature dish here is naengsomen noodles with plenty of ground sesame seeds.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1597",
@@ -3014,7 +3444,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Reonchiseteu, Dineoseteu, Chaorandeok, Dimseomselleksyeon, Pekingdeok",
-      "description_en": "Chinese dining restaurant at Signiel Hotel in Busan.It reflects the atmosphere of Hong Kong in the 1920s and offers modern Cantonese cuisine.You can enjoy dim sum and tea during the day and cocktails at the bar in the evening."
+      "description_en": "Chinese dining restaurant at Signiel Hotel in Busan.It reflects the atmosphere of Hong Kong in the 1920s and offers modern Cantonese cuisine.You can enjoy dim sum and tea during the day and cocktails at the bar in the evening.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1622",
@@ -3049,7 +3484,12 @@
       "district_en": "Namgu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Bokkuk, Bokbulgogi, Bokkoseuyori",
-      "description_en": "It is famous for its puffer fish cuisine, which has been passed down for 2 generations for over 60 years.You can taste a variety of puffer fish dishes, such as bokbokri and plum fish stew, and choose the type of puffer you want.If you order the pufferfish course, you will receive a variety of puffer dishes, including pufferfish shabu-shabu, fried pufferfish, pufferfish sashimi, and pufferfish porridge.It is so popular that it has branches all over Busan."
+      "description_en": "It is famous for its puffer fish cuisine, which has been passed down for 2 generations for over 60 years.You can taste a variety of puffer fish dishes, such as bokbokri and plum fish stew, and choose the type of puffer you want.If you order the pufferfish course, you will receive a variety of puffer dishes, including pufferfish shabu-shabu, fried pufferfish, pufferfish sashimi, and pufferfish porridge.It is so popular that it has branches all over Busan.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1548",
@@ -3084,7 +3524,11 @@
       "district_en": "Haeundaegu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Kkeopdegi, Sogeumgui, Dwaejigalbi, Dwitgogi, Daepaesamgyeopsal, Tongsamgyeopgimchijjigae",
-      "description_en": "A popular grilled pork restaurant in Haeundae.The chewy meat has a good flavor and is good to eat with green onions and sauces.Pork skin with honeycomb-shaped cuts is the signature menu item.Satisfaction for the price is also good."
+      "description_en": "A popular grilled pork restaurant in Haeundae.The chewy meat has a good flavor and is good to eat with green onions and sauces.Pork skin with honeycomb-shaped cuts is the signature menu item.Satisfaction for the price is also good.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Dinner"
+      ]
     },
     {
       "id": "1585",
@@ -3119,7 +3563,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "Ocean View Dining",
       "menu_en": "Dodarisekkosi, Ureok, Gwangeo, Jabeo, Chamdom, Gwangeotongmari",
-      "description_en": "A place where you can enjoy Sekkosi while looking at Gwangan Bridge.The secret to the delicious taste of this restaurant is the ssamjang served with sekoshi.You can taste high-quality sekosi at a reasonable price, and the taste of spicy fish stew boiled in an earthen pot is also excellent."
+      "description_en": "A place where you can enjoy Sekkosi while looking at Gwangan Bridge.The secret to the delicious taste of this restaurant is the ssamjang served with sekoshi.You can taste high-quality sekosi at a reasonable price, and the taste of spicy fish stew boiled in an earthen pot is also excellent.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1575",
@@ -3154,7 +3603,12 @@
       "district_en": "Geumjeonggu",
       "theme_en": "International Cuisine",
       "menu_en": "Kebap, Pireujolla, Pita, Reonchiseteu, Kapadokiaseupesyeol",
-      "description_en": "This is a rare Turkic food restaurant in Busan, where you can taste a variety of authentic Turkic food, including kebabs.Various types of kebabs are popular menu items, and Pirzola, lamb ribs marinated in traditional spices and grilled on the grill, is also recommended.It is run by a naturalized Turkic citizen, and traditional Turkish crafts are displayed throughout the store."
+      "description_en": "This is a rare Turkic food restaurant in Busan, where you can taste a variety of authentic Turkic food, including kebabs.Various types of kebabs are popular menu items, and Pirzola, lamb ribs marinated in traditional spices and grilled on the grill, is also recommended.It is run by a naturalized Turkic citizen, and traditional Turkish crafts are displayed throughout the store.",
+      "cuisine": "Fusion",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1554",
@@ -3189,7 +3643,12 @@
       "district_en": "Gijanggun",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Tambokjuk, Tambokbap, Tambokkui, Tambokcheongjussam",
-      "description_en": "An abalone specialty store with a luxurious atmosphere.If you order the basic set, it comes with tambok rice, tambok porridge, and grilled tambok.You can choose from seaweed, hijiki, or gondre as the garnish for Tambokbap, and eat it mixed with crab sauce and abalone paste."
+      "description_en": "An abalone specialty store with a luxurious atmosphere.If you order the basic set, it comes with tambok rice, tambok porridge, and grilled tambok.You can choose from seaweed, hijiki, or gondre as the garnish for Tambokbap, and eat it mixed with crab sauce and abalone paste.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1639",
@@ -3224,7 +3683,12 @@
       "district_en": "Suyeonggu",
       "theme_en": "International Cuisine",
       "menu_en": "Beokeusyeokroseugaseu, Roseugaseu, Gacheusando, Modumgaseu, Ebigaseu",
-      "description_en": "A place where you can taste Japanese pork cutlet.As soon as you order, the food is cooked in the order of low temperature, high temperature, and resting, and boasts properly ripe, pink meat.If you eat it dipped in Maldon salt, the British royal salt, or add mustard to the special sauce, it will reduce the greasiness."
+      "description_en": "A place where you can taste Japanese pork cutlet.As soon as you order, the food is cooked in the order of low temperature, high temperature, and resting, and boasts properly ripe, pink meat.If you eat it dipped in Maldon salt, the British royal salt, or add mustard to the special sauce, it will reduce the greasiness.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1598",
@@ -3259,7 +3723,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Reonchikoseu, Dineokoseu, Bukkyeongori, Iberikochasyu, Basakhansamgyeopsalbabikyu, Jeonbogyangjangpi, Buldojang, Sacheonsingnajeugaji, Hunyeonhyangmero",
-      "description_en": "A modern Chinese restaurant at the Grand Chosun Busan Hotel where you can enjoy an ocean view.The signature is definitely Peking duck.Shaoxing Chili Shrimp and Smoked Mero are also popular menu items, and you can also taste Westin Chosun Hongyeon's signature menu items such as buldojang and sweet and sour pork.Peking duck must be reserved at least 2 days in advance."
+      "description_en": "A modern Chinese restaurant at the Grand Chosun Busan Hotel where you can enjoy an ocean view.The signature is definitely Peking duck.Shaoxing Chili Shrimp and Smoked Mero are also popular menu items, and you can also taste Westin Chosun Hongyeon's signature menu items such as buldojang and sweet and sour pork.Peking duck must be reserved at least 2 days in advance.",
+      "cuisine": "Chinese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1599",
@@ -3294,7 +3763,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Dineo7koseu, Reonchi5koseu",
-      "description_en": "A French restaurant that claims to be a neo-bistro.From amuse to appetizers and main dishes, you can enjoy beautifully and delicately plated dishes using high-quality ingredients.This place started out as a wine bar, and wine pairing is recommended."
+      "description_en": "A French restaurant that claims to be a neo-bistro.From amuse to appetizers and main dishes, you can enjoy beautifully and delicately plated dishes using high-quality ingredients.This place started out as a wine bar, and wine pairing is recommended.",
+      "cuisine": "French",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1623",
@@ -3329,7 +3803,12 @@
       "district_en": "Donggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Suyuk, Guksu, Yeolmuguksu",
-      "description_en": "A pork specialty restaurant with over 100 years of tradition.Boiled pork is served for one person and the portion size is generous.The pork bone noodles served as a meal are easy to eat.Boiled pork can also be packaged."
+      "description_en": "A pork specialty restaurant with over 100 years of tradition.Boiled pork is served for one person and the portion size is generous.The pork bone noodles served as a meal are easy to eat.Boiled pork can also be packaged.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1600",
@@ -3364,7 +3843,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Fine Dining",
       "menu_en": "Reonchiseteu, Dineo1bu, Dineo2bu",
-      "description_en": "Sushi omakase using fresh, premium seasonal ingredients.The dinner course includes over 10 types of tsumami served first.You can enjoy the signature dish of tuna, sea urchin roe, and avocado mousse served on a Dior plate and wrapped in seaweed.We use Majuma wasabi brought in from Shizuoka and grind it on the spot."
+      "description_en": "Sushi omakase using fresh, premium seasonal ingredients.The dinner course includes over 10 types of tsumami served first.You can enjoy the signature dish of tuna, sea urchin roe, and avocado mousse served on a Dior plate and wrapped in seaweed.We use Majuma wasabi brought in from Shizuoka and grind it on the spot.",
+      "cuisine": "Japanese",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1625",
@@ -3399,7 +3883,13 @@
       "district_en": "Sasanggu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Jaecheopguk, Jaecheophoe",
-      "description_en": "The original house in Samnak-dong's Jaecheop Alley.If you order Jaecheop soup, they will bring you Jaecheop soup, rice, a bowl of bibim seasoning, stewed mackerel, radish radish, kimchi, and soybean paste stew.The taste of rice mixed with clams and seasoning and the cool broth is excellent.It is said that cooking rice in a cauldron is the secret to its delicious taste."
+      "description_en": "The original house in Samnak-dong's Jaecheop Alley.If you order Jaecheop soup, they will bring you Jaecheop soup, rice, a bowl of bibim seasoning, stewed mackerel, radish radish, kimchi, and soybean paste stew.The taste of rice mixed with clams and seasoning and the cool broth is excellent.It is said that cooking rice in a cauldron is the secret to its delicious taste.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1540",
@@ -3434,7 +3924,13 @@
       "district_en": "Namgu",
       "theme_en": "City Tour Bus Favorites",
       "menu_en": "Ttarogukbap, Suyukbaekban, Suyuk, Modumsuyuk, Sundae",
-      "description_en": "A clear soup style pork soup restaurant.If you order pork soup, they serve meat such as pork intestines and baby meat in the soup.There are four types of soup menu, including Assorted Separate, Sundae Separate, Innards Separate, and Just Separate Gukbap.It is good to eat Busan style with plenty of chives."
+      "description_en": "A clear soup style pork soup restaurant.If you order pork soup, they serve meat such as pork intestines and baby meat in the soup.There are four types of soup menu, including Assorted Separate, Sundae Separate, Innards Separate, and Just Separate Gukbap.It is good to eat Busan style with plenty of chives.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1626",
@@ -3469,7 +3965,12 @@
       "district_en": "Haeundaegu",
       "theme_en": "Old Shops of Busan",
       "menu_en": "Hanusaenggalbi, Hanuyangnyeomgalbi, Bulgogi, Ttukbaegidoenjang",
-      "description_en": "This place is considered the origin of Haeundae-style ribs.Since its founding in 1964, it has maintained its reputation steadily.After grilling the meat on a grill that looks like a hotpot, you can add noodles made from potatoes and enjoy it like a hotpot.Because it is a Hanok building, you feel like you are being treated at an old nobleman’s house.It is a place that many celebrities frequent."
+      "description_en": "This place is considered the origin of Haeundae-style ribs.Since its founding in 1964, it has maintained its reputation steadily.After grilling the meat on a grill that looks like a hotpot, you can add noodles made from potatoes and enjoy it like a hotpot.Because it is a Hanok building, you feel like you are being treated at an old nobleman’s house.It is a place that many celebrities frequent.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ]
     },
     {
       "id": "1637",
@@ -3504,7 +4005,13 @@
       "district_en": "Busanjingu",
       "theme_en": "Dessert & Coffee",
       "menu_en": "Eseupeureso, Amerikano, Kaperate, Peullaethwaiteu, Banillarate, Ainsyupeneo, Pilteokeopi, Aepeulsinamoneideu, Aepeulsinamonbeullaekti, Danggeun/remon/beulluberi/hongchakeopkeikeu",
-      "description_en": "A new emerging specialty coffee in Jeonpo-dong.It started in the Suyeong area, but recently moved the store to Jeonpo-dong.A light roasting coffee store that symbolizes Korea along with Mesh and Deep Blue Lake.By roasting coffee beans with unique fruity and flowery aromas, we produce coffee with an attractive balance and sweetness."
+      "description_en": "A new emerging specialty coffee in Jeonpo-dong.It started in the Suyeong area, but recently moved the store to Jeonpo-dong.A light roasting coffee store that symbolizes Korea along with Mesh and Deep Blue Lake.By roasting coffee beans with unique fruity and flowery aromas, we produce coffee with an attractive balance and sweetness.",
+      "cuisine": "Dessert/Cafe",
+      "meal_times": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ]
     }
   ]
 }

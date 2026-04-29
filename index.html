@@ -65,13 +65,43 @@
 
           <div id="filter-content" class="toolbar">
             <div class="toolbar__group">
-              <span class="toolbar__label">District</span>
-              <div id="district-filters" class="chip-row"></div>
+              <button class="toolbar__toggle" type="button" aria-expanded="true" aria-controls="district-filters-wrapper">
+                <span class="toolbar__label">District</span>
+                <svg class="toolbar__toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+              </button>
+              <div id="district-filters-wrapper" class="toolbar__collapsible">
+                <div id="district-filters" class="chip-row"></div>
+              </div>
             </div>
 
             <div class="toolbar__group">
-              <span class="toolbar__label">Theme</span>
-              <div id="theme-filters" class="chip-row"></div>
+              <button class="toolbar__toggle" type="button" aria-expanded="true" aria-controls="cuisine-filters-wrapper">
+                <span class="toolbar__label">Cuisine</span>
+                <svg class="toolbar__toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+              </button>
+              <div id="cuisine-filters-wrapper" class="toolbar__collapsible">
+                <div id="cuisine-filters" class="chip-row"></div>
+              </div>
+            </div>
+
+            <div class="toolbar__group">
+              <button class="toolbar__toggle" type="button" aria-expanded="true" aria-controls="meal-filters-wrapper">
+                <span class="toolbar__label">Meal Time</span>
+                <svg class="toolbar__toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+              </button>
+              <div id="meal-filters-wrapper" class="toolbar__collapsible">
+                <div id="meal-filters" class="chip-row"></div>
+              </div>
+            </div>
+
+            <div class="toolbar__group">
+              <button class="toolbar__toggle" type="button" aria-expanded="true" aria-controls="theme-filters-wrapper">
+                <span class="toolbar__label">Theme</span>
+                <svg class="toolbar__toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+              </button>
+              <div id="theme-filters-wrapper" class="toolbar__collapsible">
+                <div id="theme-filters" class="chip-row"></div>
+              </div>
             </div>
 
             <div class="toolbar__actions">

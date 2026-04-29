@@ -25,6 +25,8 @@ const state = {
   selectedId: null,
   search: "",
   district: "All",
+  cuisine: "All",
+  mealTime: "All",
   theme: "All",
   userLocation: null,
 };
@@ -35,6 +37,8 @@ const elements = {
   sourceStamp: document.querySelector("#source-stamp"),
   searchInput: document.querySelector("#search-input"),
   districtFilters: document.querySelector("#district-filters"),
+  cuisineFilters: document.querySelector("#cuisine-filters"),
+  mealFilters: document.querySelector("#meal-filters"),
   themeFilters: document.querySelector("#theme-filters"),
   list: document.querySelector("#restaurant-list"),
   locateBtn: document.querySelector("#locate-btn"),
@@ -69,7 +73,7 @@ init().catch((error) => {
 });
 
 async function init() {
-  // Filter toggle logic
+  // Main Filter Toggle
   if (elements.filterToggle && elements.filterContent) {
     elements.filterToggle.addEventListener("click", () => {
       const isExpanded = elements.filterToggle.getAttribute("aria-expanded") === "true";
@@ -86,6 +90,21 @@ async function init() {
     }
   }
 
+  // Individual Filter Group Toggles
+  document.querySelectorAll(".toolbar__toggle").forEach(toggle => {
+    toggle.addEventListener("click", () => {
+      const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+      const newExpanded = !isExpanded;
+      const targetId = toggle.getAttribute("aria-controls");
+      const target = document.getElementById(targetId);
+      
+      toggle.setAttribute("aria-expanded", newExpanded);
+      if (target) {
+        target.classList.toggle("is-collapsed", !newExpanded);
+      }
+    });
+  });
+
   const response = await fetch(DATA_URL);
   if (!response.ok) {
     throw new Error(`Dataset request failed: ${response.status}`);
@@ -98,6 +117,7 @@ async function init() {
   elements.datasetCount.textContent = `${payload.count} places`;
   elements.sourceStamp.textContent = `Source updated ${formatFetchTime(payload.source?.fetchedAt)}`;
 
+  // Prepare Districts
   const districts = [
     { value: "All", label: "All" },
     ...Array.from(
@@ -111,6 +131,23 @@ async function init() {
       .sort((a, b) => a.label.localeCompare(b.label)),
   ];
 
+  // Prepare Cuisines
+  const cuisines = [
+    { value: "All", label: "All" },
+    ...Array.from(new Set(state.restaurants.map(r => r.cuisine).filter(Boolean)))
+      .sort()
+      .map(c => ({ value: c, label: c }))
+  ];
+
+  // Prepare Meal Times
+  const mealTimes = [
+    { value: "All", label: "All" },
+    { value: "Breakfast", label: "Breakfast" },
+    { value: "Lunch", label: "Lunch" },
+    { value: "Dinner", label: "Dinner" }
+  ];
+
+  // Prepare Themes
   const themes = [
     { value: "All", label: "All" },
     ...themeOrder
@@ -122,6 +159,8 @@ async function init() {
   ];
 
   buildChipRow(elements.districtFilters, districts, "district");
+  buildChipRow(elements.cuisineFilters, cuisines, "cuisine");
+  buildChipRow(elements.mealFilters, mealTimes, "mealTime");
   buildChipRow(elements.themeFilters, themes, "theme");
 
   elements.searchInput.addEventListener("input", (event) => {
@@ -138,6 +177,7 @@ async function init() {
 }
 
 function buildChipRow(container, items, key) {
+  if (!container) return;
   container.innerHTML = "";
   items.forEach((item) => {
     const value = typeof item === "string" ? item : item.value;
@@ -175,16 +215,19 @@ function applyFilters() {
       restaurant.theme_en,
       restaurant.menu,
       restaurant.menu_en,
+      restaurant.cuisine,
     ]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
 
     const matchesSearch = !search || searchable.includes(search);
-    const matchesDistrict =
-      state.district === "All" || restaurant.district === state.district;
+    const matchesDistrict = state.district === "All" || restaurant.district === state.district;
+    const matchesCuisine = state.cuisine === "All" || restaurant.cuisine === state.cuisine;
+    const matchesMealTime = state.mealTime === "All" || (restaurant.meal_times && restaurant.meal_times.includes(state.mealTime));
     const matchesTheme = state.theme === "All" || restaurant.theme === state.theme;
-    return matchesSearch && matchesDistrict && matchesTheme;
+    
+    return matchesSearch && matchesDistrict && matchesCuisine && matchesMealTime && matchesTheme;
   });
 
   if (state.userLocation) {
@@ -270,7 +313,7 @@ function renderList() {
           <h3>${escapeHtml(restaurant.name_en || restaurant.name)}</h3>
           <p class="restaurant-card__subtitle-kr">${escapeHtml(restaurant.name)}</p>
           <p class="restaurant-card__subtitle">${escapeHtml(
-            [restaurant.category_en || restaurant.category, restaurant.district_en || restaurant.district].filter(Boolean).join(" · ")
+            [restaurant.cuisine, restaurant.category_en || restaurant.category, restaurant.district_en || restaurant.district].filter(Boolean).join(" · ")
           )}</p>
         </div>
         ${renderRibbonBadge(restaurant)}
@@ -311,128 +354,85 @@ function renderList() {
     card.querySelectorAll(".card-actions a, .card-actions button").forEach((control) => {
       control.addEventListener("click", (event) => {
         event.stopPropagation();
+        const action = control.dataset.action;
+        if (action === "naver") {
+          window.open(restaurant.links.naverMap, "_blank", "noreferrer");
+        } else if (action === "share") {
+          shareRestaurant(restaurant);
+        }
       });
     });
 
-    card
-      .querySelector('[data-action="naver"]')
-      .addEventListener("click", () => openNaver(restaurant));
-    card
-      .querySelector('[data-action="share"]')
-      .addEventListener("click", () => shareRestaurant(restaurant));
-
     fragment.appendChild(card);
   });
-
   elements.list.appendChild(fragment);
+
+  if (state.selectedId) {
+    const selectedCard = elements.list.querySelector(".is-selected");
+    if (selectedCard) {
+      selectedCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }
 }
 
 function renderMarkers() {
   markerLayer.clearLayers();
-  const bounds = [];
-
   state.visibleRestaurants.forEach((restaurant) => {
-    const marker = L.marker([restaurant.lat, restaurant.lng], {
-      icon: L.divIcon({
-        className: "",
-        html: `<div class="marker-dot" style="background:${themeColors[restaurant.theme] || "#0f5b91"}"></div>`,
-        iconSize: [16, 16],
-        iconAnchor: [8, 8],
-      }),
+    const isSelected = restaurant.id === state.selectedId;
+    const color = themeColors[restaurant.theme] || "#142738";
+
+    const marker = L.circleMarker([restaurant.lat, restaurant.lng], {
+      radius: isSelected ? 10 : 7,
+      fillColor: color,
+      color: "#fff",
+      weight: 2,
+      opacity: 1,
+      fillOpacity: 0.9,
     });
 
-    marker.on("click", () => {
-      state.selectedId = restaurant.id;
-      renderList();
-    });
+    marker.bindPopup(`
+      <div class="map-popup">
+        <strong>${escapeHtml(restaurant.name_en || restaurant.name)}</strong><br>
+        <small>${escapeHtml(restaurant.name)}</small><br>
+        ${escapeHtml(restaurant.cuisine)} · ${escapeHtml(restaurant.district_en || restaurant.district)}
+      </div>
+    `);
 
-    marker.bindPopup(renderPopup(restaurant), {
-      maxWidth: 280,
-    });
-
+    marker.on("click", () => focusRestaurant(restaurant.id));
     marker.addTo(markerLayer);
-    bounds.push([restaurant.lat, restaurant.lng]);
-
-    if (restaurant.id === state.selectedId) {
-      marker.openPopup();
-    }
   });
-
-  if (userMarker && state.userLocation) {
-    bounds.push([state.userLocation.lat, state.userLocation.lng]);
-  }
-
-  if (bounds.length === 1) {
-    map.setView(bounds[0], 15);
-  }
-}
-
-function renderPopup(restaurant) {
-  const wrapper = document.createElement("div");
-  wrapper.className = "popup-content";
-  wrapper.innerHTML = `
-    <h3>${escapeHtml(restaurant.name_en || restaurant.name)}</h3>
-    <p class="popup-subtitle-kr">${escapeHtml(restaurant.name)}</p>
-    <p>${escapeHtml([restaurant.category_en || restaurant.category, restaurant.theme_en || restaurant.theme].filter(Boolean).join(" · "))}</p>
-    <p>${escapeHtml(restaurant.address)}</p>
-    <div class="popup-actions">
-      <a href="${restaurant.links.googleDirections}" target="_blank" rel="noreferrer" data-kind="primary">Google</a>
-      <button type="button" data-action="naver">Naver</button>
-      <a href="${restaurant.links.kakaoDirections}" target="_blank" rel="noreferrer">Kakao</a>
-    </div>
-  `;
-
-  wrapper.querySelector('[data-action="naver"]').addEventListener("click", () => {
-    openNaver(restaurant);
-  });
-
-  return wrapper;
 }
 
 function focusRestaurant(id) {
-  const restaurant = state.visibleRestaurants.find((item) => item.id === id);
-  if (!restaurant) {
-    return;
-  }
-
   state.selectedId = id;
+  const restaurant = state.restaurants.find((r) => r.id === id);
+  if (restaurant) {
+    map.setView([restaurant.lat, restaurant.lng], 15, { animate: true });
+  }
   renderList();
   renderMarkers();
-  map.flyTo([restaurant.lat, restaurant.lng], 16, {
-    duration: 0.7,
-  });
 }
 
-function fitVisibleMarkers() {
-  const points = state.visibleRestaurants.map((restaurant) => [restaurant.lat, restaurant.lng]);
-  if (state.userLocation) {
-    points.push([state.userLocation.lat, state.userLocation.lng]);
-  }
-
-  if (!points.length) {
-    map.setView(BUSAN_CENTER, 11);
-    return;
-  }
-
-  if (points.length === 1) {
-    map.setView(points[0], 15);
-    return;
-  }
-
-  map.fitBounds(points, {
-    padding: [32, 32],
+function resetFilters() {
+  state.search = "";
+  state.district = "All";
+  state.cuisine = "All";
+  state.mealTime = "All";
+  state.theme = "All";
+  elements.searchInput.value = "";
+  document.querySelectorAll(".chip").forEach((chip) => {
+    chip.classList.toggle("is-active", chip.dataset.value === "All");
   });
+  applyFilters();
 }
 
 function locateUser() {
   if (!navigator.geolocation) {
-    showStatus("Geolocation is not available in this browser.");
+    showStatus("Geolocation is not supported by your browser.");
     return;
   }
 
-  elements.locateBtn.disabled = true;
-  elements.locateBtn.textContent = "Locating…";
-
+  showStatus("Locating...");
   navigator.geolocation.getCurrentPosition(
     (position) => {
       state.userLocation = {
@@ -441,153 +441,100 @@ function locateUser() {
       };
 
       if (userMarker) {
-        userMarker.remove();
+        userMarker.setLatLng([state.userLocation.lat, state.userLocation.lng]);
+      } else {
+        userMarker = L.marker([state.userLocation.lat, state.userLocation.lng], {
+          icon: L.divIcon({
+            className: "user-location-marker",
+            html: '<div class="user-location-dot"></div>',
+          }),
+        }).addTo(map);
       }
 
-      userMarker = L.marker([state.userLocation.lat, state.userLocation.lng], {
-        icon: L.divIcon({
-          className: "",
-          html: '<div class="user-marker"></div>',
-          iconSize: [18, 18],
-          iconAnchor: [9, 9],
-        }),
-      })
-        .addTo(map)
-        .bindPopup("Your location");
-
-      elements.locateBtn.textContent = "Location enabled";
       hideStatus();
       applyFilters();
-      fitVisibleMarkers();
+      map.setView([state.userLocation.lat, state.userLocation.lng], 13);
     },
     () => {
-      elements.locateBtn.disabled = false;
-      elements.locateBtn.textContent = "Use my location";
-      showStatus("Location permission was denied or unavailable.");
-    },
-    {
-      enableHighAccuracy: true,
-      timeout: 10000,
-      maximumAge: 300000,
+      showStatus("Could not determine your location.");
     }
   );
 }
 
-function resetFilters() {
-  state.search = "";
-  state.district = "All";
-  state.theme = "All";
-  state.selectedId = null;
-  elements.searchInput.value = "";
-  elements.districtFilters.querySelectorAll(".chip").forEach((chip) => {
-    chip.classList.toggle("is-active", chip.dataset.value === "All");
-  });
-  elements.themeFilters.querySelectorAll(".chip").forEach((chip) => {
-    chip.classList.toggle("is-active", chip.dataset.value === "All");
-  });
-  applyFilters();
-  fitVisibleMarkers();
+function fitVisibleMarkers() {
+  if (!state.visibleRestaurants.length) return;
+  const bounds = L.latLngBounds(
+    state.visibleRestaurants.map((r) => [r.lat, r.lng])
+  );
+  map.fitBounds(bounds, { padding: [50, 50] });
 }
 
-function openNaver(restaurant) {
-  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-  if (!isMobile) {
-    window.open(restaurant.links.naverMap, "_blank", "noopener,noreferrer");
-    return;
-  }
-
-  const fallback = window.setTimeout(() => {
-    window.open(restaurant.links.naverMap, "_blank", "noopener,noreferrer");
-  }, 900);
-
-  window.location.href = restaurant.links.naverDirections;
-  window.setTimeout(() => {
-    window.clearTimeout(fallback);
-  }, 1400);
-}
-
-async function shareRestaurant(restaurant) {
-  const shareUrl = restaurant.links.googleSearch;
-  const shareText = `${restaurant.name}\n${restaurant.address}`;
+function shareRestaurant(restaurant) {
+  const text = `${restaurant.name_en || restaurant.name} (${restaurant.name})\n${restaurant.cuisine} in ${restaurant.district_en || restaurant.district}\n${restaurant.address}`;
   if (navigator.share) {
-    try {
-      await navigator.share({
-        title: restaurant.name,
-        text: shareText,
-        url: shareUrl,
-      });
-      return;
-    } catch (error) {
-      if (error?.name === "AbortError") {
-        return;
-      }
-    }
-  }
-
-  const clipboardText = `${restaurant.name}\n${restaurant.address}\n${shareUrl}`;
-  try {
-    await navigator.clipboard.writeText(clipboardText);
-    showStatus(`Copied ${restaurant.name} to the clipboard.`);
-    window.setTimeout(hideStatus, 2000);
-  } catch {
-    window.open(shareUrl, "_blank", "noopener,noreferrer");
+    navigator.share({
+      title: restaurant.name_en || restaurant.name,
+      text: text,
+      url: window.location.href,
+    });
+  } else {
+    navigator.clipboard.writeText(`${text}\n${window.location.href}`);
+    showStatus("Restaurant details copied to clipboard.");
+    setTimeout(hideStatus, 2000);
   }
 }
 
-function renderEmptyState() {
-  const wrapper = document.createElement("div");
-  wrapper.className = "empty-state";
-  wrapper.innerHTML = `
-    <h3>No matching places</h3>
-    <p>Try a broader keyword or clear the district and theme filters.</p>
-  `;
-  return wrapper;
+function formatFetchTime(isoString) {
+  if (!isoString) return "unknown";
+  const date = new Date(isoString);
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
 }
 
 function showStatus(message) {
-  elements.statusBanner.hidden = false;
   elements.statusBanner.textContent = message;
+  elements.statusBanner.classList.add("is-visible");
 }
 
 function hideStatus() {
-  elements.statusBanner.hidden = true;
-  elements.statusBanner.textContent = "";
+  elements.statusBanner.classList.remove("is-visible");
 }
 
-function formatFetchTime(value) {
-  if (!value) {
-    return "recently";
-  }
-
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) {
-    return "recently";
-  }
-
-  return new Intl.DateTimeFormat(undefined, {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  }).format(date);
+function renderEmptyState() {
+  const div = document.createElement("div");
+  div.className = "empty-state";
+  div.innerHTML = `
+    <p>No restaurants found matching your criteria.</p>
+    <button type="button" class="action-button action-button--ghost">Reset all filters</button>
+  `;
+  div.querySelector("button").addEventListener("click", () => resetFilters());
+  return div;
 }
 
-function getDistanceKm(lat1, lng1, lat2, lng2) {
-  const toRad = (value) => (value * Math.PI) / 180;
-  const earthRadiusKm = 6371;
-  const dLat = toRad(lat2 - lat1);
-  const dLng = toRad(lng2 - lng1);
+function escapeHtml(str) {
+  if (!str) return "";
+  const div = document.createElement("div");
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function getDistanceKm(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const dLat = deg2rad(lat2 - lat1);
+  const dLon = deg2rad(lon2 - lon1);
   const a =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(deg2rad(lat1)) *
+      Math.cos(deg2rad(lat2)) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  return earthRadiusKm * c;
+  return R * c;
 }
 
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
+function deg2rad(deg) {
+  return deg * (Math.PI / 180);
 }
