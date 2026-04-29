@@ -241,7 +241,7 @@ function renderList() {
       }
     });
 
-    const description = restaurant.description || restaurant.menu_en || restaurant.menu || "";
+    const description = restaurant.description_en || restaurant.description || restaurant.menu_en || restaurant.menu || "";
     const shortDescription =
       description.length > 120 ? `${description.slice(0, 120)}…` : description;
 

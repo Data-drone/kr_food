@@ -172,10 +172,9 @@ input {
 
 .chip-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
   padding-bottom: 4px;
-  scrollbar-width: none;
 }
 
 .chip-row::-webkit-scrollbar {

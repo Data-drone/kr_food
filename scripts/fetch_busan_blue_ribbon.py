@@ -8,6 +8,9 @@ from pathlib import Path
 from urllib.parse import parse_qs, quote, urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 from romaja import romaja
+from openai import OpenAI
+import time
+import os
 
 
 BASE_URL = "https://www.visitbusan.net"
@@ -208,6 +211,28 @@ def main() -> int:
         if restaurant.get("menu"):
             menu_items = [m.strip() for m in restaurant["menu"].split(",")]
             restaurant["menu_en"] = ", ".join(title_case(romaja(m)) for m in menu_items)
+        
+        # Translate description
+        if restaurant.get("description") and not restaurant.get("description_en"):
+            client = OpenAI()
+            retries = 3
+            for i in range(retries):
+                try:
+                    response = client.chat.completions.create(
+                        model="gpt-4.1-mini",
+                        messages=[
+                            {"role": "system", "content": "You are a professional translator. Translate the following Korean restaurant description into natural, appetizing English. Only return the translated text."},
+                            {"role": "user", "content": restaurant["description"]}
+                        ],
+                        temperature=0.3
+                    )
+                    restaurant["description_en"] = response.choices[0].message.content.strip()
+                    break
+                except Exception as e:
+                    print(f'Attempt {i+1}/{retries}: Error translating description for {restaurant["name"]}: {e}')
+                    if i == retries - 1:
+                        restaurant["description_en"] = restaurant["description"] # Fallback to original if all retries fail
+                    time.sleep(2 * (i + 1)) # Exponential backoff
             
         detailed_items.append(restaurant)
 
