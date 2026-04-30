@@ -964,23 +964,6 @@
     "ccw_chef": "Nam Jeong-seok"
   },
   {
-    "id": "ccw_s1_w_10",
-    "name_en": "610 Magnolia",
-    "name": "610 Magnolia",
-    "category_en": "Culinary Class Wars",
-    "address": "USA, Seoul",
-    "district_en": "USA",
-    "cuisine": "Various",
-    "meal_times": [
-      "Lunch",
-      "Dinner"
-    ],
-    "description_en": "Restaurant of Chef Edward Lee from Culinary Class Wars Season 1.",
-    "lat": 37.5665,
-    "lng": 126.978,
-    "ccw_chef": "Edward Lee"
-  },
-  {
     "id": "ccw_s1_b_11",
     "name_en": "Via Toledo Pasta Bar",
     "name": "Via Toledo Pasta Bar",
@@ -1234,5 +1217,350 @@
     "lat": 37.5665,
     "lng": 126.978,
     "ccw_chef": "Park Hyo-nam"
+  },
+  {
+    "id": "s_76",
+    "name_en": "Halmeoni Kalguksu",
+    "name": "찬양집",
+    "category_en": "Kalguksu",
+    "address": "5 Donhwamun-ro 11-gil, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Historic knife-cut noodle specialist in Ikseon-dong, famous for its rich seafood broth.",
+    "lat": 37.5748,
+    "lng": 126.9912,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "s_77",
+    "name_en": "Daeseong Jip",
+    "name": "대성집",
+    "category_en": "Dogani-tang",
+    "address": "454 Tongil-ro, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Famous for its ox knee soup (dogani-tang), a soulful and traditional Seoul dish.",
+    "lat": 37.5725,
+    "lng": 126.9605,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "s_79",
+    "name_en": "Manjok Ohyang Jokbal",
+    "name": "만족 오향족발",
+    "address": "134-7 Seosomun-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Award-winning braised pig's trotters with a unique five-spice aroma.",
+    "lat": 37.5632,
+    "lng": 126.9755,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "s_81",
+    "name_en": "Mapo Ok",
+    "name": "마포옥",
+    "category_en": "Seolleongtang",
+    "address": "312-45 Yonggang-dong, Mapo-gu",
+    "district_en": "Mapo",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Famous for its premium brisket beef soup, a local staple in Mapo since 1949.",
+    "lat": 37.5405,
+    "lng": 126.9415,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "s_82",
+    "name_en": "O'Hwaedang",
+    "name": "오회당",
+    "category_en": "Japanese Contemporary",
+    "address": "12-3 Eonju-ro 164-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Refined Japanese contemporary dining focusing on seasonal seafood excellence.",
+    "lat": 37.5255,
+    "lng": 127.0365,
+    "ribbons": 2
+  },
+  {
+    "id": "s_83",
+    "name_en": "Gwangjang Market Gohyang Kalguksu",
+    "name": "고향칼국수",
+    "category_en": "Kalguksu",
+    "address": "88 Changgyeonggung-ro, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Featured on Netflix, this stall in Gwangjang Market is famous for its handmade noodles.",
+    "lat": 37.5702,
+    "lng": 126.9995,
+    "ccw_chef": "Cho Yun-hee (Netflix)"
+  },
+  {
+    "id": "s_84",
+    "name_en": "Baek Je Yuk Hoe",
+    "name": "백제육회",
+    "category_en": "Yukhoe",
+    "address": "210-1 Hyoje-dong, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Generous portions of fresh beef tartare, a favorite for local foodies in Jongno.",
+    "lat": 37.5715,
+    "lng": 127.0015
+  },
+  {
+    "id": "s_86",
+    "name_en": "Chungjin-ok",
+    "name": "청진옥",
+    "category_en": "Haejang-guk",
+    "address": "32 Jong-ro 1-gil, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "The original hangover soup restaurant in Seoul, serving Jongno since 1937.",
+    "lat": 37.5718,
+    "lng": 126.9792
+  },
+  {
+    "id": "s_87",
+    "name_en": "Hwanggeum Kongbat",
+    "name": "황금콩밭",
+    "category_en": "Dubu",
+    "address": "9 Mapo-daero 16-gil, Mapo-gu",
+    "district_en": "Mapo",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Specializes in artisanal handmade tofu, highlighting the pure taste of local beans.",
+    "lat": 37.5495,
+    "lng": 126.9545,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "s_88",
+    "name_en": "Yangmiok",
+    "name": "양미옥",
+    "category_en": "Daechang/Gopchang",
+    "address": "62-11 Changgyeonggung-ro, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Renowned for its grilled beef tripe and large intestines with a secret spicy marinade.",
+    "lat": 37.5668,
+    "lng": 126.9935
+  },
+  {
+    "id": "s_89",
+    "name_en": "Jinju Hoegwan",
+    "name": "진주회관",
+    "category_en": "Kong-guksu",
+    "address": "26 Seosomun-ro 11-gil, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Famous for its incredibly thick and creamy cold soy milk noodles (kong-guksu).",
+    "lat": 37.5628,
+    "lng": 126.9745
+  },
+  {
+    "id": "s_90",
+    "name_en": "Cheongmirae",
+    "name": "청미래",
+    "category_en": "Korean Traditional",
+    "address": "25-10 Bangi-dong, Songpa-gu",
+    "district_en": "Songpa",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Traditional Korean dining focusing on health-conscious, chemical-free ingredients.",
+    "lat": 37.5145,
+    "lng": 127.1105
+  },
+  {
+    "id": "s_91",
+    "name_en": "Sanchon",
+    "name": "산촌",
+    "category_en": "Temple Food",
+    "address": "30-13 Gwanhun-dong, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Authentic Buddhist temple cuisine served in a beautiful traditional hanok setting.",
+    "lat": 37.5742,
+    "lng": 126.9845
+  },
+  {
+    "id": "s_92",
+    "name_en": "Gaehwa-ok",
+    "name": "개화옥",
+    "category_en": "Korean Traditional",
+    "address": "21 Dosan-daero 81-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Modernized traditional Korean cuisine with a focus on seasonal beef and noodles.",
+    "lat": 37.5265,
+    "lng": 127.0445
+  },
+  {
+    "id": "s_93",
+    "name_en": "Kkujun",
+    "name": "꾸준",
+    "category_en": "Yakitori",
+    "address": "12-14 Hannam-daero 20-gil, Yongsan-gu",
+    "district_en": "Yongsan",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Dinner"
+    ],
+    "description_en": "Specialized yakitori bar in Hannam-dong offering premium grilled chicken skewers.",
+    "lat": 37.5348,
+    "lng": 127.0092
+  },
+  {
+    "id": "s_94",
+    "name_en": "Fuchai",
+    "name": "푸차이",
+    "category_en": "Chinese",
+    "address": "24 Teheran-ro 87-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Chinese",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "High-end Chinese dining in Samseong-dong, known for its elegant course menus.",
+    "lat": 37.5105,
+    "lng": 127.0585
+  },
+  {
+    "id": "s_95",
+    "name_en": "Hwang Saeng Ga Kalguksu",
+    "name": "황생가칼국수",
+    "category_en": "Kalguksu",
+    "address": "84 Bukchon-ro 5-gil, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Michelin-recognized kalguksu and mandu (dumplings) in the heart of Bukchon.",
+    "lat": 37.5805,
+    "lng": 126.9815,
+    "michelin": "Bib Gourmand"
+  },
+  {
+    "id": "s_96",
+    "name_en": "Goyeo",
+    "name": "고여",
+    "category_en": "Korean Contemporary",
+    "address": "2F, 31 Dosan-daero 45-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "A creative Korean dining experience that blends local ingredients with modern flair.",
+    "lat": 37.5238,
+    "lng": 127.0382
+  },
+  {
+    "id": "s_97",
+    "name_en": "Butanchu",
+    "name": "부탄츄",
+    "category_en": "Ramen",
+    "address": "357-1 Seogyo-dong, Mapo-gu",
+    "district_en": "Mapo",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "One of the most popular tonkotsu ramen spots in Hongdae, famous for its rich broth.",
+    "lat": 37.5555,
+    "lng": 126.9235
+  },
+  {
+    "id": "s_98",
+    "name_en": "Hanoe",
+    "name": "한외",
+    "category_en": "Korean Traditional",
+    "address": "15 Jong-ro 19-gil, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Specializes in traditional Korean beef dishes and home-style side dishes.",
+    "lat": 37.5708,
+    "lng": 126.9915
+  },
+  {
+    "id": "s_99",
+    "name_en": "Cheongmyeong",
+    "name": "청명",
+    "category_en": "Contemporary",
+    "address": "14 Dosan-daero 15-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Contemporary",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Modern dining focusing on the harmony of global flavors and Korean seasonal produce.",
+    "lat": 37.5195,
+    "lng": 127.0225
   }
 ]
