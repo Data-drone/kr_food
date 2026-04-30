@@ -173,7 +173,12 @@ function renderFilters() {
       if (r.michelin.includes('Star')) honors.add('Michelin Star');
       if (r.michelin.includes('Bib')) honors.add('Bib Gourmand');
     }
-    if (r.ribbons) honors.add('Blue Ribbon');
+    if (r.ribbons) {
+        if (r.ribbons === 3) honors.add('Blue Ribbon (3 Ribbons)');
+        else if (r.ribbons === 2) honors.add('Blue Ribbon (2 Ribbons)');
+        else honors.add('Blue Ribbon');
+    }
+    if (r.honors && r.honors.includes('Blue Ribbon (2 Ribbons)')) honors.add('Blue Ribbon (2 Ribbons)');
     if (r.ccw_chef) honors.add('Culinary Class Wars');
   });
 
@@ -181,7 +186,17 @@ function renderFilters() {
   renderChipRow(elements.cuisineFilters, Array.from(cuisines).sort(), 'cuisine');
   renderChipRow(elements.mealFilters, ['All', 'Breakfast', 'Lunch', 'Dinner'], 'meal');
   renderChipRow(elements.themeFilters, Array.from(themes).sort(), 'theme');
-  renderChipRow(elements.honorFilters, Array.from(honors), 'honor');
+  
+  // Sort honors specifically
+  const sortedHonors = ['All'];
+  if (honors.has('Michelin Star')) sortedHonors.push('Michelin Star');
+  if (honors.has('Bib Gourmand')) sortedHonors.push('Bib Gourmand');
+  if (honors.has('Blue Ribbon (3 Ribbons)')) sortedHonors.push('Blue Ribbon (3 Ribbons)');
+  if (honors.has('Blue Ribbon (2 Ribbons)')) sortedHonors.push('Blue Ribbon (2 Ribbons)');
+  if (honors.has('Blue Ribbon') && !honors.has('Blue Ribbon (3 Ribbons)') && !honors.has('Blue Ribbon (2 Ribbons)')) sortedHonors.push('Blue Ribbon');
+  if (honors.has('Culinary Class Wars')) sortedHonors.push('Culinary Class Wars');
+  
+  renderChipRow(elements.honorFilters, sortedHonors, 'honor');
 }
 
 function renderChipRow(container, items, filterKey) {
@@ -221,6 +236,8 @@ function applyFilters() {
     if (!matchesHonor) {
       if (state.filters.honor === 'Michelin Star') matchesHonor = !!(r.michelin && r.michelin.includes('Star'));
       if (state.filters.honor === 'Bib Gourmand') matchesHonor = !!(r.michelin && r.michelin.includes('Bib'));
+      if (state.filters.honor === 'Blue Ribbon (3 Ribbons)') matchesHonor = r.ribbons === 3;
+      if (state.filters.honor === 'Blue Ribbon (2 Ribbons)') matchesHonor = r.ribbons === 2 || (r.honors && r.honors.includes('Blue Ribbon (2 Ribbons)'));
       if (state.filters.honor === 'Blue Ribbon') matchesHonor = !!r.ribbons;
       if (state.filters.honor === 'Culinary Class Wars') matchesHonor = !!r.ccw_chef;
     }
@@ -245,6 +262,14 @@ function renderList() {
     const card = document.createElement('article');
     card.className = 'restaurant-card';
     card.id = `restaurant-${index}`;
+    
+    // Ribbon logic
+    let ribbonHtml = '';
+    const ribbonCount = r.ribbons || (r.honors && r.honors.includes('Blue Ribbon (2 Ribbons)') ? 2 : 0);
+    if (ribbonCount > 0) {
+        ribbonHtml = `<span class="badge badge--ribbon" title="${ribbonCount} Blue Ribbons">${'💙'.repeat(ribbonCount)}</span>`;
+    }
+
     card.innerHTML = `
       <div class="restaurant-card__top">
         <div>
@@ -253,7 +278,7 @@ function renderList() {
         </div>
         <div class="badges">
           ${r.michelin ? `<span class="badge badge--michelin" title="${r.michelin}">${r.michelin.includes('Star') ? '★'.repeat(parseInt(r.michelin)) : 'Bib'}</span>` : ''}
-          ${r.ribbons ? `<span class="badge badge--ribbon" title="${r.ribbons} Blue Ribbons">${'💙'.repeat(r.ribbons)}</span>` : ''}
+          ${ribbonHtml}
           ${r.ccw_chef ? `<span class="badge badge--ccw" title="Chef ${r.ccw_chef} from Culinary Class Wars">CCW</span>` : ''}
         </div>
       </div>
@@ -292,46 +317,51 @@ function updateMarkers() {
       }
     });
 
+    // Ribbon logic for popup
+    let ribbonHtml = '';
+    const ribbonCount = r.ribbons || (r.honors && r.honors.includes('Blue Ribbon (2 Ribbons)') ? 2 : 0);
+    if (ribbonCount > 0) {
+        ribbonHtml = `<span class="badge badge--ribbon" style="font-size: 10px; padding: 1px 4px;">${'💙'.repeat(ribbonCount)}</span>`;
+    }
+
     marker.bindPopup(`
       <div class="popup-content">
         <div class="popup-header">
           <strong>${r.name_en || r.name}</strong>
           <div class="popup-badges">
             ${r.michelin ? `<span class="badge badge--michelin" style="font-size: 10px; padding: 1px 4px;">${r.michelin.includes('Star') ? '★'.repeat(parseInt(r.michelin)) : 'Bib'}</span>` : ''}
-            ${r.ribbons ? `<span class="badge badge--ribbon" style="font-size: 10px; padding: 1px 4px;">${'💙'.repeat(r.ribbons)}</span>` : ''}
+            ${ribbonHtml}
+            ${r.ccw_chef ? `<span class="badge badge--ccw" style="font-size: 10px; padding: 1px 4px;">CCW</span>` : ''}
           </div>
         </div>
-        <div class="popup-meta" style="font-size: 11px; color: #64748b; margin-bottom: 4px;">
-          ${r.category_en || r.category} • ${r.district_en || r.district}
-        </div>
-        <p class="popup-blurb" style="font-size: 12px; line-height: 1.4; margin: 6px 0 10px; color: #1e293b;">
-          ${r.description_en || r.description || 'Discover fine dining and local flavors in this exceptional establishment.'}
-        </p>
-        <div class="popup-actions" style="display: flex; gap: 8px; border-top: 1px solid #e2e8f0; pt: 8px; margin-top: 8px;">
-          <a href="${getGoogleMapsUrl(r)}" target="_blank" style="font-size:11px; color: #2563eb; text-decoration: none; font-weight: 600;">Google Maps</a>
-          <a href="${getNaverMapUrl(r)}" target="_blank" style="font-size:11px; color: #2563eb; text-decoration: none; font-weight: 600;">Naver</a>
+        <p style="font-size: 12px; color: #666; margin: 4px 0;">${r.category_en || r.category}</p>
+        <p style="font-size: 13px; line-height: 1.4; margin-bottom: 8px;">${r.description_en ? r.description_en.substring(0, 80) + '...' : ''}</p>
+        <div class="popup-actions" style="display: flex; gap: 8px;">
+          <a href="${getGoogleMapsUrl(r)}" target="_blank" style="font-size: 11px; color: #3b82f6; text-decoration: none; font-weight: 600;">Google Maps</a>
+          <a href="${getNaverMapUrl(r)}" target="_blank" style="font-size: 11px; color: #3b82f6; text-decoration: none; font-weight: 600;">Naver</a>
         </div>
       </div>
-    `, { maxWidth: 260 });
+    `);
+    
     state.markers.push(marker);
   });
 }
 
-// --- Utilities ---
+// --- Helper Functions ---
 function resetFilters(shouldApply = true) {
-  state.filters.search = '';
-  state.filters.district = 'All';
-  state.filters.cuisine = 'All';
-  state.filters.meal = 'All';
-  state.filters.theme = 'All';
-  state.filters.honor = 'All';
+  state.filters = {
+    search: '',
+    district: 'All',
+    cuisine: 'All',
+    meal: 'All',
+    theme: 'All',
+    honor: 'All'
+  };
   
   elements.searchInput.value = '';
+  document.querySelectorAll('.chip').forEach(c => c.classList.toggle('is-active', c.dataset.value === 'All'));
   
-  if (shouldApply) {
-    renderFilters();
-    applyFilters();
-  }
+  if (shouldApply) applyFilters();
 }
 
 function fitMapToMarkers() {
@@ -341,20 +371,34 @@ function fitMapToMarkers() {
 }
 
 function useMyLocation() {
-  state.map.locate({ setView: true, maxZoom: 15 });
+  if (!navigator.geolocation) return alert('Geolocation is not supported by your browser.');
+  
+  navigator.geolocation.getCurrentPosition(pos => {
+    const { latitude, longitude } = pos.coords;
+    state.map.flyTo([latitude, longitude], 14);
+    L.marker([latitude, longitude], {
+      icon: L.divIcon({
+        className: 'my-location-marker',
+        html: '<div style="width: 12px; height: 12px; background: #3b82f6; border: 2px solid white; border-radius: 50%; box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.3);"></div>'
+      })
+    }).addTo(state.map);
+  });
 }
 
 function getGoogleMapsUrl(r) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((r.name_en || r.name) + ' ' + r.address)}`;
+  if (r.google_directions_url) return r.google_directions_url;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name_en || r.name)}&query_place_id=${r.lat},${r.lng}`;
 }
 
 function getNaverMapUrl(r) {
-  return `https://map.naver.com/v5/search/${encodeURIComponent(r.name + ' ' + r.address)}`;
+  if (r.naver_map_url) return r.naver_map_url;
+  return `https://map.naver.com/v5/search/${encodeURIComponent(r.name)}`;
 }
 
 function getKakaoMapUrl(r) {
-  return `https://map.kakao.com/link/search/${encodeURIComponent(r.name + ' ' + r.address)}`;
+  if (r.kakao_map_url) return r.kakao_map_url;
+  return `https://map.kakao.com/link/search/${encodeURIComponent(r.name)}`;
 }
 
-// --- Start ---
+// Start the app
 document.addEventListener('DOMContentLoaded', init);
