@@ -319,8 +319,27 @@ input {
 }
 
 .content-grid {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 14px;
+}
+
+@media (min-width: 960px) {
+  .content-grid {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+  
+  .map-panel {
+    flex: 1;
+    position: sticky;
+    top: 58px;
+  }
+  
+  .list-panel {
+    width: 400px;
+    flex-shrink: 0;
+  }
 }
 
 .list-panel,

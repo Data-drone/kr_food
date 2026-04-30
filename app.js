@@ -283,14 +283,25 @@ function updateMarkers() {
     const marker = L.marker([r.lat, r.lng]).addTo(state.map);
     marker.bindPopup(`
       <div class="popup-content">
-        <strong>${r.name_en || r.name}</strong><br>
-        <small>${r.category_en || r.category}</small><br>
-        <div class="popup-actions" style="margin-top:8px">
-          <a href="${getGoogleMapsUrl(r)}" target="_blank" style="font-size:12px">Google</a>
-          <a href="${getNaverMapUrl(r)}" target="_blank" style="font-size:12px">Naver</a>
+        <div class="popup-header">
+          <strong>${r.name_en || r.name}</strong>
+          <div class="popup-badges">
+            ${r.michelin ? `<span class="badge badge--michelin" style="font-size: 10px; padding: 1px 4px;">${r.michelin.includes('Star') ? '★'.repeat(parseInt(r.michelin)) : 'Bib'}</span>` : ''}
+            ${r.ribbons ? `<span class="badge badge--ribbon" style="font-size: 10px; padding: 1px 4px;">${'💙'.repeat(r.ribbons)}</span>` : ''}
+          </div>
+        </div>
+        <div class="popup-meta" style="font-size: 11px; color: #64748b; margin-bottom: 4px;">
+          ${r.category_en || r.category} • ${r.district_en || r.district}
+        </div>
+        <p class="popup-blurb" style="font-size: 12px; line-height: 1.4; margin: 6px 0 10px; color: #1e293b;">
+          ${r.description_en || r.description || 'Discover fine dining and local flavors in this exceptional establishment.'}
+        </p>
+        <div class="popup-actions" style="display: flex; gap: 8px; border-top: 1px solid #e2e8f0; pt: 8px; margin-top: 8px;">
+          <a href="${getGoogleMapsUrl(r)}" target="_blank" style="font-size:11px; color: #2563eb; text-decoration: none; font-weight: 600;">Google Maps</a>
+          <a href="${getNaverMapUrl(r)}" target="_blank" style="font-size:11px; color: #2563eb; text-decoration: none; font-weight: 600;">Naver</a>
         </div>
       </div>
-    `);
+    `, { maxWidth: 260 });
     state.markers.push(marker);
   });
 }
