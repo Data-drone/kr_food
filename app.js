@@ -241,9 +241,10 @@ function renderList() {
     return;
   }
 
-  state.visibleRestaurants.forEach(r => {
+  state.visibleRestaurants.forEach((r, index) => {
     const card = document.createElement('article');
     card.className = 'restaurant-card';
+    card.id = `restaurant-${index}`;
     card.innerHTML = `
       <div class="restaurant-card__top">
         <div>
@@ -278,9 +279,19 @@ function updateMarkers() {
   state.markers.forEach(m => state.map.removeLayer(m));
   state.markers = [];
 
-  state.visibleRestaurants.forEach(r => {
+  state.visibleRestaurants.forEach((r, index) => {
     if (!r.lat || !r.lng) return;
     const marker = L.marker([r.lat, r.lng]).addTo(state.map);
+    
+    marker.on('click', () => {
+      const card = document.getElementById(`restaurant-${index}`);
+      if (card) {
+        document.querySelectorAll('.restaurant-card').forEach(c => c.classList.remove('is-selected'));
+        card.classList.add('is-selected');
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+
     marker.bindPopup(`
       <div class="popup-content">
         <div class="popup-header">
