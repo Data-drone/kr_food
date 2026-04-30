@@ -1562,5 +1562,116 @@
     "description_en": "Modern dining focusing on the harmony of global flavors and Korean seasonal produce.",
     "lat": 37.5195,
     "lng": 127.0225
+  },
+  {
+    "id": "s_101",
+    "name_en": "Kko Kko Ko",
+    "name": "꼬꼬꼬",
+    "category_en": "Yakitori",
+    "address": "12-14 Hannam-daero 20-gil, Yongsan-gu",
+    "district_en": "Yongsan",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Dinner"
+    ],
+    "description_en": "A trendy yakitori bar in Hannam-dong known for its specialized chicken cuts and vibrant atmosphere.",
+    "lat": 37.5348,
+    "lng": 127.0092
+  },
+  {
+    "id": "s_102",
+    "name_en": "Doma",
+    "name": "도마",
+    "category_en": "Korean Traditional",
+    "address": "33-11 Yanghwa-ro 16-gil, Mapo-gu",
+    "district_en": "Mapo",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Famous for its hearty soybean paste stew and high-quality grilled meats in Hongdae.",
+    "lat": 37.5545,
+    "lng": 126.9215
+  },
+  {
+    "id": "s_103",
+    "name_en": "Gop",
+    "name": "곱",
+    "category_en": "Gopchang",
+    "address": "31-10 Mapo-daero 9-gil, Mapo-gu",
+    "district_en": "Mapo",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Dinner"
+    ],
+    "description_en": "Renowned for its clean and flavorful grilled beef small intestines, a local favorite.",
+    "lat": 37.5415,
+    "lng": 126.9475
+  },
+  {
+    "id": "s_104",
+    "name_en": "Ilmi Sikdang",
+    "name": "일미식당",
+    "category_en": "Korean Traditional",
+    "address": "428 Samil-daero, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Famous for its simple but perfect rice and soybean paste stew, a true 'hidden gem'.",
+    "lat": 37.5728,
+    "lng": 126.9875
+  },
+  {
+    "id": "s_105",
+    "name_en": "Hanchon Seolleongtang",
+    "name": "한촌설렁탕",
+    "category_en": "Seolleongtang",
+    "address": "15 Jong-ro 19-gil, Jongno-gu",
+    "district_en": "Jongno",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "A reliable and traditional destination for deep-flavored ox bone soup in central Seoul.",
+    "lat": 37.5705,
+    "lng": 126.9912
+  },
+  {
+    "id": "s_106",
+    "name_en": "Podo Sikdang",
+    "name": "포도식당",
+    "category_en": "Korean BBQ",
+    "address": "15 Dosan-daero 15-gil, Gangnam-gu",
+    "district_en": "Gangnam",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Specializes in charcoal-grilled pork ribs with a unique and savory marinade.",
+    "lat": 37.5198,
+    "lng": 127.0228
+  },
+  {
+    "id": "s_107",
+    "name_en": "Myeongdong Tonkatsu",
+    "name": "명동돈가스",
+    "category_en": "Tonkatsu",
+    "address": "8 Myeongdong 3-gil, Jung-gu",
+    "district_en": "Jung-gu",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "description_en": "Serving thick and crispy Japanese-style pork cutlets in Myeongdong since 1983.",
+    "lat": 37.5645,
+    "lng": 126.9842
   }
 ]
