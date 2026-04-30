@@ -31,6 +31,7 @@ let state = {
   visibleRestaurants: [],
   map: null,
   markers: [],
+  selectedId: null,
   filters: {
     search: '',
     district: 'All',
@@ -143,6 +144,7 @@ async function loadCityData(city) {
     state.allRestaurants = Array.isArray(data) ? data : data.restaurants;
     
     // Reset filters and state
+    state.selectedId = null;
     resetFilters(false); 
     state.map.setView(config.center, config.zoom);
     
@@ -245,6 +247,15 @@ function applyFilters() {
     return matchesSearch && matchesDistrict && matchesCuisine && matchesMeal && matchesTheme && matchesHonor;
   });
 
+  // Reorder if something is selected
+  if (state.selectedId !== null) {
+    const selectedIdx = state.visibleRestaurants.findIndex(r => r.id === state.selectedId);
+    if (selectedIdx > -1) {
+      const selected = state.visibleRestaurants.splice(selectedIdx, 1)[0];
+      state.visibleRestaurants.unshift(selected);
+    }
+  }
+
   renderList();
   updateMarkers();
   elements.visibleCount.textContent = `${state.visibleRestaurants.length} visible`;
@@ -261,7 +272,8 @@ function renderList() {
   state.visibleRestaurants.forEach((r, index) => {
     const card = document.createElement('article');
     card.className = 'restaurant-card';
-    card.id = `restaurant-${index}`;
+    if (r.id === state.selectedId) card.classList.add('is-selected');
+    card.id = `restaurant-${r.id}`;
     
     // Ribbon logic
     let ribbonHtml = '';
@@ -292,9 +304,9 @@ function renderList() {
       </div>
     `;
     card.addEventListener('click', () => {
+      state.selectedId = r.id;
       state.map.flyTo([r.lat, r.lng], 16);
-      document.querySelectorAll('.restaurant-card').forEach(c => c.classList.remove('is-selected'));
-      card.classList.add('is-selected');
+      applyFilters(); // Reorder list
     });
     elements.list.appendChild(card);
   });
@@ -304,17 +316,14 @@ function updateMarkers() {
   state.markers.forEach(m => state.map.removeLayer(m));
   state.markers = [];
 
-  state.visibleRestaurants.forEach((r, index) => {
+  state.visibleRestaurants.forEach((r) => {
     if (!r.lat || !r.lng) return;
     const marker = L.marker([r.lat, r.lng]).addTo(state.map);
     
     marker.on('click', () => {
-      const card = document.getElementById(`restaurant-${index}`);
-      if (card) {
-        document.querySelectorAll('.restaurant-card').forEach(c => c.classList.remove('is-selected'));
-        card.classList.add('is-selected');
-        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
+      state.selectedId = r.id;
+      applyFilters(); // This will move r to top of list and re-render
+      elements.list.scrollTop = 0; // Ensure we are at the top to see the selected item
     });
 
     // Ribbon logic for popup
