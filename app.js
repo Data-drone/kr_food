@@ -7,19 +7,19 @@
 const CONFIG = {
   busan: {
     dataUrl: './data/restaurants.json',
-    title: 'Busan Blue Ribbon 100',
+    title: 'Busan Gastronomy Guide',
     eyebrow: 'Busan Food Guide',
-    description: 'A curated guide to the 100 Busan restaurants selected on Visit Busan’s Blue Ribbon page.',
-    source: 'Source: Visit Busan',
+    description: 'A curated guide to the top restaurants in Busan, featuring Blue Ribbon and Michelin selections.',
+    source: 'Source: Visit Busan & Michelin Guide',
     center: [35.1796, 129.0756],
     zoom: 11
   },
   seoul: {
     dataUrl: './data/seoul_restaurants.json',
-    title: '100 Taste of Seoul 2025',
+    title: 'Seoul Gastronomy Guide',
     eyebrow: 'Seoul Food Guide',
-    description: 'The official curation of Seoul’s top 100 restaurants and bars by the Seoul Metropolitan Government.',
-    source: 'Source: Visit Seoul',
+    description: 'A comprehensive guide to Seoul’s finest dining, featuring Taste of Seoul, Michelin Guide, and Blue Ribbon winners.',
+    source: 'Source: Visit Seoul & Michelin Guide',
     center: [37.5665, 126.9780],
     zoom: 12
   }

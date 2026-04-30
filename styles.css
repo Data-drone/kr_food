@@ -70,7 +70,7 @@ input {
 .hero__content {
   position: relative;
   z-index: 1;
-  padding: 32px 22px 24px;
+  padding: 24px 22px 18px;
   color: #f8fbff;
 }
 
@@ -93,8 +93,8 @@ input {
 }
 
 .hero h1 {
-  max-width: 10ch;
-  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  max-width: 15ch;
+  font-size: clamp(2rem, 6vw, 4rem);
 }
 
 .hero__lede {
@@ -127,10 +127,10 @@ input {
 
 .controls {
   position: sticky;
-  top: 72px; /* Adjusted for city selector height */
+  top: 58px; /* Adjusted for more compact city selector */
   z-index: 500;
   margin-bottom: 14px;
-  padding: 14px;
+  padding: 12px;
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: var(--radius);
   background: rgba(255, 250, 245, 0.78);
@@ -277,13 +277,14 @@ input {
 
 .chip {
   flex: 0 0 auto;
-  padding: 10px 14px;
+  padding: 6px 12px;
   border: 1px solid rgba(20, 39, 56, 0.12);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.74);
   color: var(--muted);
   cursor: pointer;
   transition: transform 150ms ease, background-color 150ms ease, color 150ms ease;
+  font-size: 0.85rem;
 }
 
 .chip:hover,
@@ -620,8 +621,8 @@ input {
 /* City Selector Styles */
 .city-selector {
   display: flex;
-  gap: 1rem;
-  padding: 1rem 2rem;
+  gap: 0.75rem;
+  padding: 0.75rem 2rem;
   background: white;
   border-bottom: 1px solid #e2e8f0;
   position: sticky;
@@ -631,7 +632,7 @@ input {
 }
 
 .city-btn {
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 9999px;
   border: 2px solid #e2e8f0;
   background: white;
@@ -642,6 +643,7 @@ input {
   font-family: 'Space Grotesk', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  font-size: 0.9rem;
 }
 
 .city-btn:hover {
