@@ -4093,7 +4093,10 @@
         "Dinner"
       ],
       "theme_en": "Traditional Japanese Seafood",
-      "name": "나가하마 만게츠"
+      "name": "나가하마 만게츠",
+      "honors": [
+        "Blue Ribbon (2 Ribbons)"
+      ]
     },
     {
       "name_en": "Baeg-Nyeon-Eo-Mug",
@@ -4141,7 +4144,10 @@
         "Dinner"
       ],
       "theme_en": "Local Legend",
-      "name": "해운대 소문난 암소갈비"
+      "name": "해운대 소문난 암소갈비",
+      "honors": [
+        "Blue Ribbon (2 Ribbons)"
+      ]
     },
     {
       "name_en": "Eonyang Bulgogi Busan",

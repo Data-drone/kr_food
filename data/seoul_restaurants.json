@@ -319,7 +319,10 @@
     ],
     "description_en": "A legendary institution serving some of the best Pyongyang-style cold buckwheat noodles in Seoul.",
     "lat": 37.5682,
-    "lng": 126.9992
+    "lng": 126.9992,
+    "honors": [
+      "Blue Ribbon (2 Ribbons)"
+    ]
   },
   {
     "id": "20",
@@ -383,7 +386,10 @@
     ],
     "description_en": "Famous for its handmade kalguksu (knife-cut noodles) and intensely garlic-heavy kimchi.",
     "lat": 37.5625,
-    "lng": 126.9855
+    "lng": 126.9855,
+    "honors": [
+      "Blue Ribbon (2 Ribbons)"
+    ]
   },
   {
     "id": "24",
@@ -448,7 +454,10 @@
     ],
     "description_en": "A legendary gomtang (beef bone soup) house that has been a favorite for generations.",
     "lat": 37.5645,
-    "lng": 126.9848
+    "lng": 126.9848,
+    "honors": [
+      "Blue Ribbon (2 Ribbons)"
+    ]
   },
   {
     "id": "28",
@@ -512,7 +521,10 @@
     "description_en": "Renowned for its clean and savory cold buckwheat noodles, a local favorite in Gangnam.",
     "lat": 37.5132,
     "lng": 127.0345,
-    "michelin": "Bib Gourmand"
+    "michelin": "Bib Gourmand",
+    "honors": [
+      "Blue Ribbon (2 Ribbons)"
+    ]
   },
   {
     "id": "32",
@@ -825,7 +837,10 @@
     "description_en": "Restaurant of Chef Lu Chinglai from Culinary Class Wars Season 1.",
     "lat": 37.5665,
     "lng": 126.978,
-    "ccw_chef": "Lu Chinglai"
+    "ccw_chef": "Lu Chinglai",
+    "honors": [
+      "Blue Ribbon (2 Ribbons)"
+    ]
   },
   {
     "id": "ccw_s1_w_2",
@@ -1114,7 +1129,10 @@
     "description_en": "Restaurant of Chef Hidden Genius from Culinary Class Wars Season 1.",
     "lat": 37.5665,
     "lng": 126.978,
-    "ccw_chef": "Hidden Genius"
+    "ccw_chef": "Hidden Genius",
+    "honors": [
+      "Blue Ribbon (2 Ribbons)"
+    ]
   },
   {
     "id": "ccw_s1_b_20",
@@ -1148,7 +1166,10 @@
     "description_en": "Restaurant of Chef Hu Deok-juk from Culinary Class Wars Season 2.",
     "lat": 37.5665,
     "lng": 126.978,
-    "ccw_chef": "Hu Deok-juk"
+    "ccw_chef": "Hu Deok-juk",
+    "honors": [
+      "Blue Ribbon (2 Ribbons)"
+    ]
   },
   {
     "id": "ccw_s2_w_22",
