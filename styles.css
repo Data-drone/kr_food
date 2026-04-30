@@ -127,7 +127,7 @@ input {
 
 .controls {
   position: sticky;
-  top: 0;
+  top: 72px; /* Adjusted for city selector height */
   z-index: 500;
   margin-bottom: 14px;
   padding: 14px;
@@ -136,6 +136,13 @@ input {
   background: rgba(255, 250, 245, 0.78);
   backdrop-filter: blur(18px);
   box-shadow: 0 12px 30px rgba(23, 43, 58, 0.08);
+}
+
+@media (max-width: 959px) {
+  .controls {
+    position: relative; /* Remove sticky on mobile to allow natural scrolling of filters */
+    top: 0;
+  }
 }
 
 .controls__header {

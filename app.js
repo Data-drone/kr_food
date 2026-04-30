@@ -1,6 +1,6 @@
 /**
  * Korea Food Guide: Busan & Seoul
- * Unified app.js with city switching and multi-category filtering
+ * Unified app.js with city switching, multi-category filtering, and Honors support
  */
 
 // --- Constants & State ---
@@ -36,7 +36,8 @@ let state = {
     district: 'All',
     cuisine: 'All',
     meal: 'All',
-    theme: 'All'
+    theme: 'All',
+    honor: 'All'
   }
 };
 
@@ -52,6 +53,7 @@ const elements = {
   cuisineFilters: document.querySelector("#cuisine-filters"),
   mealFilters: document.querySelector("#meal-filters"),
   themeFilters: document.querySelector("#theme-filters"),
+  honorFilters: document.querySelector("#honor-filters"),
   list: document.querySelector("#restaurant-list"),
   locateBtn: document.querySelector("#locate-btn"),
   resetBtn: document.querySelector("#reset-btn"),
@@ -158,23 +160,32 @@ async function loadCityData(city) {
 function renderFilters() {
   const districts = new Set(['All']);
   const cuisines = new Set(['All']);
-  const meals = new Set(['All']);
   const themes = new Set(['All']);
+  const honors = new Set(['All']);
 
   state.allRestaurants.forEach(r => {
     if (r.district_en) districts.add(r.district_en);
     if (r.cuisine) cuisines.add(r.cuisine);
-    if (r.meal_times) r.meal_times.forEach(m => meals.add(m));
     if (r.theme_en) themes.add(r.theme_en);
+    
+    // Check for honors
+    if (r.michelin) {
+      if (r.michelin.includes('Star')) honors.add('Michelin Star');
+      if (r.michelin.includes('Bib')) honors.add('Bib Gourmand');
+    }
+    if (r.ribbons) honors.add('Blue Ribbon');
+    if (r.ccw_chef) honors.add('Culinary Class Wars');
   });
 
   renderChipRow(elements.districtFilters, Array.from(districts).sort(), 'district');
   renderChipRow(elements.cuisineFilters, Array.from(cuisines).sort(), 'cuisine');
   renderChipRow(elements.mealFilters, ['All', 'Breakfast', 'Lunch', 'Dinner'], 'meal');
   renderChipRow(elements.themeFilters, Array.from(themes).sort(), 'theme');
+  renderChipRow(elements.honorFilters, Array.from(honors), 'honor');
 }
 
 function renderChipRow(container, items, filterKey) {
+  if (!container) return;
   container.innerHTML = '';
   
   items.forEach(item => {
@@ -205,8 +216,16 @@ function applyFilters() {
     const matchesCuisine = state.filters.cuisine === 'All' || r.cuisine === state.filters.cuisine;
     const matchesMeal = state.filters.meal === 'All' || (r.meal_times && r.meal_times.includes(state.filters.meal));
     const matchesTheme = state.filters.theme === 'All' || r.theme_en === state.filters.theme;
+    
+    let matchesHonor = state.filters.honor === 'All';
+    if (!matchesHonor) {
+      if (state.filters.honor === 'Michelin Star') matchesHonor = !!(r.michelin && r.michelin.includes('Star'));
+      if (state.filters.honor === 'Bib Gourmand') matchesHonor = !!(r.michelin && r.michelin.includes('Bib'));
+      if (state.filters.honor === 'Blue Ribbon') matchesHonor = !!r.ribbons;
+      if (state.filters.honor === 'Culinary Class Wars') matchesHonor = !!r.ccw_chef;
+    }
 
-    return matchesSearch && matchesDistrict && matchesCuisine && matchesMeal && matchesTheme;
+    return matchesSearch && matchesDistrict && matchesCuisine && matchesMeal && matchesTheme && matchesHonor;
   });
 
   renderList();
@@ -283,6 +302,7 @@ function resetFilters(shouldApply = true) {
   state.filters.cuisine = 'All';
   state.filters.meal = 'All';
   state.filters.theme = 'All';
+  state.filters.honor = 'All';
   
   elements.searchInput.value = '';
   
