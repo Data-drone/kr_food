@@ -26,7 +26,7 @@ const CONFIG = {
 };
 
 let state = {
-  currentCity: 'busan',
+  currentCity: 'seoul',
   allRestaurants: [],
   visibleRestaurants: [],
   map: null,
@@ -66,14 +66,14 @@ const elements = {
 async function init() {
   initMap();
   setupEventListeners();
-  await loadCityData('busan');
+  await loadCityData('seoul');
 }
 
 function initMap() {
   state.map = L.map('map', {
     scrollWheelZoom: false,
     zoomControl: false
-  }).setView(CONFIG.busan.center, CONFIG.busan.zoom);
+  }).setView(CONFIG.seoul.center, CONFIG.seoul.zoom);
 
   L.control.zoom({ position: 'bottomright' }).addTo(state.map);
 

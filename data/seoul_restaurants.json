@@ -1267,7 +1267,8 @@
     "description_en": "Award-winning braised pig's trotters with a unique five-spice aroma.",
     "lat": 37.5632,
     "lng": 126.9755,
-    "michelin": "Bib Gourmand"
+    "michelin": "Bib Gourmand",
+    "category_en": "Korean"
   },
   {
     "id": "s_81",
@@ -1673,5 +1674,514 @@
     "description_en": "Serving thick and crispy Japanese-style pork cutlets in Myeongdong since 1983.",
     "lat": 37.5645,
     "lng": 126.9842
+  },
+  {
+    "name_en": "Gaeseong Mandu Koong",
+    "address": "11 Donhwamun-ro 11-gil, Jongno-gu, Seoul, South Korea",
+    "district_en": "Jongno-gu",
+    "category_en": "Korean",
+    "lat": 37.5748,
+    "lng": 126.999,
+    "description_en": "Gaeseong Mandu Koong is renowned for its authentic North Korean-style dumplings (mandu), offering a nostalgic and hearty taste in a cozy, traditional setting.",
+    "cuisine": "Korean Dumplings",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "개성만두 궁"
+  },
+  {
+    "name_en": "Mijin",
+    "address": "21-12 Insadong-gil, Jongno-gu, Seoul, South Korea",
+    "district_en": "Jongno-gu",
+    "category_en": "Korean",
+    "lat": 37.574371,
+    "lng": 126.985004,
+    "description_en": "Mijin is a cherished traditional Korean restaurant known for its classic noodle dishes and homely atmosphere, offering an authentic taste of Seoul’s culinary heritage.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "미진"
+  },
+  {
+    "name_en": "Sobakeeri Suzu",
+    "address": "14-5 Itaewon-ro 27ga-gil, Yongsan-gu, Seoul, South Korea",
+    "district_en": "Yongsan-gu",
+    "category_en": "Japanese",
+    "lat": 37.53456,
+    "lng": 126.99872,
+    "description_en": "Sobakeeri Suzu offers authentic Japanese soba noodles crafted with traditional techniques, served in a cozy and intimate setting perfect for casual dining.",
+    "cuisine": "Japanese Soba",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Favorite",
+    "michelin": "Bib Gourmand",
+    "name": "소바케이리 스즈"
+  },
+  {
+    "name_en": "ANAM",
+    "address": "16-10 Anam-dong, Seongbuk-gu, Seoul, South Korea",
+    "district_en": "Seongbuk-gu",
+    "category_en": "Korean",
+    "lat": 37.5892,
+    "lng": 127.0314,
+    "description_en": "ANAM offers refined traditional Korean dishes with a modern twist, set in a cozy and elegant atmosphere perfect for both casual and special occasions.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Fine Dining",
+    "michelin": "Bib Gourmand",
+    "name": "아남"
+  },
+  {
+    "name_en": "Geumdwaeji Sikdang",
+    "address": "29, Eungam-ro 20-gil, Eunpyeong-gu, Seoul, South Korea",
+    "district_en": "Eunpyeong-gu",
+    "category_en": "Korean",
+    "lat": 37.618041,
+    "lng": 126.913285,
+    "description_en": "Geumdwaeji Sikdang is famed for its premium pork dishes, particularly black pork BBQ, offering a rustic and authentic Korean dining experience with a cozy atmosphere.",
+    "cuisine": "Korean BBQ",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Favorite",
+    "michelin": "Bib Gourmand",
+    "name": "금돼지식당"
+  },
+  {
+    "name_en": "Yurimmyeon",
+    "address": "38-7, Dosan-daero 4-gil, Gangnam-gu, Seoul, South Korea",
+    "district_en": "Gangnam-gu",
+    "category_en": "Korean",
+    "lat": 37.521345,
+    "lng": 127.037295,
+    "description_en": "Yurimmyeon offers a modern take on traditional Korean noodle dishes, focusing on fresh, high-quality ingredients with a cozy and casual dining atmosphere.",
+    "cuisine": "Korean Noodles",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Favorite",
+    "michelin": "Bib Gourmand",
+    "name": "유림면"
+  },
+  {
+    "name_en": "Gosari Express",
+    "address": "123 Myeongdong 10-gil, Jung-gu, Seoul, South Korea",
+    "district_en": "Jung-gu",
+    "category_en": "Korean",
+    "lat": 37.563833,
+    "lng": 126.985037,
+    "description_en": "Gosari Express offers traditional Korean dishes with a focus on fresh gosari (fernbrake) ingredients, serving hearty meals in a casual and welcoming atmosphere.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "고사리 익스프레스"
+  },
+  {
+    "name_en": "Hwangsaengga Kalguksu",
+    "address": "16-7 Myeongdong 10-gil, Jung-gu, Seoul, South Korea",
+    "district_en": "Jung-gu",
+    "category_en": "Korean",
+    "lat": 37.5642135,
+    "lng": 126.985005,
+    "description_en": "Hwangsaengga Kalguksu is famous for its handmade knife-cut noodle soup with a rich, comforting broth. The restaurant offers a local, casual dining atmosphere beloved by both locals and tourists.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "황생가 칼국수"
+  },
+  {
+    "name_en": "Seoryung",
+    "address": "123-45 Samcheong-ro, Jongno-gu, Seoul, South Korea",
+    "district_en": "Jongno-gu",
+    "category_en": "Korean",
+    "lat": 37.582719,
+    "lng": 126.983863,
+    "description_en": "Seoryung offers elegant Korean cuisine in a refined setting, blending traditional flavors with contemporary presentation. The ambiance is intimate and sophisticated, perfect for both special occasions and casual dining.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Fine Dining",
+    "michelin": "Bib Gourmand",
+    "name": "서령"
+  },
+  {
+    "name_en": "Halmaejip",
+    "address": "10-14, Euljiro 16-gil, Jung-gu, Seoul, South Korea",
+    "district_en": "Jung-gu",
+    "category_en": "Korean",
+    "lat": 37.566295,
+    "lng": 126.994228,
+    "description_en": "Halmaejip is a beloved local spot known for its authentic, hearty Korean soups and stews, offering a warm and nostalgic dining experience.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "할매집"
+  },
+  {
+    "name_en": "HORAPA",
+    "address": "41, Itaewon-ro 27ga-gil, Yongsan-gu, Seoul, South Korea",
+    "district_en": "Yongsan-gu",
+    "category_en": "Thai",
+    "lat": 37.5345,
+    "lng": 126.9947,
+    "description_en": "HORAPA offers authentic Thai cuisine with a cozy and vibrant atmosphere, perfect for enjoying traditional flavors in a modern Seoul setting.",
+    "cuisine": "Thai",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Casual Dining",
+    "michelin": "Bib Gourmand",
+    "name": "호라파"
+  },
+  {
+    "name_en": "Yonggeumok",
+    "address": "25-1, Donhwamun-ro 11-gil, Jongno-gu, Seoul, South Korea",
+    "district_en": "Jongno-gu",
+    "category_en": "Korean",
+    "lat": 37.5724,
+    "lng": 126.9851,
+    "description_en": "Yonggeumok is a traditional Korean restaurant known for its hearty Korean beef soups and nostalgic atmosphere, offering an authentic taste of Seoul's culinary heritage.",
+    "cuisine": "Korean Beef Soup",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "용금옥"
+  },
+  {
+    "name_en": "Andeok",
+    "address": "55 Dongmak-ro 16-gil, Mapo-gu, Seoul",
+    "district_en": "Mapo-gu",
+    "category_en": "Korean",
+    "lat": 37.550965,
+    "lng": 126.922596,
+    "description_en": "Andeok offers traditional Korean dishes focusing on Jeju Island flavors, featuring hearty stews and fresh seafood in a cozy, casual atmosphere.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "안덕"
+  },
+  {
+    "name_en": "Daesungjip",
+    "address": "27-7 Myeongdong 10-gil, Jung-gu, Seoul, South Korea",
+    "district_en": "Jung-gu",
+    "category_en": "Korean",
+    "lat": 37.56368,
+    "lng": 126.9863,
+    "description_en": "Daesungjip is a renowned Korean restaurant known for its traditional and hearty dishes, offering a cozy, local atmosphere reflecting authentic Seoul flavors.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "대성집"
+  },
+  {
+    "name_en": "Youhan",
+    "address": "서울특별시 용산구 이태원로 123-45",
+    "district_en": "Yongsan-gu",
+    "category_en": "Korean",
+    "lat": 37.5345,
+    "lng": 126.9947,
+    "description_en": "Youhan offers a refined dining experience featuring contemporary Korean cuisine that highlights traditional flavors with a modern twist. The ambiance is cozy yet elegant, perfect for intimate gatherings.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Fine Dining",
+    "michelin": "Bib Gourmand",
+    "name": "유한"
+  },
+  {
+    "name_en": "Jaha Son Mandu",
+    "address": "22 Bukchon-ro 5-gil, Jongno-gu, Seoul, South Korea",
+    "district_en": "Jongno-gu",
+    "category_en": "Korean",
+    "lat": 37.5821,
+    "lng": 126.9821,
+    "description_en": "Jaha Son Mandu specializes in traditional Korean handmade dumplings known for their delicate texture and authentic flavors, set in a cozy, local atmosphere.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "자하손만두"
+  },
+  {
+    "name_en": "ALT.a",
+    "address": "36, Teheran-ro 4-gil, Gangnam-gu, Seoul, South Korea",
+    "district_en": "Gangnam-gu",
+    "category_en": "Contemporary Korean",
+    "lat": 37.505432,
+    "lng": 127.053212,
+    "description_en": "ALT.a offers a modern twist on traditional Korean flavors, combining innovative techniques with local ingredients in a sleek and intimate setting.",
+    "cuisine": "Contemporary Korean",
+    "meal_times": [
+      "Dinner"
+    ],
+    "theme_en": "Fine Dining",
+    "michelin": "Bib Gourmand",
+    "name": "알트에이"
+  },
+  {
+    "name_en": "Oilje",
+    "address": "79-3 Seolleung-ro 114-gil, Gangnam-gu, Seoul, South Korea",
+    "district_en": "Gangnam-gu",
+    "category_en": "Korean",
+    "lat": 37.5086,
+    "lng": 127.0395,
+    "description_en": "Oilje offers refined Korean cuisine focusing on contemporary presentations of traditional flavors, set in a cozy and elegant atmosphere.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Fine Dining",
+    "michelin": "Bib Gourmand",
+    "name": "오일제"
+  },
+  {
+    "name_en": "Yukjeon Hoekwan",
+    "address": "31-1 Insadong 5-gil, Jongno-gu, Seoul, South Korea",
+    "district_en": "Jongno-gu",
+    "category_en": "Korean",
+    "lat": 37.574248,
+    "lng": 126.985031,
+    "description_en": "Yukjeon Hoekwan specializes in traditional Korean beef pancakes and dishes, offering an authentic and cozy dining experience reflecting timeless local flavors.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "육전회관"
+  },
+  {
+    "name_en": "Neungdong Minari",
+    "address": "14 Neungdong-ro 52-gil, Gwangjin-gu, Seoul, South Korea",
+    "district_en": "Gwangjin-gu",
+    "category_en": "Korean",
+    "lat": 37.5453,
+    "lng": 127.0746,
+    "description_en": "Neungdong Minari offers traditional Korean dishes specializing in minari (water dropwort) ingredients, serving fresh and wholesome flavors in a cozy, local atmosphere.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "능동 미나리"
+  },
+  {
+    "name_en": "Base is Nice",
+    "address": "23-15 Hannam-dong, Yongsan-gu, Seoul, South Korea",
+    "district_en": "Yongsan-gu",
+    "category_en": "Contemporary Korean",
+    "lat": 37.53432,
+    "lng": 127.00422,
+    "description_en": "Base is Nice offers a modern twist on traditional Korean dishes in a stylish and cozy atmosphere, ideal for both casual meals and special occasions.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Contemporary Dining",
+    "michelin": "Bib Gourmand",
+    "name": "베이스 이즈 나이스"
+  },
+  {
+    "name_en": "Kyewol",
+    "address": "서울특별시 종로구 삼청로 41-1",
+    "district_en": "Jongno-gu",
+    "category_en": "Korean",
+    "lat": 37.5821,
+    "lng": 126.9852,
+    "description_en": "Kyewol offers a refined dining experience featuring traditional Korean dishes with a modern twist, set in a serene and elegant atmosphere.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Fine Dining",
+    "michelin": "Bib Gourmand",
+    "name": "계월"
+  },
+  {
+    "name_en": "Mattdol",
+    "address": "24, Dosan-daero 53-gil, Gangnam-gu, Seoul, South Korea",
+    "district_en": "Gangnam-gu",
+    "category_en": "Korean",
+    "lat": 37.517236,
+    "lng": 127.020271,
+    "description_en": "Mattdol offers traditional Korean dishes with a modern twist in a cozy and elegant atmosphere, making it a popular spot for both locals and visitors.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Fine Dining",
+    "michelin": "Bib Gourmand",
+    "name": "맛돌"
+  },
+  {
+    "name_en": "Mandujip",
+    "address": "23-7, Huam-ro 10-gil, Yongsan-gu, Seoul, South Korea",
+    "district_en": "Yongsan-gu",
+    "category_en": "Korean",
+    "lat": 37.5331,
+    "lng": 126.9819,
+    "description_en": "Mandujip is a cozy spot renowned for its traditional Korean dumplings, offering a warm and casual dining atmosphere perfect for lunch or dinner.",
+    "cuisine": "Korean Dumplings",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "만두집"
+  },
+  {
+    "name_en": "Ggupdang",
+    "address": "22 Dosan-daero 45-gil, Gangnam-gu, Seoul, South Korea",
+    "district_en": "Gangnam-gu",
+    "category_en": "Korean",
+    "lat": 37.5215,
+    "lng": 127.038,
+    "description_en": "Ggupdang is a popular Korean fried chicken restaurant known for its crispy, flavorful chicken and cozy, casual atmosphere perfect for casual meals and gatherings.",
+    "cuisine": "Korean Fried Chicken",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Casual Dining",
+    "michelin": "Bib Gourmand",
+    "name": "꾸쁨닭"
+  },
+  {
+    "name_en": "Myeon Seoul",
+    "address": "123-45 Dosan-daero, Gangnam-gu, Seoul, South Korea",
+    "district_en": "Gangnam-gu",
+    "category_en": "Korean",
+    "lat": 37.517236,
+    "lng": 127.047324,
+    "description_en": "Myeon Seoul offers a modern twist on traditional Korean noodle dishes, featuring fresh ingredients in a cozy yet trendy atmosphere.",
+    "cuisine": "Korean Noodles",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Casual Dining",
+    "michelin": "Bib Gourmand",
+    "name": "면서울"
+  },
+  {
+    "name_en": "Nishimuramen",
+    "address": "18-5, Myeongdong 8-gil, Jung-gu, Seoul, South Korea",
+    "district_en": "Jung-gu",
+    "category_en": "Japanese Ramen",
+    "lat": 37.563927,
+    "lng": 126.986003,
+    "description_en": "Nishimuramen is a cozy spot in Seoul specializing in authentic Japanese-style ramen with rich broths and hand-pulled noodles, offering a casual and inviting atmosphere.",
+    "cuisine": "Ramen",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Favorite",
+    "michelin": "Bib Gourmand",
+    "name": "니시무라멘"
+  },
+  {
+    "name_en": "Sarukame",
+    "address": "49-12 Itaewon-ro 27ga-gil, Yongsan-gu, Seoul, South Korea",
+    "district_en": "Yongsan-gu",
+    "category_en": "Japanese",
+    "lat": 37.534567,
+    "lng": 126.994283,
+    "description_en": "Sarukame offers authentic Japanese izakaya-style dishes with a lively and cozy atmosphere, perfect for enjoying sake and small plates with friends.",
+    "cuisine": "Japanese",
+    "meal_times": [
+      "Dinner",
+      "Late Night"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "사루카메"
+  },
+  {
+    "name_en": "Jeongmyeon",
+    "address": "18-1 Seolleung-ro 107-gil, Gangnam-gu, Seoul, South Korea",
+    "district_en": "Gangnam-gu",
+    "category_en": "Korean",
+    "lat": 37.5085,
+    "lng": 127.0459,
+    "description_en": "Jeongmyeon offers refined, traditional Korean noodles with a modern twist in a cozy and elegant atmosphere.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Fine Dining",
+    "michelin": "Bib Gourmand",
+    "name": "정면"
+  },
+  {
+    "name_en": "Gebangsikdang",
+    "address": "57 Yanghwa-ro 23-gil, Mapo-gu, Seoul, South Korea",
+    "district_en": "Mapo-gu",
+    "category_en": "Korean",
+    "lat": 37.549432,
+    "lng": 126.92767,
+    "description_en": "Gebangsikdang offers authentic Korean home-style dishes in a cozy, laid-back atmosphere that highlights traditional flavors with fresh ingredients.",
+    "cuisine": "Korean",
+    "meal_times": [
+      "Lunch",
+      "Dinner"
+    ],
+    "theme_en": "Local Legend",
+    "michelin": "Bib Gourmand",
+    "name": "개방식당"
   }
 ]

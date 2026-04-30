@@ -4,7 +4,7 @@
     "listingUrl": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002002000",
     "fetchedAt": "2026-04-29T09:52:45.555352+00:00"
   },
-  "count": 100,
+  "count": 111,
   "restaurants": [
     {
       "id": "1601",
@@ -4012,6 +4012,184 @@
         "Lunch",
         "Dinner"
       ]
+    },
+    {
+      "name_en": "Fiotto",
+      "address": "30, Jungang-daero 680beon-gil, Haeundae-gu, Busan, South Korea",
+      "district_en": "Haeundae-gu",
+      "category_en": "Italian",
+      "lat": 35.163456,
+      "lng": 129.16389,
+      "description_en": "Fiotto offers authentic Italian cuisine with a focus on fresh pasta and rich sauces, set in a cozy and elegant atmosphere perfect for casual dining or special occasions.",
+      "cuisine": "Italian",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Cozy and Elegant",
+      "name": "피오또",
+      "michelin": "1 Star"
+    },
+    {
+      "name_en": "Palate",
+      "address": "52-3 Gwangbok-ro, Jung-gu, Busan, South Korea",
+      "district_en": "Jung-gu",
+      "category_en": "Contemporary Korean",
+      "lat": 35.0995,
+      "lng": 129.0324,
+      "description_en": "Palate offers a refined dining experience featuring modern interpretations of traditional Korean dishes with an elegant and cozy ambiance.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Modern Korean Cuisine",
+      "name": "팔레트",
+      "michelin": "1 Star"
+    },
+    {
+      "name_en": "Vin d'Anjou",
+      "address": "15, Sujeong-ro, Haeundae-gu, Busan, South Korea",
+      "district_en": "Haeundae-gu",
+      "category_en": "French, Wine Bar",
+      "lat": 35.1635,
+      "lng": 129.1639,
+      "description_en": "Vin d'Anjou offers a refined French dining experience with an extensive wine list, blending cozy ambiance and sophisticated flavors perfect for wine enthusiasts and casual diners alike.",
+      "cuisine": "French",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Wine Bar, Cozy Ambiance",
+      "name": "뱅단주"
+    },
+    {
+      "name_en": "Merciel",
+      "address": "60-8 Suyeong-ro, Suyeong-gu, Busan, South Korea",
+      "district_en": "Suyeong-gu",
+      "category_en": "French Cuisine",
+      "lat": 35.180403,
+      "lng": 129.117163,
+      "description_en": "Merciel offers an elegant French dining experience focusing on seasonal ingredients and rich flavors in a cozy, intimate setting.",
+      "cuisine": "French",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Cozy French Bistro",
+      "name": "메르시에"
+    },
+    {
+      "name_en": "Nagahama Mangetsu",
+      "address": "13-1 Jungang-daero 35beon-gil, Jung-gu, Busan, South Korea",
+      "district_en": "Jung-gu",
+      "category_en": "Japanese, Seafood",
+      "lat": 35.104315,
+      "lng": 129.034557,
+      "description_en": "Nagahama Mangetsu offers authentic Japanese seafood dishes with a focus on fresh, high-quality ingredients. The cozy atmosphere combines traditional Japanese aesthetics with a modern vibe, perfect for an intimate dining experience.",
+      "cuisine": "Japanese Seafood",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Traditional Japanese Seafood",
+      "name": "나가하마 만게츠"
+    },
+    {
+      "name_en": "Baeg-Nyeon-Eo-Mug",
+      "address": "31 Jungang-daero 680beon-gil, Busanjin-gu, Busan, South Korea",
+      "district_en": "Busanjin-gu",
+      "category_en": "Korean, Street Food, Seafood",
+      "lat": 35.1655,
+      "lng": 129.06,
+      "description_en": "Baeg-Nyeon-Eo-Mug specializes in traditional Korean fish cakes with a rich, savory flavor, perfect for casual dining or a quick snack in a lively local atmosphere.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Local Legend",
+      "name": "백년어묵"
+    },
+    {
+      "name_en": "Samjin Amook",
+      "address": "42 Jungang-daero 214beon-gil, Jung-gu, Busan, South Korea",
+      "district_en": "Jung-gu",
+      "category_en": "Korean, Street Food",
+      "lat": 35.1006,
+      "lng": 129.0324,
+      "description_en": "Samjin Amook is famous for its delicious fish cakes, a classic Korean street food, offering a nostalgic and warm culinary experience with a modern twist. The atmosphere is casual and bustling, popular among locals and tourists alike.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Local Legend",
+      "name": "삼진어묵"
+    },
+    {
+      "name_en": "Haeundae Somunnan Amso Galbi",
+      "address": "24, Gunam-ro 10beon-gil, Haeundae-gu, Busan, South Korea",
+      "district_en": "Haeundae-gu",
+      "category_en": "Korean BBQ",
+      "lat": 35.158698,
+      "lng": 129.160384,
+      "description_en": "Haeundae Somunnan Amso Galbi is renowned for its premium Korean beef ribs grilled to perfection, offering a rich and authentic BBQ experience in a cozy, local atmosphere.",
+      "cuisine": "Korean BBQ",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Local Legend",
+      "name": "해운대 소문난 암소갈비"
+    },
+    {
+      "name_en": "Eonyang Bulgogi Busan",
+      "address": "17, Jungang-daero 773beon-gil, Busanjin-gu, Busan, South Korea",
+      "district_en": "Busanjin-gu",
+      "category_en": "Korean",
+      "lat": 35.160115,
+      "lng": 129.059649,
+      "description_en": "Eonyang Bulgogi Busan offers authentic Korean bulgogi with a rich, savory marinade, served in a warm and cozy atmosphere perfect for family and group dining.",
+      "cuisine": "Korean BBQ",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Traditional Korean BBQ",
+      "name": "언양불고기 부산"
+    },
+    {
+      "name_en": "Gwangbok-dong Red Bean Porridge",
+      "address": "12 Gwangbok-ro, Jung-gu, Busan, South Korea",
+      "district_en": "Jung-gu",
+      "category_en": "Korean",
+      "lat": 35.10226,
+      "lng": 129.03412,
+      "description_en": "A cozy eatery specializing in traditional Korean red bean porridge, known for its warm, comforting flavors and homely atmosphere.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Local Specialty",
+      "name": "광복동 단팥죽"
+    },
+    {
+      "name_en": "18-beon Wandangjip",
+      "address": "12-10 Gwangbok-ro 34beon-gil, Jung-gu, Busan, South Korea",
+      "district_en": "Jung-gu",
+      "category_en": "Korean",
+      "lat": 35.100829,
+      "lng": 129.032174,
+      "description_en": "18-beon Wandangjip is a beloved local eatery known for its authentic Korean dumplings (mandu) and comforting noodle soups, offering a cozy and traditional dining atmosphere.",
+      "cuisine": "Korean",
+      "meal_times": [
+        "Lunch",
+        "Dinner"
+      ],
+      "theme_en": "Local Legend",
+      "name": "18번 완당집"
     }
   ]
 }
